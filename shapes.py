@@ -5,7 +5,7 @@ import pandas as pd
 def _calculate_partial_intersection(precinct_geometry, district_geometry):
     intersection = precinct_geometry.intersection(district_geometry)
     intersection_area_pct = intersection.area / precinct_geometry.area
-    intersection_area_cutoff = 0.001
+    intersection_area_cutoff = 0.01
 
     if intersection_area_pct > (1.0 - intersection_area_cutoff):  # fully* - slight incongruence, not real difference
         return 1.0
