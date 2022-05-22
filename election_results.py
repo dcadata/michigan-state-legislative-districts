@@ -211,8 +211,8 @@ def create_summary(
     df = gpd.GeoDataFrame(df.to_dict('records'))
 
     if save_data:
-        filename = f'Gubernatorial by {"S" if senate else "H"}D {year}'
-        df.drop(columns='geometry').to_csv(f'new_districts/{filename}.csv', index=False)
+        df.drop(columns='geometry').to_csv(
+            f'new_districts/Gubernatorial by {"S" if senate else "H"}D {year}.csv', index=False)
 
     if save_plot:
         plt = df.plot('margin', cmap='RdYlBu', legend='margin', vmin=-0.5, vmax=0.5)
