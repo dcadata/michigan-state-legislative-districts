@@ -198,7 +198,7 @@ def add_voteshare_and_margin(election_results: pd.DataFrame) -> pd.DataFrame:
 def create_summary(
         year: int,
         senate: bool = False,
-        save_data: bool = False,
+        filename_label: str = None,
         save_plot: bool = False,
 ) -> gpd.GeoDataFrame:
     er = get_michigan_election_results(year, 'governor 4 year term')
@@ -210,13 +210,13 @@ def create_summary(
     df = add_voteshare_and_margin(df)
     df = gpd.GeoDataFrame(df.to_dict('records'))
 
-    if save_data:
+    if filename_label:
         df.drop(columns='geometry').to_csv(
-            f'new_districts/Gubernatorial by {"S" if senate else "H"}D {year}.csv', index=False)
+            f'new_districts/{filename_label} by {"S" if senate else "H"}D {year}.csv', index=False)
 
     if save_plot:
         plt = df.plot('margin', cmap='RdYlBu', legend='margin', vmin=-0.5, vmax=0.5)
-        plt.set_title(f'{year} Gubernatorial Results by State {"Senate" if senate else "House"} District')
+        plt.set_title(f'{year} {filename_label} Results by State {"Senate" if senate else "House"} District')
 
     return df
 
