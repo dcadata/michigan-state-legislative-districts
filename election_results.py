@@ -216,7 +216,7 @@ def create_summary(
 
     if save_plot:
         plt = df.plot('margin', cmap='RdYlBu', legend='margin', vmin=-0.5, vmax=0.5)
-        plt.set_title(f'{year} Gubernatorial Margins by State {"Senate" if senate else "House"} District')
+        plt.set_title(f'{year} Gubernatorial Results by State {"Senate" if senate else "House"} District')
 
     return df
 
