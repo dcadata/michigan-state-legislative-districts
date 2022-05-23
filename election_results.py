@@ -223,7 +223,15 @@ def create_summary(
     return df
 
 
-def create_markdown(df: pd.DataFrame) -> str:
+def _create_summary(df: pd.DataFrame) -> pd.DataFrame:
     df['MARGIN'] = df.margin.apply(lambda x: round(abs(x) * 100)).apply(int).apply(lambda x: f'+{x}%')
     df.MARGIN = df.winner.apply(lambda x: x.upper()) + df.MARGIN
-    return df[['DISTRICTNO', 'MARGIN']].to_markdown(index=False)
+    return df[['DISTRICTNO', 'MARGIN']]
+
+
+def create_summaries():
+    for hd in ('HD', 'SD'):
+        df = _create_summary(pd.read_csv(f'new_districts/Gubernatorial by {hd} 2014.csv')).merge(_create_summary(
+            pd.read_csv(f'new_districts/Gubernatorial by {hd} 2018.csv')), on='DISTRICTNO', suffixes=('_2014', '_2018'))
+        text = df.to_markdown(index=False)
+        open(f'summary/Gubernatorial by {hd}.txt', 'w').write(text)
