@@ -197,12 +197,13 @@ def add_voteshare_and_margin(election_results: pd.DataFrame) -> pd.DataFrame:
 
 def create_summary(
         year: int,
+        office_name: str,
         senate: bool = False,
         save_data: bool = False,
         save_plot: bool = False,
         filename_label: str = None,
 ) -> gpd.GeoDataFrame:
-    er = get_michigan_election_results(year, 'governor 4 year term')
+    er = get_michigan_election_results(year, office_name)
     df = er.merge(shapes.read_intersections(year, senate), on=['MCDFIPS', 'WARD', 'PRECINCT'])
     for col in ('dvot', 'rvot', 'ovot', 'totalvot'):
         df[col] = df[col] * df['intersection']
