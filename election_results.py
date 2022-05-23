@@ -229,7 +229,7 @@ def _create_summary(df: pd.DataFrame) -> pd.DataFrame:
     return df[['DISTRICTNO', 'MARGIN']]
 
 
-def create_summaries():
+def create_summaries() -> None:
     for hd in ('HD', 'SD'):
         df = _create_summary(pd.read_csv(f'new_districts/Gubernatorial by {hd} 2014.csv')).merge(_create_summary(
             pd.read_csv(f'new_districts/Gubernatorial by {hd} 2018.csv')), on='DISTRICTNO', suffixes=('_2014', '_2018'))
