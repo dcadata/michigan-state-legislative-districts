@@ -223,19 +223,23 @@ def create_summary(
     return df
 
 
-def _create_summary(df: pd.DataFrame) -> pd.DataFrame:
-    df.winner = df.winner.apply(lambda x: x.upper())
-    df['margin_num'] = df.margin.apply(lambda x: round(x * 100, 1))
-    df['MARGIN'] = df.winner + df.margin_num.apply(abs).apply(lambda x: f'+{x}')
-    df = df.drop(columns=['dvs', 'rvs', 'margin'])
+def _create_comparison(hd_or_sd: str) -> pd.DataFrame:
+    year1 = pd.read_csv(f'2022_districts/Gubernatorial by {hd_or_sd.upper()} 2014.csv', usecols=[
+        'DISTRICTNO', 'margin', 'winner'])
+    year2 = pd.read_csv(f'2022_districts/Gubernatorial by {hd_or_sd.upper()} 2018.csv', usecols=[
+        'DISTRICTNO', 'margin', 'winner'])
+    df = year1.merge(year2, on='DISTRICTNO', suffixes=('2014', '2018'))
+    df['margin_avg'] = (df.margin2014 + df.margin2018).apply(lambda x: round(x / 2, 2))
+    df = df.rename(columns=dict(DISTRICTNO='district'))
     return df
 
 
-def create_summaries() -> None:
-    for hd in ('HD', 'SD'):
-        df = _create_summary(pd.read_csv(f'2022_districts/Gubernatorial by {hd} 2014.csv')).merge(_create_summary(
-            pd.read_csv(f'2022_districts/Gubernatorial by {hd} 2018.csv')), on='DISTRICTNO', suffixes=(
-            '_2014', '_2018'))
-        df['average_margin_num'] = (df.margin_num_2014 + df.margin_num_2018).apply(lambda x: x / 2)
-        df['AVERAGE_MARGIN'] = df.average_margin_num.apply(lambda x: f'{"D" if x > 0 else "R"}+{abs(x)}'[:6])
-        open(f'summary/Gubernatorial by {hd}.md', 'w').write(df.to_markdown(index=False))
+def potential_targets(hd_or_sd: str) -> pd.DataFrame:
+    df = _create_comparison(hd_or_sd).rename(columns=dict(DISTRICTNO='district'))
+    hd = pd.read_csv(f'incumbents/{hd_or_sd}.csv')
+    df = df.merge(hd, on='district')
+    df = pd.concat([
+        df[(df.incumbent_party == 'D') & df.margin_avg.apply(lambda x: 0 <= x <= 0.03)],
+        df[(df.incumbent_party == 'R') & df.margin_avg.apply(lambda x: 0 >= x >= -0.03)],
+    ])
+    return df
