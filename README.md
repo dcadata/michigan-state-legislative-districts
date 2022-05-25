@@ -1,6 +1,6 @@
 # michigan-state-legislative-districts
 
-Gubernatorial election results by Michigan state house/senate districts
+Gubernatorial election results by Michigan state house/senate districts, using 2022 districts
 
 ## Data Sources
 
