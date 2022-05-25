@@ -236,9 +236,4 @@ def create_summaries() -> None:
         df = _create_summary(pd.read_csv(f'2022_districts/Gubernatorial by {hd} 2014.csv')).merge(_create_summary(
             pd.read_csv(f'2022_districts/Gubernatorial by {hd} 2018.csv')), on='DISTRICTNO', suffixes=(
             '_2014', '_2018'))
-        df['margin_change_num'] = df.margin_num_2018 - df.margin_num_2014
-        df['swing'] = df.margin_change_num.apply(lambda x: 'D' if x > 0 else 'R')
-        df['MARGIN_CHANGE'] = df.margin_change_num.apply(lambda x: 'D' if x > 0 else 'R') + df.margin_change_num.apply(
-            abs).apply(lambda x: f'+{x}'[:5])
-        text = df.to_markdown(index=False)
-        open(f'summary/Gubernatorial by {hd}.md', 'w').write(text)
+        open(f'summary/Gubernatorial by {hd}.md', 'w').write(df.to_markdown(index=False))
