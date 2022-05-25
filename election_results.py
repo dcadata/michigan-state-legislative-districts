@@ -236,8 +236,7 @@ def _create_comparison(hd_or_sd: str) -> pd.DataFrame:
 
 def potential_targets(hd_or_sd: str) -> pd.DataFrame:
     df = _create_comparison(hd_or_sd).rename(columns=dict(DISTRICTNO='district'))
-    hd = pd.read_csv(f'incumbents/{hd_or_sd}.csv')
-    df = df.merge(hd, on='district')
+    df = df.merge(pd.read_csv(f'incumbents/{hd_or_sd}.csv'), on='district')
     df = pd.concat([
         df[(df.incumbent_party == 'D') & df.margin_avg.apply(lambda x: 0 <= x <= 0.03)],
         df[(df.incumbent_party == 'R') & df.margin_avg.apply(lambda x: 0 >= x >= -0.03)],
