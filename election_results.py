@@ -214,7 +214,7 @@ def create_summary(
 
     if save_data:
         df.drop(columns='geometry').to_csv(
-            f'new_districts/{filename_label} by {"S" if senate else "H"}D {year}.csv', index=False)
+            f'2022_districts/{filename_label} by {"S" if senate else "H"}D {year}.csv', index=False)
 
     if save_plot:
         plt = df.plot('margin', cmap='RdYlBu', legend='margin', vmin=-0.5, vmax=0.5)
@@ -233,8 +233,8 @@ def _create_summary(df: pd.DataFrame) -> pd.DataFrame:
 
 def create_summaries() -> None:
     for hd in ('HD', 'SD'):
-        df = _create_summary(pd.read_csv(f'new_districts/Gubernatorial by {hd} 2014.csv')).merge(_create_summary(
-            pd.read_csv(f'new_districts/Gubernatorial by {hd} 2018.csv')), on='DISTRICTNO', suffixes=(
+        df = _create_summary(pd.read_csv(f'2022_districts/Gubernatorial by {hd} 2014.csv')).merge(_create_summary(
+            pd.read_csv(f'2022_districts/Gubernatorial by {hd} 2018.csv')), on='DISTRICTNO', suffixes=(
             '_2014', '_2018'))
         df['margin_change_num'] = df.margin_num_2018 - df.margin_num_2014
         df['swing'] = df.margin_change_num.apply(lambda x: 'D' if x > 0 else 'R')
