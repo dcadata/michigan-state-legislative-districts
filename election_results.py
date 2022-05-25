@@ -224,14 +224,21 @@ def create_summary(
 
 
 def _create_summary(df: pd.DataFrame) -> pd.DataFrame:
-    df['MARGIN'] = df.margin.apply(lambda x: round(abs(x) * 100)).apply(int).apply(lambda x: f'+{x}%')
-    df.MARGIN = df.winner.apply(lambda x: x.upper()) + df.MARGIN
-    return df[['DISTRICTNO', 'MARGIN']]
+    df.winner = df.winner.apply(lambda x: x.upper())
+    df['margin_num'] = df.margin.apply(lambda x: round(x * 100, 1))
+    df['MARGIN'] = df.winner + df.margin_num.apply(abs).apply(lambda x: f'+{x}')
+    df = df.drop(columns=['dvs', 'rvs', 'margin'])
+    return df
 
 
 def create_summaries() -> None:
     for hd in ('HD', 'SD'):
         df = _create_summary(pd.read_csv(f'new_districts/Gubernatorial by {hd} 2014.csv')).merge(_create_summary(
-            pd.read_csv(f'new_districts/Gubernatorial by {hd} 2018.csv')), on='DISTRICTNO', suffixes=('_2014', '_2018'))
+            pd.read_csv(f'new_districts/Gubernatorial by {hd} 2018.csv')), on='DISTRICTNO', suffixes=(
+            '_2014', '_2018'))
+        df['margin_change_num'] = df.margin_num_2018 - df.margin_num_2014
+        df['swing'] = df.margin_change_num.apply(lambda x: 'D' if x > 0 else 'R')
+        df['MARGIN_CHANGE'] = df.margin_change_num.apply(lambda x: 'D' if x > 0 else 'R') + df.margin_change_num.apply(
+            abs).apply(lambda x: f'+{x}'[:5])
         text = df.to_markdown(index=False)
-        open(f'summary/Gubernatorial by {hd}.txt', 'w').write(text)
+        open(f'summary/Gubernatorial by {hd}.md', 'w').write(text)
