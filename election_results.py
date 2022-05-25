@@ -236,4 +236,6 @@ def create_summaries() -> None:
         df = _create_summary(pd.read_csv(f'2022_districts/Gubernatorial by {hd} 2014.csv')).merge(_create_summary(
             pd.read_csv(f'2022_districts/Gubernatorial by {hd} 2018.csv')), on='DISTRICTNO', suffixes=(
             '_2014', '_2018'))
+        df['average_margin_num'] = (df.margin_num_2014 + df.margin_num_2018).apply(lambda x: x / 2)
+        df['AVERAGE_MARGIN'] = df.average_margin_num.apply(lambda x: f'{"D" if x > 0 else "R"}+{abs(x)}'[:6])
         open(f'summary/Gubernatorial by {hd}.md', 'w').write(df.to_markdown(index=False))
