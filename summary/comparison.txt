@@ -1,6 +1,13 @@
-State House
+Statewide
     In 2014...
         Former Gov. Rick Snyder (R) was re-elected by a 4% statewide margin
+    In 2018...
+        Gov. Gretchen Whitmer (D) was elected by a 9.5% statewide margin
+    Average:
+        D+2.75
+
+State House
+    In 2014...
         Under the old districts...
             Former Gov. Rick Snyder (R) won 69 out of 110 districts
             With an average margin of R+0.05%
@@ -8,16 +15,15 @@ State House
             Former Gov. Rick Snyder (R) would've won 72 out of 110 districts
             With an average margin of R+6.07%
     In 2018...
-        Gov. Gretchen Whitmer (D) was elected by a 9.5% statewide margin
         Under the old districts...
             Gov. Gretchen Whitmer (D) won 56 out of 110 districts
             With an average margin of D+13.27%
         Under the new districts...
             Gov. Gretchen Whitmer (D) would've won 64 out of 110 districts
             With an average margin of D+9.2%
+
 State Senate
     In 2014...
-        Former Gov. Rick Snyder (R) was re-elected by a 4% statewide margin
         Under the old districts...
             Former Gov. Rick Snyder (R) won 25 out of 38 districts
             With an average margin of R+1.86%
@@ -25,7 +31,6 @@ State Senate
             Former Gov. Rick Snyder (R) would've won 26 out of 38 districts
             With an average margin of R+7.71%
     In 2018...
-        Gov. Gretchen Whitmer (D) was elected by a 9.5% statewide margin
         Under the old districts...
             Gov. Gretchen Whitmer (D) won 20 out of 38 districts
             With an average margin of D+12.13%
