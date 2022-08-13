@@ -203,8 +203,9 @@ def create_summary(
         save_plot: bool = False,
         filename_label: str = None,
 ) -> gpd.GeoDataFrame:
-    er = get_election_results(year, office_name)
-    df = er.merge(shapes.read_intersections(year, senate), on=['MCDFIPS', 'WARD', 'PRECINCT'])
+    df = get_election_results(year, office_name)
+    df = df.merge(shapes.read_intersections(year, senate), on=['MCDFIPS', 'WARD', 'PRECINCT'])
+    df = df.drop_duplicates(subset=['county_name', 'mcd_name', 'WARD', 'PRECINCT'])
     for col in ('dvot', 'rvot', 'ovot', 'totalvot'):
         df[col] = df[col] * df['intersection']
     df = df.groupby('DISTRICTNO', as_index=False).agg(dict(dvot=sum, rvot=sum, ovot=sum, totalvot=sum))
