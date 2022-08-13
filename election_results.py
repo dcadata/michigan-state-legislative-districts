@@ -223,7 +223,7 @@ def create_summary(
     return df
 
 
-def create_comparison(hd_or_sd: str) -> pd.DataFrame:
+def create_gubernatorial_comparison(hd_or_sd: str) -> pd.DataFrame:
     year1 = pd.read_csv(f'2022_districts/Gubernatorial by {hd_or_sd.upper()} 2014.csv', usecols=[
         'DISTRICTNO', 'margin', 'winner'])
     year2 = pd.read_csv(f'2022_districts/Gubernatorial by {hd_or_sd.upper()} 2018.csv', usecols=[
