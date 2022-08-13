@@ -235,3 +235,15 @@ def create_gubernatorial_comparison(hd_or_sd: str) -> pd.DataFrame:
     df['margin_avg'] = (df.margin2014 + df.margin2018).apply(lambda x: round(x / 2, 2))
     df = df.rename(columns=dict(DISTRICTNO='district'))
     return df
+
+
+def main():
+    for year in (2014, 2018):
+        for d in ('HD', 'SD'):
+            df = create_summary(year, dict(HD='REPRESENTATIVE IN STATE LEG', SD='STATE SENATOR')[d]).drop(columns=[
+                'geometry'])
+            df.to_csv(f'2022_districts/Gubernatorial by {d} {year}.csv')
+
+
+if __name__ == '__main__':
+    main()
