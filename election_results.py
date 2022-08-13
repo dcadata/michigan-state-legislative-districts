@@ -158,7 +158,7 @@ def transpose_parties_into_columns(votes_rollup: pd.DataFrame) -> pd.DataFrame:
     return votes_parties
 
 
-def get_michigan_election_results(year: int, office_name: str, county_name: str = None) -> pd.DataFrame:
+def get_election_results(year: int, office_name: str, county_name: str = None) -> pd.DataFrame:
     offices = read_offices(year)
     parties = read_parties(year)
     votes = read_votes(year)
@@ -203,7 +203,7 @@ def create_summary(
         save_plot: bool = False,
         filename_label: str = None,
 ) -> gpd.GeoDataFrame:
-    er = get_michigan_election_results(year, office_name)
+    er = get_election_results(year, office_name)
     df = er.merge(shapes.read_intersections(year, senate), on=['MCDFIPS', 'WARD', 'PRECINCT'])
     for col in ('dvot', 'rvot', 'ovot', 'totalvot'):
         df[col] = df[col] * df['intersection']
@@ -223,7 +223,7 @@ def create_summary(
     return df
 
 
-def _create_comparison(hd_or_sd: str) -> pd.DataFrame:
+def create_comparison(hd_or_sd: str) -> pd.DataFrame:
     year1 = pd.read_csv(f'2022_districts/Gubernatorial by {hd_or_sd.upper()} 2014.csv', usecols=[
         'DISTRICTNO', 'margin', 'winner'])
     year2 = pd.read_csv(f'2022_districts/Gubernatorial by {hd_or_sd.upper()} 2018.csv', usecols=[
