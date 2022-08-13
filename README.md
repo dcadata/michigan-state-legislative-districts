@@ -10,6 +10,7 @@ Via [Michigan GIS Open Data](https://gis-michigan.opendata.arcgis.com/search?tag
 
 * [2014 Voting Precincts](https://gis-michigan.opendata.arcgis.com/maps/2014-voting-precincts)
 * [2018 Voting Precincts](https://gis-michigan.opendata.arcgis.com/maps/2018-voting-precincts)
+* [2020 Voting Precincts](https://gis-michigan.opendata.arcgis.com/maps/2020-voting-precincts)
 * [Minor Civil Divisions (Cities & Townships)](https://gis-michigan.opendata.arcgis.com/maps/minor-civil-divisions-cities-townships-)
 
 Via [Michigan Independent Citizens Redistricting Commission Mapping Data](https://www.michigan.gov/micrc/mapping-process/mapping-data):
