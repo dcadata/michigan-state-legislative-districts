@@ -2,7 +2,7 @@ import geopandas as gpd
 import pandas as pd
 
 
-def _calculate_partial_intersection(precinct_geometry, district_geometry):
+def _calculate_partial_intersection(precinct_geometry, district_geometry) -> float:
     intersection = precinct_geometry.intersection(district_geometry)
     intersection_area_pct = intersection.area / precinct_geometry.area
     intersection_area_cutoff = 0.01
@@ -45,8 +45,7 @@ def _calculate_intersections(districts: gpd.GeoDataFrame, precincts: gpd.GeoData
 
 def read_districts(senate: bool = False) -> gpd.GeoDataFrame:
     filename = 'StateSenate-FinalPlanLinden' if senate else 'StateHouse-FinalPlanHickory'
-    districts = gpd.read_file(f'G:/election_data/MichiganShapefiles/{filename}.zip')[[
-        'DISTRICTNO', 'geometry']]
+    districts = gpd.read_file(f'G:/election_data/MichiganShapefiles/{filename}.zip')[['DISTRICTNO', 'geometry']]
     districts.DISTRICTNO = districts.DISTRICTNO.apply(int)
     return districts
 
