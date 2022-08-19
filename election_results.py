@@ -240,8 +240,8 @@ def create_gubernatorial_comparison(hd_or_sd: str) -> pd.DataFrame:
 def main():
     for year in (2014, 2018):
         for d in ('HD', 'SD'):
-            df = create_summary(year, dict(HD='REPRESENTATIVE IN STATE LEG', SD='STATE SENATOR')[d]).drop(columns=[
-                'geometry'])
+            df = create_summary(year, dict(HD='REPRESENTATIVE IN STATE LEG', SD='STATE SENATOR')[d], d == 'SD').drop(
+                columns=['geometry'])
             df.to_csv(f'2022_districts/Gubernatorial by {d} {year}.csv')
 
 
