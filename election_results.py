@@ -26,7 +26,7 @@ def _normalize_mcd_name(x: str) -> str:
     return x
 
 
-def read_offices(year: int) -> pd.DataFrame:
+def _read_offices(year: int) -> pd.DataFrame:
     dtype = {
         'x election_year': str,
         'x election_type': str,
@@ -39,7 +39,7 @@ def read_offices(year: int) -> pd.DataFrame:
     return offices
 
 
-def read_parties(year: int) -> pd.DataFrame:
+def _read_parties(year: int) -> pd.DataFrame:
     dtype = {
         'x election_year': str,
         'x election_type': str,
@@ -59,7 +59,7 @@ def read_parties(year: int) -> pd.DataFrame:
     return parties
 
 
-def read_votes(year: int) -> pd.DataFrame:
+def _read_votes(year: int) -> pd.DataFrame:
     dtype = {
         'x election_year': str,
         'x election_type': str,
@@ -81,7 +81,7 @@ def read_votes(year: int) -> pd.DataFrame:
     return votes
 
 
-def read_mcd(year: int) -> pd.DataFrame:
+def _read_mcd(year: int) -> pd.DataFrame:
     dtype = {
         'x election_year': str,
         'x election_type': str,
@@ -94,7 +94,7 @@ def read_mcd(year: int) -> pd.DataFrame:
     return mcd
 
 
-def read_counties(year: int) -> pd.DataFrame:
+def _read_counties(year: int) -> pd.DataFrame:
     dtype = {
         'county_code': int,
         'county_name': str,
@@ -103,7 +103,7 @@ def read_counties(year: int) -> pd.DataFrame:
     return counties
 
 
-def read_mcd_fips_mapper() -> pd.DataFrame:
+def _read_mcd_fips_mapper() -> pd.DataFrame:
     mcd_fips_mapper = gpd.read_file('G:/election_data/MichiganShapefiles/MinorCivilDivisions.zip').iloc[:, 1:6].drop(
         columns='FIPSNUM')
     for col in ('LABEL', 'NAME', 'TYPE'):
@@ -120,7 +120,7 @@ def get_office_codes(offices: pd.DataFrame, office_name: str, one: bool = False)
         return df  # dataframe
 
 
-def merge_all(
+def _merge_election_results(
         offices: pd.DataFrame,
         office_name: str,
         parties: pd.DataFrame,
@@ -142,7 +142,17 @@ def merge_all(
     return votes_merged
 
 
-def transpose_parties_into_columns(votes_rollup: pd.DataFrame) -> pd.DataFrame:
+def read_and_merge_election_results(year: int, office_name: str) -> pd.DataFrame:
+    offices = _read_offices(year)
+    parties = _read_parties(year)
+    votes = _read_votes(year)
+    mcd = _read_mcd(year)
+    counties = _read_counties(year)
+    election_results = _merge_election_results(offices, office_name, parties, votes, mcd, counties)
+    return election_results
+
+
+def _transpose_parties_into_columns(votes_rollup: pd.DataFrame) -> pd.DataFrame:
     merge_cols = ['county_name', 'mcd_name', 'FIPSCODE', 'WARD', 'PRECINCT']
 
     total_votes = votes_rollup.groupby(merge_cols, as_index=False).votes.sum().rename(columns=dict(votes='totalvot'))
@@ -163,18 +173,8 @@ def transpose_parties_into_columns(votes_rollup: pd.DataFrame) -> pd.DataFrame:
     return votes_parties
 
 
-def read_election_results(year: int, office_name: str) -> pd.DataFrame:
-    offices = read_offices(year)
-    parties = read_parties(year)
-    votes = read_votes(year)
-    mcd = read_mcd(year)
-    counties = read_counties(year)
-    election_results = merge_all(offices, office_name, parties, votes, mcd, counties)
-    return election_results
-
-
-def combine_election_results_with_mcd_fips(election_results: pd.DataFrame) -> pd.DataFrame:
-    mcd_fips_mapper = read_mcd_fips_mapper()
+def _combine_election_results_with_mcd_fips(election_results: pd.DataFrame) -> pd.DataFrame:
+    mcd_fips_mapper = _read_mcd_fips_mapper()
     election_results.mcd_name = election_results.mcd_name.apply(_normalize_mcd_name)
     election_results = pd.concat(election_results.merge(mcd_fips_mapper, left_on='mcd_name', right_on=col) for col in (
         'LABEL', 'NAME', 'NAME_TYPE'))
@@ -184,13 +184,12 @@ def combine_election_results_with_mcd_fips(election_results: pd.DataFrame) -> pd
     election_results = election_results.drop_duplicates(subset=['FIPSCODE', 'WARD', 'PRECINCT', 'party', 'cand'])
     # which is then messing up the type of election_results
     # noinspection PyTypeChecker
-    election_results = transpose_parties_into_columns(election_results)
-
+    election_results = _transpose_parties_into_columns(election_results)
     election_results = election_results.rename(columns={'FIPSCODE': 'MCDFIPS'})
     return election_results
 
 
-def add_voteshare_and_margin(election_results: pd.DataFrame) -> pd.DataFrame:
+def _add_voteshare_and_margin(election_results: pd.DataFrame) -> pd.DataFrame:
     election_results['dvs'] = election_results.dvot.map(int) / election_results.totalvot.map(int)
     election_results['rvs'] = election_results.rvot.map(int) / election_results.totalvot.map(int)
     election_results['margin'] = election_results.dvs.map(float) - election_results.rvs.map(float)
@@ -211,15 +210,15 @@ def create_summary(
         save_plot: bool = False,
         filename_label: str = None,
 ) -> gpd.GeoDataFrame:
-    df = read_election_results(year, office_name)
-    df = combine_election_results_with_mcd_fips(df)
+    election_results = read_and_merge_election_results(year, office_name)
+    df = _combine_election_results_with_mcd_fips(election_results)
     df = df.merge(shapes.read_intersections(year, senate), on=['MCDFIPS', 'WARD', 'PRECINCT'])
     df = df.drop_duplicates(subset=['county_name', 'mcd_name', 'WARD', 'PRECINCT'])
     for col in ('dvot', 'rvot', 'ovot', 'totalvot'):
         df[col] = df[col] * df['intersection']
     df = df.groupby('DISTRICTNO', as_index=False).agg(dict(dvot=sum, rvot=sum, ovot=sum, totalvot=sum))
     df = df.merge(shapes.read_districts(senate), on='DISTRICTNO')
-    df = add_voteshare_and_margin(df)
+    df = _add_voteshare_and_margin(df)
     df = gpd.GeoDataFrame(df.to_dict('records'))
 
     if save_data:
@@ -233,6 +232,14 @@ def create_summary(
     return df
 
 
+def create_summaries():
+    for year in (2014, 2018):
+        for d in ('HD', 'SD'):
+            df = create_summary(year, dict(HD='REPRESENTATIVE IN STATE LEG', SD='STATE SENATOR')[d], d == 'SD').drop(
+                columns=['geometry'])
+            df.to_csv(f'2022_districts/Gubernatorial by {d} {year}.csv')
+
+
 def create_gubernatorial_comparison(hd_or_sd: str) -> pd.DataFrame:
     year1 = pd.read_csv(f'2022_districts/Gubernatorial by {hd_or_sd.upper()} 2014.csv', usecols=[
         'DISTRICTNO', 'margin', 'winner'])
@@ -242,15 +249,3 @@ def create_gubernatorial_comparison(hd_or_sd: str) -> pd.DataFrame:
     df['margin_avg'] = (df.margin2014 + df.margin2018).apply(lambda x: round(x / 2, 2))
     df = df.rename(columns=dict(DISTRICTNO='district'))
     return df
-
-
-def main():
-    for year in (2014, 2018):
-        for d in ('HD', 'SD'):
-            df = create_summary(year, dict(HD='REPRESENTATIVE IN STATE LEG', SD='STATE SENATOR')[d], d == 'SD').drop(
-                columns=['geometry'])
-            df.to_csv(f'2022_districts/Gubernatorial by {d} {year}.csv')
-
-
-if __name__ == '__main__':
-    main()
