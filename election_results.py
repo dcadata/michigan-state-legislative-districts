@@ -158,7 +158,7 @@ def transpose_parties_into_columns(votes_rollup: pd.DataFrame) -> pd.DataFrame:
     return votes_parties
 
 
-def get_election_results(year: int, office_name: str) -> pd.DataFrame:
+def read_election_results(year: int, office_name: str) -> pd.DataFrame:
     offices = read_offices(year)
     parties = read_parties(year)
     votes = read_votes(year)
@@ -206,7 +206,7 @@ def create_summary(
         save_plot: bool = False,
         filename_label: str = None,
 ) -> gpd.GeoDataFrame:
-    df = get_election_results(year, office_name)
+    df = read_election_results(year, office_name)
     df = combine_election_results_with_mcd_fips(df)
     df = df.merge(shapes.read_intersections(year, senate), on=['MCDFIPS', 'WARD', 'PRECINCT'])
     df = df.drop_duplicates(subset=['county_name', 'mcd_name', 'WARD', 'PRECINCT'])
