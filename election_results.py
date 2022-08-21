@@ -209,7 +209,8 @@ def create_summary(
         save_plot: bool = False,
         filename_label: str = None,
 ) -> gpd.GeoDataFrame:
-    df = combine_election_results_with_mcd_fips(get_election_results(year, office_name))
+    df = get_election_results(year, office_name)
+    df = combine_election_results_with_mcd_fips(df)
     df = df.merge(shapes.read_intersections(year, senate), on=['MCDFIPS', 'WARD', 'PRECINCT'])
     df = df.drop_duplicates(subset=['county_name', 'mcd_name', 'WARD', 'PRECINCT'])
     for col in ('dvot', 'rvot', 'ovot', 'totalvot'):
