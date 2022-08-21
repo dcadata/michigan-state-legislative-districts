@@ -168,6 +168,10 @@ def get_election_results(year: int, office_name: str, county_name: str = None) -
         counties = counties[counties.county_name == county_name.upper()].copy()
 
     election_results = merge_all(offices, office_name, parties, votes, mcd, counties)
+    return election_results
+
+
+def combine_election_results_with_mcd_fips(election_results: pd.DataFrame) -> pd.DataFrame:
     mcd_fips_mapper = read_mcd_fips_mapper()
     election_results.mcd_name = election_results.mcd_name.apply(_normalize_mcd_name)
     election_results = pd.concat(election_results.merge(mcd_fips_mapper, left_on='mcd_name', right_on=col) for col in (
@@ -205,7 +209,7 @@ def create_summary(
         save_plot: bool = False,
         filename_label: str = None,
 ) -> gpd.GeoDataFrame:
-    df = get_election_results(year, office_name)
+    df = combine_election_results_with_mcd_fips(get_election_results(year, office_name))
     df = df.merge(shapes.read_intersections(year, senate), on=['MCDFIPS', 'WARD', 'PRECINCT'])
     df = df.drop_duplicates(subset=['county_name', 'mcd_name', 'WARD', 'PRECINCT'])
     for col in ('dvot', 'rvot', 'ovot', 'totalvot'):
