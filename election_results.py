@@ -112,7 +112,7 @@ def _read_mcd_fips_mapper() -> pd.DataFrame:
     return mcd_fips_mapper
 
 
-def get_office_codes(offices: pd.DataFrame, office_name: str, one: bool = False) -> [list, pd.DataFrame]:
+def _get_office_codes(offices: pd.DataFrame, office_name: str, one: bool = False) -> [list, pd.DataFrame]:
     df = offices.loc[offices.office_desc.str.contains(office_name.upper()), ['office_code', 'office_desc']]
     if one:
         return df.office_code.values[0]  # list
@@ -128,7 +128,7 @@ def _merge_election_results(
         mcd: pd.DataFrame,
         counties: pd.DataFrame,
 ) -> pd.DataFrame:
-    office_code = get_office_codes(offices, office_name, one=True)
+    office_code = _get_office_codes(offices, office_name, one=True)
     parties = parties[parties.office_code == office_code].drop(columns='office_code')
     votes = votes[votes.office_code == office_code].drop(columns='office_code')
 
