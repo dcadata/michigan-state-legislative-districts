@@ -158,15 +158,12 @@ def transpose_parties_into_columns(votes_rollup: pd.DataFrame) -> pd.DataFrame:
     return votes_parties
 
 
-def get_election_results(year: int, office_name: str, county_name: str = None) -> pd.DataFrame:
+def get_election_results(year: int, office_name: str) -> pd.DataFrame:
     offices = read_offices(year)
     parties = read_parties(year)
     votes = read_votes(year)
     mcd = read_mcd(year)
     counties = read_counties(year)
-    if county_name:
-        counties = counties[counties.county_name == county_name.upper()].copy()
-
     election_results = merge_all(offices, office_name, parties, votes, mcd, counties)
     return election_results
 
