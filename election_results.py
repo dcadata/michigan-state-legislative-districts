@@ -132,8 +132,13 @@ def merge_all(
     parties = parties[parties.office_code == office_code].drop(columns='office_code')
     votes = votes[votes.office_code == office_code].drop(columns='office_code')
 
-    votes_merged = votes.merge(parties, on='candidate_id').merge(mcd, on=['mcd_code', 'county_code']).merge(
-        counties, on='county_code').drop(columns=['county_code', 'mcd_code', 'candidate_id'])
+    votes_merged = (
+        votes
+            .merge(parties, on='candidate_id')
+            .merge(mcd, on=['mcd_code', 'county_code'])
+            .merge(counties, on='county_code')
+            .drop(columns=['county_code', 'mcd_code', 'candidate_id'])
+    )
     return votes_merged
 
 
