@@ -267,7 +267,3 @@ def get_summary_by_county(year: int, office_name: str) -> pd.DataFrame:
     df['marginWithParty'] = df.margin.apply(lambda x: f'{"D" if x > 0 else "R"}+{abs(x)}')
     df = df.rename(columns=dict(county_name='countyName'))
     return df
-
-
-if __name__ == '__main__':
-    create_summaries()
