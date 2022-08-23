@@ -45,8 +45,12 @@ def _calculate_intersections(districts: gpd.GeoDataFrame, precincts: gpd.GeoData
     return pd.DataFrame(intersections).drop_duplicates()
 
 
-def read_districts(senate: bool = False) -> gpd.GeoDataFrame:
-    filename = 'StateSenate-FinalPlanLinden' if senate else 'StateHouse-FinalPlanHickory'
+def read_districts(chamber: str) -> gpd.GeoDataFrame:
+    filename = dict(
+        senate='StateSenate-FinalPlanLinden',
+        house='StateHouse-FinalPlanHickory',
+        congressional='Congressional-FinalPlanChestnut',
+    )[chamber]
     districts = gpd.read_file(f'{_SHAPEFILES_DIR}{filename}.zip')[['DISTRICTNO', 'geometry']]
     districts.DISTRICTNO = districts.DISTRICTNO.apply(int)
     return districts
@@ -73,10 +77,10 @@ def read_precincts(voting_precincts_year: int) -> gpd.GeoDataFrame:
     return precincts
 
 
-def calculate_intersections_and_identify_missing_precincts(voting_precincts_year: int, senate: bool = False) -> None:
-    districts = read_districts(senate)
+def calculate_intersections_and_identify_missing_precincts(voting_precincts_year: int, chamber: str) -> None:
+    districts = read_districts(chamber)
     precincts = read_precincts(voting_precincts_year)
-    prefix = f'intersections/{voting_precincts_year}_{"senate" if senate else "house"}_'
+    prefix = f'intersections/{voting_precincts_year}_{chamber}_'
 
     intersections = _calculate_intersections(districts, precincts)
     intersections.to_csv(f'{prefix}intersections.csv', index=False)
@@ -86,9 +90,9 @@ def calculate_intersections_and_identify_missing_precincts(voting_precincts_year
     missing_precincts.to_csv(f'{prefix}missing_precincts.csv', index=False)
 
 
-def read_intersections(voting_precincts_year: int, senate: bool = False) -> pd.DataFrame:
+def read_intersections(voting_precincts_year: int, chamber: str) -> pd.DataFrame:
     intersections = pd.read_csv(
-        f'intersections/{voting_precincts_year}_{"senate" if senate else "house"}_intersections.csv',
+        f'intersections/{voting_precincts_year}_{chamber}_intersections.csv',
         dtype={
             'PRECINCTID': str, 'COUNTYFIPS': str, 'MCDFIPS': str, 'WARD': str, 'PRECINCT': str,
             'DISTRICTNO': int, 'intersection': float,

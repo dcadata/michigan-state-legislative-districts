@@ -205,39 +205,43 @@ def _add_voteshare_and_margin(election_results: pd.DataFrame) -> pd.DataFrame:
 def create_summary(
         year: int,
         office_name: str,
-        senate: bool = False,
+        chamber: str,
         save_data: bool = False,
         save_plot: bool = False,
         filename_label: str = None,
 ) -> gpd.GeoDataFrame:
     election_results = read_and_merge_election_results(year, office_name)
     df = _combine_election_results_with_mcd_fips(election_results)
-    df = df.merge(shapes.read_intersections(year, senate), on=['MCDFIPS', 'WARD', 'PRECINCT'])
+    df = df.merge(shapes.read_intersections(year, chamber), on=['MCDFIPS', 'WARD', 'PRECINCT'])
     df = df.drop_duplicates(subset=['county_name', 'mcd_name', 'WARD', 'PRECINCT'])
     for col in ('dvot', 'rvot', 'ovot', 'totalvot'):
         df[col] = df[col] * df['intersection']
     df = df.groupby('DISTRICTNO', as_index=False).agg(dict(dvot=sum, rvot=sum, ovot=sum, totalvot=sum))
-    df = df.merge(shapes.read_districts(senate), on='DISTRICTNO')
+    df = df.merge(shapes.read_districts(chamber), on='DISTRICTNO')
     df = _add_voteshare_and_margin(df)
     df = gpd.GeoDataFrame(df.to_dict('records'))
 
     if save_data:
         df.drop(columns='geometry').to_csv(
-            f'2022_districts/{filename_label} by {"S" if senate else "H"}D {year}.csv', index=False)
+            f'2022_districts/{filename_label} by {chamber[0].upper()}D {year}.csv', index=False)
 
     if save_plot:
         plt = df.plot('margin', cmap='RdYlBu', legend='margin', vmin=-0.5, vmax=0.5)
-        plt.set_title(f'{year} {filename_label} Results by State {"Senate" if senate else "House"} District')
+        plt.set_title(f'{year} {filename_label} Results by State {chamber.title()} District')
 
     return df
 
 
 def create_summaries():
+    office_names = dict(
+        senate='STATE SENATOR',
+        house='REPRESENTATIVE IN STATE LEG',
+        # congressional='REPRESENTATIVE IN CONGRESS',
+    )
     for year in (2014, 2018):
-        for d in ('HD', 'SD'):
-            df = create_summary(year, dict(HD='REPRESENTATIVE IN STATE LEG', SD='STATE SENATOR')[d], d == 'SD').drop(
-                columns=['geometry'])
-            df.to_csv(f'2022_districts/Gubernatorial by {d} {year}.csv')
+        for chamber, office_name in office_names.items():
+            create_summary(year, office_name, chamber).drop(columns=['geometry']).to_csv(
+                f'2022_districts/Gubernatorial by {chamber[0].upper()}D {year}.csv', index=False)
 
 
 def create_gubernatorial_comparison(hd_or_sd: str) -> pd.DataFrame:
@@ -263,3 +267,7 @@ def get_summary_by_county(year: int, office_name: str) -> pd.DataFrame:
     df['marginWithParty'] = df.margin.apply(lambda x: f'{"D" if x > 0 else "R"}+{abs(x)}')
     df = df.rename(columns=dict(county_name='countyName'))
     return df
+
+
+if __name__ == '__main__':
+    create_summaries()
