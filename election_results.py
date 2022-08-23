@@ -249,3 +249,17 @@ def create_gubernatorial_comparison(hd_or_sd: str) -> pd.DataFrame:
     df['margin_avg'] = (df.margin2014 + df.margin2018).apply(lambda x: round(x / 2, 2))
     df = df.rename(columns=dict(DISTRICTNO='district'))
     return df
+
+
+def get_summary_by_county(year: int, office_name: str) -> pd.DataFrame:
+    df = read_and_merge_election_results(year, office_name)
+    df = df.groupby(['county_name', 'party'], as_index=False).votes.sum()
+    _separate_party = lambda p: df[df.party == p].drop(columns='party')
+    df = _separate_party('DEM').merge(_separate_party('REP'), on='county_name', suffixes=('D', 'R'))
+    total = df.votesD + df.votesR
+    df['voteShareD'] = ((df.votesD / total) * 100).round(1)
+    df['voteShareR'] = ((df.votesR / total) * 100).round(1)
+    df['margin'] = (df.voteShareD - df.voteShareR).round(1)
+    df['marginWithParty'] = df.margin.apply(lambda x: f'{"D" if x > 0 else "R"}+{abs(x)}')
+    df = df.rename(columns=dict(county_name='countyName'))
+    return df
