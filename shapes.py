@@ -1,6 +1,8 @@
 import geopandas as gpd
 import pandas as pd
 
+_SHAPEFILES_DIR = 'G:/election_data/MichiganShapefiles/'
+
 
 def _calculate_partial_intersection(precinct_geometry, district_geometry) -> float:
     intersection = precinct_geometry.intersection(district_geometry)
@@ -45,13 +47,13 @@ def _calculate_intersections(districts: gpd.GeoDataFrame, precincts: gpd.GeoData
 
 def read_districts(senate: bool = False) -> gpd.GeoDataFrame:
     filename = 'StateSenate-FinalPlanLinden' if senate else 'StateHouse-FinalPlanHickory'
-    districts = gpd.read_file(f'G:/election_data/MichiganShapefiles/{filename}.zip')[['DISTRICTNO', 'geometry']]
+    districts = gpd.read_file(f'{_SHAPEFILES_DIR}{filename}.zip')[['DISTRICTNO', 'geometry']]
     districts.DISTRICTNO = districts.DISTRICTNO.apply(int)
     return districts
 
 
 def read_precincts(voting_precincts_year: int) -> gpd.GeoDataFrame:
-    precincts = gpd.read_file(f'G:/election_data/MichiganShapefiles/VotingPrecincts{voting_precincts_year}.zip')
+    precincts = gpd.read_file(f'{_SHAPEFILES_DIR}VotingPrecincts{voting_precincts_year}.zip')
     unused_cols = (
         'OBJECTID', 'OBJECTID_1', 'VP', 'PrecinctLa', 'ElectionYe', 'ELECTIONYE', 'ShapeSTAre', 'ShapeSTLen',
         'Shape_STAr', 'Shape_STLe',
