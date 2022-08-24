@@ -260,7 +260,7 @@ def get_summary_by_county(year: int, office_name: str) -> pd.DataFrame:
     df = df.groupby(['county_name', 'party'], as_index=False).votes.sum()
     _separate_party = lambda p: df[df.party == p].drop(columns='party')
     df = _separate_party('DEM').merge(_separate_party('REP'), on='county_name', suffixes=('D', 'R'))
-    total = df.votesD + df.votesR
+    total = df.votesD + df.votesR  # 2-party total
     df['voteShareD'] = ((df.votesD / total) * 100).round(1)
     df['voteShareR'] = ((df.votesR / total) * 100).round(1)
     df['margin'] = (df.voteShareD - df.voteShareR).round(1)
