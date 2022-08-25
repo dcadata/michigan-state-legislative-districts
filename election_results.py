@@ -254,8 +254,13 @@ def create_county_level_election_results_summary(year: int, office_name: str) ->
     total_votes = df.votesD + df.votesR + df.votesO
     for i in ('D', 'R', 'O'):
         df[f'voteShare{i}'] = ((df[f'votes{i}'] / total_votes) * 100).round(1)
-
     df['margin'] = (df.voteShareD - df.voteShareR).round(1)
+
+    total_votes_2party = df.votesD + df.votesR
+    for i in ('D', 'R'):
+        df[f'voteShare{i}_2party'] = ((df[f'votes{i}'] / total_votes_2party) * 100).round(1)
+    df['margin_2party'] = (df.voteShareD_2party - df.voteShareR_2party).round(1)
+
     df = df.rename(columns=dict(county_name='countyName'))
     return df
 
