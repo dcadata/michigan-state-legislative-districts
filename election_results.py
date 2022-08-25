@@ -3,6 +3,12 @@ import pandas as pd
 
 import shapes
 
+_OFFICE_NAMES = dict(
+    senate='STATE SENATOR',
+    house='REPRESENTATIVE IN STATE LEG',
+    congressional='REPRESENTATIVE IN CONGRESS',
+)
+
 
 def _read_file(filename: str, year: int, dtype: dict) -> pd.DataFrame:
     filepath = f'G:/election_data/MichiganElectionResults/General/{year}/{filename}'
@@ -233,14 +239,9 @@ def create_district_level_summary(
 
 
 def create_summaries():
-    office_names = dict(
-        senate='STATE SENATOR',
-        house='REPRESENTATIVE IN STATE LEG',
-        # congressional='REPRESENTATIVE IN CONGRESS',
-    )
     for year in (2014, 2018):
-        for chamber, office_name in office_names.items():
-            create_district_level_summary(year, office_name, chamber).drop(columns=['geometry']).to_csv(
+        for chamber in ('senate', 'house'):
+            create_district_level_summary(year, _OFFICE_NAMES[chamber], chamber).drop(columns=['geometry']).to_csv(
                 f'2022_districts/Gubernatorial by {chamber[0].upper()}D {year}.csv', index=False)
 
 
