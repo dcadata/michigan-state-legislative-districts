@@ -245,11 +245,16 @@ def create_district_level_summaries() -> None:
 def create_county_level_election_results_summary(year: int, office_name: str) -> pd.DataFrame:
     df = read_and_merge_election_results(year, office_name)
     df = df.groupby(['county_name', 'party'], as_index=False).votes.sum()
-    _separate_party = lambda p: df[df.party == p].drop(columns='party')
-    df = _separate_party('DEM').merge(_separate_party('REP'), on='county_name', suffixes=('D', 'R'))
-    total = df.votesD + df.votesR  # 2-party total
-    df['voteShareD'] = ((df.votesD / total) * 100).round(1)
-    df['voteShareR'] = ((df.votesR / total) * 100).round(1)
+
+    _separate_party = lambda p: df[df.party == p].drop(columns='party').rename(columns={'votes': f'votes{p[0]}'})
+    df = _separate_party('DEM').merge(_separate_party('REP'), on='county_name').merge(
+        _separate_party('OTH'), on='county_name')
+    assert len(df) == 83
+
+    total_votes = df.votesD + df.votesR + df.votesO
+    for i in ('D', 'R', 'O'):
+        df[f'voteShare{i}'] = ((df[f'votes{i}'] / total_votes) * 100).round(1)
+
     df['margin'] = (df.voteShareD - df.voteShareR).round(1)
     df = df.rename(columns=dict(county_name='countyName'))
     return df
