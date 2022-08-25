@@ -256,3 +256,23 @@ def create_county_level_election_results_summary(year: int, office_name: str) ->
     df['margin'] = (df.voteShareD - df.voteShareR).round(1)
     df = df.rename(columns=dict(county_name='countyName'))
     return df
+
+
+def create_benchmarks() -> None:
+    gov2018margin = 54.9 - 45.1  # 2-party vote share
+    df = create_county_level_election_results_summary(2018, 'governor').drop(columns=['votesD', 'votesR'])
+
+    df['marginTieBenchmark'] = df.margin.apply(lambda x: x - gov2018margin).round(1)
+    df['voteShareDTieBenchmark'] = df.marginTieBenchmark.apply(lambda x: 50 + (x / 2)).round(1)
+    df['voteShareRTieBenchmark'] = df.marginTieBenchmark.apply(lambda x: 50 - (x / 2)).round(1)
+
+    prez2020 = create_county_level_election_results_summary(2020, 'president of the united states').drop(columns=[
+        'votesD', 'votesR'])
+    df = df.merge(prez2020, on='countyName', suffixes=('Gov18', 'Pres20'))
+    df = df[[
+        'countyName',
+        'voteShareDGov18', 'voteShareRGov18', 'marginGov18',
+        'voteShareDPres20', 'voteShareRPres20', 'marginPres20',
+        'marginTieBenchmark', 'voteShareDTieBenchmark', 'voteShareRTieBenchmark',
+    ]]
+    df.to_csv('county_level_summaries/2022_statewide_benchmarks_for_tie.csv', index=False)
