@@ -9,6 +9,7 @@ Gubernatorial election results by Michigan state house/senate districts, using 2
 Via [Michigan GIS Open Data](https://gis-michigan.opendata.arcgis.com/search?tags=boundaries):
 
 * [2014 Voting Precincts](https://gis-michigan.opendata.arcgis.com/maps/2014-voting-precincts)
+* [2016 Voting Precincts](https://gis-michigan.opendata.arcgis.com/maps/2016-voting-precincts)
 * [2018 Voting Precincts](https://gis-michigan.opendata.arcgis.com/maps/2018-voting-precincts)
 * [2020 Voting Precincts](https://gis-michigan.opendata.arcgis.com/maps/2020-voting-precincts)
 * [Minor Civil Divisions (Cities & Townships)](https://gis-michigan.opendata.arcgis.com/maps/minor-civil-divisions-cities-townships-)
