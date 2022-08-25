@@ -238,7 +238,7 @@ def create_district_level_summary(
     return df
 
 
-def create_summaries():
+def create_district_level_summaries():
     for year in (2014, 2018):
         for chamber in ('senate', 'house'):
             create_district_level_summary(year, _OFFICE_NAMES[chamber], chamber).drop(columns=['geometry']).to_csv(
