@@ -244,16 +244,6 @@ def create_summaries():
                 f'2022_districts/Gubernatorial by {chamber[0].upper()}D {year}.csv', index=False)
 
 
-def create_gubernatorial_comparison(hd_or_sd: str) -> pd.DataFrame:
-    usecols = ['DISTRICTNO', 'margin', 'winner']
-    year1 = pd.read_csv(f'2022_districts/Gubernatorial by {hd_or_sd.upper()} 2014.csv', usecols=usecols)
-    year2 = pd.read_csv(f'2022_districts/Gubernatorial by {hd_or_sd.upper()} 2018.csv', usecols=usecols)
-    df = year1.merge(year2, on='DISTRICTNO', suffixes=('2014', '2018'))
-    df['margin_avg'] = (df.margin2014 + df.margin2018).apply(lambda x: round(x / 2, 2))
-    df = df.rename(columns=dict(DISTRICTNO='district'))
-    return df
-
-
 def get_summary_by_county(year: int, office_name: str) -> pd.DataFrame:
     df = read_and_merge_election_results(year, office_name)
     df = df.groupby(['county_name', 'party'], as_index=False).votes.sum()
