@@ -245,7 +245,7 @@ def create_district_level_summaries():
                 f'2022_districts/Gubernatorial by {chamber[0].upper()}D {year}.csv', index=False)
 
 
-def get_summary_by_county(year: int, office_name: str) -> pd.DataFrame:
+def create_county_level_election_results_summary(year: int, office_name: str) -> pd.DataFrame:
     df = read_and_merge_election_results(year, office_name)
     df = df.groupby(['county_name', 'party'], as_index=False).votes.sum()
     _separate_party = lambda p: df[df.party == p].drop(columns='party')
