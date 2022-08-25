@@ -197,7 +197,7 @@ def _add_voteshare_and_margin(election_results: pd.DataFrame) -> pd.DataFrame:
         election_results[col] = election_results[col].apply(lambda x: round(x, 3))
     election_results['winner'] = election_results.margin.apply(lambda x: 'd' if x > 0 else 'r')
     election_results['margin_text'] = election_results.margin.apply(
-        lambda x: f'{"D" if x > 0 else "R"}+{int(round(abs(x) * 100))}')
+        lambda x: f'{"D" if x > 0 else "R"}+{round(abs(x) * 100, 1)}')
     election_results = election_results.drop(columns=['dvot', 'rvot', 'ovot', 'totalvot'])
     return election_results
 
@@ -264,6 +264,5 @@ def get_summary_by_county(year: int, office_name: str) -> pd.DataFrame:
     df['voteShareD'] = ((df.votesD / total) * 100).round(1)
     df['voteShareR'] = ((df.votesR / total) * 100).round(1)
     df['margin'] = (df.voteShareD - df.voteShareR).round(1)
-    df['marginWithParty'] = df.margin.apply(lambda x: f'{"D" if x > 0 else "R"}+{abs(x)}')
     df = df.rename(columns=dict(county_name='countyName'))
     return df
