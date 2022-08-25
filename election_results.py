@@ -165,14 +165,14 @@ def _transpose_parties_into_columns(votes_rollup: pd.DataFrame) -> pd.DataFrame:
     votes_grouped = votes_rollup.groupby(merge_cols + ['party'], as_index=False).votes.sum()
 
     def _process_party(p: str) -> pd.DataFrame:
-        return votes_grouped[votes_grouped.party == p.upper()].drop(columns='party').rename(columns={
+        return votes_grouped[votes_grouped.party == p].drop(columns='party').rename(columns={
             'votes': f'{p[0].lower()}vot'})
 
-    d = _process_party('dem')
-    r = _process_party('rep')
-    oth = _process_party('oth')
+    dems = _process_party('DEM')
+    reps = _process_party('REP')
+    others = _process_party('OTH')
 
-    votes_parties = d.merge(r, how='outer', on=merge_cols).merge(oth, how='outer', on=merge_cols)
+    votes_parties = dems.merge(reps, how='outer', on=merge_cols).merge(others, how='outer', on=merge_cols)
     for party in ('d', 'r', 'o'):
         votes_parties[f'{party}vot'] = votes_parties[f'{party}vot'].fillna(0)
     votes_parties = votes_parties.merge(total_votes, on=merge_cols)
