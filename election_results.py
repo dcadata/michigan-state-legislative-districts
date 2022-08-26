@@ -266,24 +266,24 @@ def create_county_level_election_results_summary(year: int, office_name: str) ->
 
 
 def create_benchmarks() -> None:
-    gov2018margin = 54.9 - 45.1  # 2-party vote share
-    df = create_county_level_election_results_summary(2018, 'governor').drop(columns=['votesD', 'votesR'])
+    df = create_county_level_election_results_summary(2018, 'governor')[[
+        'countyName', 'voteShareD_2party', 'voteShareR_2party', 'margin_2party', 'votesD', 'votesR']]
+    votesD_sum = df.votesD.sum()
+    votesR_sum = df.votesR.sum()
+    total_votes_2party = votesD_sum + votesR_sum  # 2-party vote share
+    statewide_margin = ((votesD_sum / total_votes_2party - votesR_sum / total_votes_2party) * 100).round(1)
+    df = df.drop(columns=['votesD', 'votesR'])
 
-    marginBenchmark = df.margin.apply(lambda x: x - gov2018margin).round(1)
-    df['voteShareDBenchmark'] = marginBenchmark.apply(lambda x: 50 + (x / 2)).round(1)
-    df['voteShareRBenchmark'] = marginBenchmark.apply(lambda x: 50 - (x / 2)).round(1)
-    df['marginBenchmarkText'] = marginBenchmark.apply(lambda x: f'{"D" if x > 0 else "R"}+{abs(x)}')
+    prez2020 = create_county_level_election_results_summary(2020, 'president of the united states')[[
+        'countyName', 'voteShareD_2party', 'voteShareR_2party', 'margin_2party']]
+    df = df.merge(prez2020, on='countyName', suffixes=('_gov18', '_pres20'))
 
-    prez2020 = create_county_level_election_results_summary(2020, 'president of the united states').drop(columns=[
-        'votesD', 'votesR'])
-    df = df.merge(prez2020, on='countyName', suffixes=('Gov18', 'Pres20'))
-    df['marginGov18Text'] = df.marginGov18.apply(lambda x: f'{"Whitmer" if x > 0 else "Schuette"}+{abs(x)}')
-    df['marginPres20Text'] = df.marginPres20.apply(lambda x: f'{"Biden" if x > 0 else "Trump"}+{abs(x)}')
+    margin_benchmark = df.margin_2party_gov18.apply(lambda x: x - statewide_margin).round(1)
+    df['voteShareD_benchmark'] = margin_benchmark.apply(lambda x: 50 + (x / 2)).round(1)
+    df['voteShareR_benchmark'] = margin_benchmark.apply(lambda x: 50 - (x / 2)).round(1)
+    df['margin_benchmark'] = margin_benchmark.apply(lambda x: f'{"D" if x > 0 else "R"}+{abs(x)}')
 
-    df = df[[
-        'countyName',
-        'voteShareDGov18', 'voteShareRGov18', 'marginGov18Text',
-        'voteShareDPres20', 'voteShareRPres20', 'marginPres20Text',
-        'voteShareDBenchmark', 'voteShareRBenchmark', 'marginBenchmarkText',
-    ]]
+    df.margin_2party_gov18 = df.margin_2party_gov18.apply(lambda x: f'{"Whitmer" if x > 0 else "Schuette"}+{abs(x)}')
+    df.margin_2party_pres20 = df.margin_2party_pres20.apply(lambda x: f'{"Biden" if x > 0 else "Trump"}+{abs(x)}')
+
     df.to_csv('county_level_summaries/2022_statewide_benchmarks_for_tie.csv', index=False)
