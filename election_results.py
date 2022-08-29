@@ -235,13 +235,6 @@ def create_district_level_summary(
     return df
 
 
-def create_district_level_summaries() -> None:
-    for year in (2014, 2018):
-        for chamber in ('senate', 'house'):
-            create_district_level_summary(year, _OFFICE_NAMES[chamber], chamber).drop(columns=['geometry']).to_csv(
-                f'2022_districts/Gubernatorial by {chamber[0].upper()}D {year}.csv', index=False)
-
-
 def create_county_level_election_results_summary(year: int, office_name: str) -> pd.DataFrame:
     df = read_and_merge_election_results(year, office_name)
     df = df.groupby(['county_name', 'party'], as_index=False).votes.sum()
