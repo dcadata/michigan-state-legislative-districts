@@ -282,3 +282,41 @@ def create_benchmarks() -> None:
     df.margin_2party_pres20 = df.margin_2party_pres20.apply(lambda x: f'{"Biden" if x > 0 else "Trump"}+{abs(x)}')
 
     df.to_csv('county_level_summaries/2022_statewide_benchmarks_for_tie.csv', index=False)
+
+
+def create_district_level_summaries():
+    def _create_one(args) -> pd.DataFrame:
+        return (
+            create_district_level_summary(*args)
+                .drop(columns=['geometry']).rename(columns=dict(DISTRICTNO='district'))
+                .assign(year=args[0]).assign(office=args[1])
+        )
+
+    office_name = 'congressional'
+    filename_label = 'Congressional'
+
+    options = [
+        (2016, 'President of the United States', office_name),
+        (2020, 'President of the United States', office_name),
+
+        (2018, 'United States Senator', office_name),
+        (2020, 'United States Senator', office_name),
+
+        (2016, 'Representative in Congress', office_name),
+        (2018, 'Representative in Congress', office_name),
+        (2020, 'Representative in Congress', office_name),
+
+        (2018, 'Governor', office_name),
+    ]
+    df = pd.concat(_create_one(i) for i in options)
+
+    df.voteShareD_2party = df.voteShareD_2party.apply(lambda x: x * 100).round(1)
+    df.voteShareR_2party = df.voteShareR_2party.apply(lambda x: x * 100).round(1)
+    df.margin_2party = df.margin_2party.apply(lambda x: x * 100).round(1)
+
+    df = df.sort_values(['district', 'year', 'office'])
+    df = df[[
+        'district', 'office', 'year', 'voteShareD_2party', 'voteShareR_2party', 'margin_2party', 'marginText_2party']]
+
+    df.to_csv(f'2022_districts/{filename_label}.csv', index=False)
+    return df
