@@ -193,14 +193,16 @@ def _combine_election_results_with_mcd_fips(election_results: pd.DataFrame) -> p
 
 
 def _add_voteshare_and_margin(election_results: pd.DataFrame) -> pd.DataFrame:
-    election_results['voteShareD'] = election_results.dvot.map(int) / election_results.totalvot.map(int)
-    election_results['voteShareR'] = election_results.rvot.map(int) / election_results.totalvot.map(int)
-    election_results['margin'] = election_results.voteShareD.map(float) - election_results.voteShareR.map(float)
-    for col in ('voteShareD', 'voteShareR', 'margin'):
+    total_vot = election_results.dvot.map(int) + election_results.rvot.map(int)
+    election_results['voteShareD_2party'] = election_results.dvot.map(int) / total_vot
+    election_results['voteShareR_2party'] = election_results.rvot.map(int) / total_vot
+    election_results['margin_2party'] = (
+            election_results.voteShareD_2party.map(float) - election_results.voteShareR_2party.map(float))
+    for col in ('voteShareD_2party', 'voteShareR_2party', 'margin_2party'):
         election_results[col] = election_results[col].apply(lambda x: round(x, 3))
-    election_results['winner'] = election_results.margin.apply(lambda x: 'D' if x > 0 else 'R')
-    election_results['marginText'] = election_results.margin.apply(
+    election_results['marginText_2party'] = election_results.margin_2party.apply(
         lambda x: f'{"D" if x > 0 else "R"}+{round(abs(x) * 100, 1)}')
+    election_results['winner'] = election_results.margin_2party.apply(lambda x: 'D' if x > 0 else 'R')
     election_results = election_results.drop(columns=['dvot', 'rvot', 'ovot', 'totalvot'])
     return election_results
 
