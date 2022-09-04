@@ -10,6 +10,35 @@ _OFFICE_NAMES = dict(
 )
 
 
+def read_primary_data(year: int) -> pd.DataFrame:
+    filepath = f'G:/election_data/MichiganElectionResults/Primary/{year}.xls'
+    dtype = {
+        'ElectionDate': str,
+        'OfficeCode(Text)': str,
+        'DistrictCode(Text)': str,
+        'CountyCode': str,
+        'CountyName': str,
+        'OfficeDescription': str,
+        'PartyName': str,
+        'CandidateID': str,
+        'CandidateLastName': str,
+        'CandidateFirstName': str,
+        # 'CandidateMiddleName': str,
+        # 'CandidateFormerName': str,
+        'CandidateVotes': float,
+    }
+    rename_mapper = {
+        'OfficeCode(Text)': 'OfficeCode',
+        'DistrictCode(Text)': 'DistrictCode',
+    }
+    data = pd.read_csv(filepath, sep='\t', dtype=dtype)[list(dtype.keys())]
+    data.CandidateVotes = data.CandidateVotes.fillna(0).apply(int)
+    data['CandidateName'] = data.CandidateLastName + ', ' + data.CandidateFirstName
+    data = data.iloc[:-1].dropna()
+    data = data.rename(columns=rename_mapper).drop(columns=['CandidateLastName', 'CandidateFirstName'])
+    return data
+
+
 def _read_file(filename: str, year: int, dtype: dict) -> pd.DataFrame:
     filepath = f'G:/election_data/MichiganElectionResults/General/{year}/{filename}'
     data = pd.read_csv(filepath, sep='\t', index_col=False, names=dtype.keys(), dtype=dtype)
@@ -320,32 +349,3 @@ def create_district_level_summaries():
 
     df.to_csv(f'2022_districts/{filename_label}.csv', index=False)
     return df
-
-
-def read_primary_data(year: int) -> pd.DataFrame:
-    filepath = f'G:/election_data/MichiganElectionResults/Primary/{year}.xls'
-    dtype = {
-        'ElectionDate': str,
-        'OfficeCode(Text)': str,
-        'DistrictCode(Text)': str,
-        'CountyCode': str,
-        'CountyName': str,
-        'OfficeDescription': str,
-        'PartyName': str,
-        'CandidateID': str,
-        'CandidateLastName': str,
-        'CandidateFirstName': str,
-        # 'CandidateMiddleName': str,
-        # 'CandidateFormerName': str,
-        'CandidateVotes': float,
-    }
-    rename_mapper = {
-        'OfficeCode(Text)': 'OfficeCode',
-        'DistrictCode(Text)': 'DistrictCode',
-    }
-    data = pd.read_csv(filepath, sep='\t', dtype=dtype)[list(dtype.keys())]
-    data.CandidateVotes = data.CandidateVotes.fillna(0).apply(int)
-    data['CandidateName'] = data.CandidateLastName + ', ' + data.CandidateFirstName
-    data = data.iloc[:-1].dropna()
-    data = data.rename(columns=rename_mapper).drop(columns=['CandidateLastName', 'CandidateFirstName'])
-    return data
