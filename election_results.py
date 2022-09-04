@@ -320,8 +320,7 @@ def create_district_level_summaries() -> pd.DataFrame:
                 .drop(columns=['geometry']).rename(columns=dict(DISTRICTNO='district'))
                 .assign(year=args[0]).assign(office=args[1])
         )
-        temp.marginText_2party = temp.marginText_2party.apply(
-            lambda x: (f'{d_cand}(D)' if x[0] == 'D' else f'{r_cand}(R)') + x[1:])
+        temp.marginText_2party = temp.marginText_2party.apply(lambda x: (d_cand if x[0] == 'D' else r_cand) + x[1:])
         return temp
 
     office_name = 'senate'
