@@ -313,31 +313,39 @@ def create_benchmarks() -> None:
     df.to_csv('county_level_summaries/2022_statewide_benchmarks_for_tie.csv', index=False)
 
 
-def create_district_level_summaries():
-    def _create_one(args) -> pd.DataFrame:
-        return (
+def create_district_level_summaries() -> pd.DataFrame:
+    def _create_one(args, d_cand: str, r_cand: str) -> pd.DataFrame:
+        temp = (
             create_district_level_summary(*args)
                 .drop(columns=['geometry']).rename(columns=dict(DISTRICTNO='district'))
                 .assign(year=args[0]).assign(office=args[1])
         )
+        temp.marginText_2party = temp.marginText_2party.apply(
+            lambda x: (f'{d_cand}(D)' if x[0] == 'D' else f'{r_cand}(R)') + x[1:])
+        return temp
 
-    office_name = 'congressional'
-    filename_label = 'Congressional'
+    office_name = 'senate'
+    filename_label = 'StateSenate'
 
     options = [
-        (2016, 'President of the United States', office_name),
-        (2020, 'President of the United States', office_name),
+        ((2016, 'President of the United States', office_name), 'Clinton', 'Trump'),
+        ((2020, 'President of the United States', office_name), 'Biden', 'Trump'),
 
-        (2018, 'United States Senator', office_name),
-        (2020, 'United States Senator', office_name),
+        ((2018, 'United States Senator', office_name), 'Stabenow', 'James'),
+        ((2020, 'United States Senator', office_name), 'Peters', 'James'),
 
-        (2016, 'Representative in Congress', office_name),
-        (2018, 'Representative in Congress', office_name),
-        (2020, 'Representative in Congress', office_name),
+        ((2016, 'Representative in Congress', office_name), 'D', 'R'),
+        ((2018, 'Representative in Congress', office_name), 'D', 'R'),
+        ((2020, 'Representative in Congress', office_name), 'D', 'R'),
 
-        (2018, 'Governor', office_name),
+        ((2018, 'Governor', office_name), 'Whitmer', 'Schuette'),
+
+        ((2016, 'Representative in State Legislature', office_name), 'D', 'R'),
+        ((2018, 'Representative in State Legislature', office_name), 'D', 'R'),
+        ((2018, 'State Senator', office_name), 'D', 'R'),
+        ((2020, 'Representative in State Legislature', office_name), 'D', 'R'),
     ]
-    df = pd.concat(_create_one(i) for i in options)
+    df = pd.concat(_create_one(*i) for i in options)
 
     df.voteShareD_2party = df.voteShareD_2party.apply(lambda x: x * 100).round(1)
     df.voteShareR_2party = df.voteShareR_2party.apply(lambda x: x * 100).round(1)
@@ -349,3 +357,7 @@ def create_district_level_summaries():
 
     df.to_csv(f'2022_districts/{filename_label}.csv', index=False)
     return df
+
+
+if __name__ == '__main__':
+    create_district_level_summaries()
