@@ -1,3 +1,5 @@
+import os.path
+
 import geopandas as gpd
 import pandas as pd
 
@@ -101,3 +103,13 @@ def read_intersections(voting_precincts_year: int, chamber: str) -> pd.DataFrame
         },
     )
     return intersections
+
+
+def calculate_all_available_intersections() -> None:
+    for year in (2014, 2016, 2018, 2020):
+        for chamber in ('senate', 'house', 'congressional'):
+            fp = f'intersections/{year}_{chamber}_intersections.csv'
+            if os.path.exists(fp):
+                continue
+            print(fp)
+            calculate_intersections_and_identify_missing_precincts(year, chamber)
