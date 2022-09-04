@@ -57,6 +57,8 @@ def read_districts(chamber: str) -> gpd.GeoDataFrame:
 
 
 def read_precincts(voting_precincts_year: int) -> gpd.GeoDataFrame:
+    if voting_precincts_year == 2016:
+        voting_precincts_year = 2018
     precincts = gpd.read_file(f'{_SHAPEFILES_DIR}VotingPrecincts{voting_precincts_year}.zip')
     unused_cols = (
         'OBJECTID', 'OBJECTID_1', 'VP', 'PrecinctLa', 'ElectionYe', 'ELECTIONYE', 'ShapeSTAre', 'ShapeSTLen',
