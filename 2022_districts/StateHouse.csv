@@ -1,1211 +1,1211 @@
 district,office,year,voteShareD_2party,voteShareR_2party,margin_2party,marginText_2party
-1,President of the United States,2016,83.9,16.1,67.8,Clinton(D)+67.8
-1,Representative in Congress,2016,87.5,12.5,74.9,D(D)+74.9
-1,Representative in State Legislature,2016,88.0,12.0,76.0,D(D)+76.0
-1,Governor,2018,86.6,13.4,73.2,Whitmer(D)+73.2
-1,Representative in Congress,2018,100.0,0.0,100.0,D(D)+100.0
-1,Representative in State Legislature,2018,83.8,16.2,67.7,D(D)+67.7
-1,United States Senator,2018,84.4,15.6,68.7,Stabenow(D)+68.7
-1,President of the United States,2020,83.6,16.4,67.2,Biden(D)+67.2
-1,Representative in Congress,2020,86.1,13.9,72.3,D(D)+72.3
-1,Representative in State Legislature,2020,93.6,6.4,87.2,D(D)+87.2
-1,United States Senator,2020,83.9,16.1,67.8,Peters(D)+67.8
-2,President of the United States,2016,52.4,47.6,4.7,Clinton(D)+4.7
-2,Representative in Congress,2016,62.3,37.7,24.6,D(D)+24.6
-2,Representative in State Legislature,2016,65.5,34.5,30.9,D(D)+30.9
-2,Governor,2018,62.0,38.0,24.0,Whitmer(D)+24.0
-2,Representative in Congress,2018,66.6,33.4,33.3,D(D)+33.3
-2,Representative in State Legislature,2018,67.0,33.0,34.0,D(D)+34.0
-2,United States Senator,2018,60.4,39.6,20.7,Stabenow(D)+20.7
-2,President of the United States,2020,56.0,44.0,11.9,Biden(D)+11.9
-2,Representative in Congress,2020,61.6,38.4,23.2,D(D)+23.2
-2,Representative in State Legislature,2020,63.0,37.0,25.9,D(D)+25.9
-2,United States Senator,2020,57.1,42.9,14.2,Peters(D)+14.2
-3,President of the United States,2016,67.5,32.5,35.0,Clinton(D)+35.0
-3,Representative in Congress,2016,73.6,26.4,47.2,D(D)+47.2
-3,Representative in State Legislature,2016,66.1,33.9,32.1,D(D)+32.1
-3,Governor,2018,71.7,28.3,43.5,Whitmer(D)+43.5
-3,Representative in Congress,2018,81.9,18.1,63.9,D(D)+63.9
-3,Representative in State Legislature,2018,70.5,29.5,41.1,D(D)+41.1
-3,United States Senator,2018,71.1,28.9,42.2,Stabenow(D)+42.2
-3,President of the United States,2020,73.1,26.9,46.3,Biden(D)+46.3
-3,Representative in Congress,2020,77.1,22.9,54.2,D(D)+54.2
-3,Representative in State Legislature,2020,76.3,23.7,52.5,D(D)+52.5
-3,United States Senator,2020,74.1,25.9,48.2,Peters(D)+48.2
-4,President of the United States,2016,85.1,14.9,70.1,Clinton(D)+70.1
-4,Representative in Congress,2016,90.4,9.6,80.8,D(D)+80.8
-4,Representative in State Legislature,2016,87.1,12.9,74.2,D(D)+74.2
-4,Governor,2018,89.3,10.7,78.6,Whitmer(D)+78.6
-4,Representative in Congress,2018,91.5,8.5,83.0,D(D)+83.0
-4,Representative in State Legislature,2018,89.5,10.5,79.0,D(D)+79.0
-4,United States Senator,2018,90.0,10.0,80.0,Stabenow(D)+80.0
-4,President of the United States,2020,87.6,12.4,75.1,Biden(D)+75.1
-4,Representative in Congress,2020,91.4,8.6,82.7,D(D)+82.7
-4,Representative in State Legislature,2020,91.2,8.8,82.3,D(D)+82.3
-4,United States Senator,2020,89.3,10.7,78.7,Peters(D)+78.7
-5,President of the United States,2016,67.0,33.0,34.0,Clinton(D)+34.0
-5,Representative in Congress,2016,63.1,36.9,26.1,D(D)+26.1
-5,Representative in State Legislature,2016,63.5,36.5,27.1,D(D)+27.1
-5,Governor,2018,69.0,31.0,38.1,Whitmer(D)+38.1
-5,Representative in Congress,2018,69.7,30.3,39.3,D(D)+39.3
-5,Representative in State Legislature,2018,70.1,29.9,40.1,D(D)+40.1
-5,United States Senator,2018,67.0,33.0,34.0,Stabenow(D)+34.0
-5,President of the United States,2020,72.5,27.5,45.0,Biden(D)+45.0
-5,Representative in Congress,2020,72.3,27.7,44.7,D(D)+44.7
-5,Representative in State Legislature,2020,72.4,27.6,44.7,D(D)+44.7
-5,United States Senator,2020,70.0,30.0,40.1,Peters(D)+40.1
-6,President of the United States,2016,70.7,29.3,41.4,Clinton(D)+41.4
-6,Representative in Congress,2016,71.3,28.7,42.5,D(D)+42.5
-6,Representative in State Legislature,2016,70.5,29.5,41.0,D(D)+41.0
-6,Governor,2018,73.2,26.8,46.4,Whitmer(D)+46.4
-6,Representative in Congress,2018,74.3,25.7,48.5,D(D)+48.5
-6,Representative in State Legislature,2018,76.4,23.6,52.9,D(D)+52.9
-6,United States Senator,2018,71.5,28.5,43.1,Stabenow(D)+43.1
-6,President of the United States,2020,77.1,22.9,54.2,Biden(D)+54.2
-6,Representative in Congress,2020,78.4,21.6,56.8,D(D)+56.8
-6,Representative in State Legislature,2020,76.7,23.3,53.3,D(D)+53.3
-6,United States Senator,2020,75.1,24.9,50.2,Peters(D)+50.2
-7,President of the United States,2016,72.5,27.5,44.9,Clinton(D)+44.9
-7,Representative in Congress,2016,73.3,26.7,46.5,D(D)+46.5
-7,Representative in State Legislature,2016,71.0,29.0,41.9,D(D)+41.9
-7,Governor,2018,76.7,23.3,53.4,Whitmer(D)+53.4
-7,Representative in Congress,2018,77.1,22.9,54.1,D(D)+54.1
-7,Representative in State Legislature,2018,78.0,22.0,55.9,D(D)+55.9
-7,United States Senator,2018,74.5,25.5,49.0,Stabenow(D)+49.0
-7,President of the United States,2020,78.5,21.5,57.0,Biden(D)+57.0
-7,Representative in Congress,2020,79.6,20.4,59.2,D(D)+59.2
-7,Representative in State Legislature,2020,78.0,22.0,55.9,D(D)+55.9
-7,United States Senator,2020,76.5,23.5,52.9,Peters(D)+52.9
-8,President of the United States,2016,61.6,38.4,23.2,Clinton(D)+23.2
-8,Representative in Congress,2016,68.7,31.3,37.4,D(D)+37.4
-8,Representative in State Legislature,2016,64.6,35.4,29.3,D(D)+29.3
-8,Governor,2018,69.7,30.3,39.5,Whitmer(D)+39.5
-8,Representative in Congress,2018,75.4,24.6,50.7,D(D)+50.7
-8,Representative in State Legislature,2018,71.6,28.4,43.1,D(D)+43.1
-8,United States Senator,2018,67.4,32.6,34.8,Stabenow(D)+34.8
-8,President of the United States,2020,68.3,31.7,36.6,Biden(D)+36.6
-8,Representative in Congress,2020,72.1,27.9,44.1,D(D)+44.1
-8,Representative in State Legislature,2020,69.6,30.4,39.3,D(D)+39.3
-8,United States Senator,2020,68.9,31.1,37.9,Peters(D)+37.9
-9,President of the United States,2016,87.8,12.2,75.6,Clinton(D)+75.6
-9,Representative in Congress,2016,87.9,12.1,75.7,D(D)+75.7
-9,Representative in State Legislature,2016,88.4,11.6,76.8,D(D)+76.8
-9,Governor,2018,89.5,10.5,79.0,Whitmer(D)+79.0
-9,Representative in Congress,2018,90.9,9.1,81.8,D(D)+81.8
-9,Representative in State Legislature,2018,90.3,9.7,80.5,D(D)+80.5
-9,United States Senator,2018,89.7,10.3,79.4,Stabenow(D)+79.4
-9,President of the United States,2020,89.4,10.6,78.7,Biden(D)+78.7
-9,Representative in Congress,2020,91.3,8.7,82.6,D(D)+82.6
-9,Representative in State Legislature,2020,92.4,7.6,84.7,D(D)+84.7
-9,United States Senator,2020,90.1,9.9,80.2,Peters(D)+80.2
-10,President of the United States,2016,49.8,50.2,-0.3,Trump(R)+0.3
-10,Representative in Congress,2016,44.3,55.7,-11.4,R(R)+11.4
-10,Representative in State Legislature,2016,38.5,61.5,-23.1,R(R)+23.1
-10,Governor,2018,53.2,46.8,6.5,Whitmer(D)+6.5
-10,Representative in Congress,2018,52.3,47.7,4.5,D(D)+4.5
-10,Representative in State Legislature,2018,49.6,50.4,-0.9,R(R)+0.9
-10,United States Senator,2018,50.7,49.3,1.3,Stabenow(D)+1.3
-10,President of the United States,2020,60.0,40.0,20.1,Biden(D)+20.1
-10,Representative in Congress,2020,58.5,41.5,16.9,D(D)+16.9
-10,Representative in State Legislature,2020,58.9,41.1,17.8,D(D)+17.8
-10,United States Senator,2020,56.3,43.7,12.5,Peters(D)+12.5
-11,President of the United States,2016,53.3,46.7,6.6,Clinton(D)+6.6
-11,Representative in Congress,2016,61.2,38.8,22.4,D(D)+22.4
-11,Representative in State Legislature,2016,60.4,39.6,20.9,D(D)+20.9
-11,Governor,2018,60.5,39.5,21.0,Whitmer(D)+21.0
-11,Representative in Congress,2018,61.2,38.8,22.4,D(D)+22.4
-11,Representative in State Legislature,2018,62.0,38.0,24.0,D(D)+24.0
-11,United States Senator,2018,59.2,40.8,18.5,Stabenow(D)+18.5
-11,President of the United States,2020,60.2,39.8,20.3,Biden(D)+20.3
-11,Representative in Congress,2020,63.9,36.1,27.9,D(D)+27.9
-11,Representative in State Legislature,2020,64.0,36.0,28.0,D(D)+28.0
-11,United States Senator,2020,60.7,39.3,21.4,Peters(D)+21.4
-12,President of the United States,2016,62.9,37.1,25.7,Clinton(D)+25.7
-12,Representative in Congress,2016,72.0,28.0,44.0,D(D)+44.0
-12,Representative in State Legislature,2016,72.0,28.0,44.0,D(D)+44.0
-12,Governor,2018,69.8,30.2,39.5,Whitmer(D)+39.5
-12,Representative in Congress,2018,71.4,28.6,42.8,D(D)+42.8
-12,Representative in State Legislature,2018,72.5,27.5,45.0,D(D)+45.0
-12,United States Senator,2018,68.5,31.5,37.1,Stabenow(D)+37.1
-12,President of the United States,2020,66.1,33.9,32.1,Biden(D)+32.1
-12,Representative in Congress,2020,70.3,29.7,40.6,D(D)+40.6
-12,Representative in State Legislature,2020,71.0,29.0,42.0,D(D)+42.0
-12,United States Senator,2020,67.7,32.3,35.4,Peters(D)+35.4
-13,President of the United States,2016,51.9,48.1,3.9,Clinton(D)+3.9
-13,Representative in Congress,2016,62.8,37.2,25.5,D(D)+25.5
-13,Representative in State Legislature,2016,61.0,39.0,22.0,D(D)+22.0
-13,Governor,2018,59.6,40.4,19.3,Whitmer(D)+19.3
-13,Representative in Congress,2018,61.4,38.6,22.8,D(D)+22.8
-13,Representative in State Legislature,2018,60.7,39.3,21.5,D(D)+21.5
-13,United States Senator,2018,58.8,41.2,17.6,Stabenow(D)+17.6
-13,President of the United States,2020,58.0,42.0,16.0,Biden(D)+16.0
-13,Representative in Congress,2020,62.8,37.2,25.5,D(D)+25.5
-13,Representative in State Legislature,2020,60.6,39.4,21.3,D(D)+21.3
-13,United States Senator,2020,59.9,40.1,19.8,Peters(D)+19.8
-14,President of the United States,2016,61.2,38.8,22.3,Clinton(D)+22.3
-14,Representative in Congress,2016,69.9,30.1,39.9,D(D)+39.9
-14,Representative in State Legislature,2016,69.2,30.8,38.4,D(D)+38.4
-14,Governor,2018,66.3,33.7,32.7,Whitmer(D)+32.7
-14,Representative in Congress,2018,68.0,32.0,35.9,D(D)+35.9
-14,Representative in State Legislature,2018,67.4,32.6,34.8,D(D)+34.8
-14,United States Senator,2018,65.4,34.6,30.8,Stabenow(D)+30.8
-14,President of the United States,2020,64.9,35.1,29.9,Biden(D)+29.9
-14,Representative in Congress,2020,69.3,30.7,38.6,D(D)+38.6
-14,Representative in State Legislature,2020,67.7,32.3,35.4,D(D)+35.4
-14,United States Senator,2020,66.5,33.5,33.1,Peters(D)+33.1
-15,President of the United States,2016,57.8,42.2,15.6,Clinton(D)+15.6
-15,Representative in Congress,2016,63.2,36.8,26.4,D(D)+26.4
-15,Representative in State Legislature,2016,61.9,38.1,23.9,D(D)+23.9
-15,Governor,2018,65.0,35.0,30.0,Whitmer(D)+30.0
-15,Representative in Congress,2018,83.2,16.8,66.4,D(D)+66.4
-15,Representative in State Legislature,2018,62.3,37.7,24.6,D(D)+24.6
-15,United States Senator,2018,64.0,36.0,28.0,Stabenow(D)+28.0
-15,President of the United States,2020,62.1,37.9,24.1,Biden(D)+24.1
-15,Representative in Congress,2020,66.1,33.9,32.2,D(D)+32.2
-15,Representative in State Legislature,2020,63.8,36.2,27.7,D(D)+27.7
-15,United States Senator,2020,63.2,36.8,26.4,Peters(D)+26.4
-16,President of the United States,2016,75.0,25.0,50.0,Clinton(D)+50.0
-16,Representative in Congress,2016,76.2,23.8,52.4,D(D)+52.4
-16,Representative in State Legislature,2016,77.4,22.6,54.7,D(D)+54.7
-16,Governor,2018,79.6,20.4,59.2,Whitmer(D)+59.2
-16,Representative in Congress,2018,100.0,0.0,100.0,D(D)+100.0
-16,Representative in State Legislature,2018,79.9,20.1,59.8,D(D)+59.8
-16,United States Senator,2018,77.8,22.2,55.6,Stabenow(D)+55.6
-16,President of the United States,2020,81.4,18.6,62.8,Biden(D)+62.8
-16,Representative in Congress,2020,82.0,18.0,63.9,D(D)+63.9
-16,Representative in State Legislature,2020,83.5,16.5,67.0,D(D)+67.0
-16,United States Senator,2020,81.6,18.4,63.2,Peters(D)+63.2
-17,President of the United States,2016,65.5,34.5,30.9,Clinton(D)+30.9
-17,Representative in Congress,2016,67.1,32.9,34.1,D(D)+34.1
-17,Representative in State Legislature,2016,69.0,31.0,38.0,D(D)+38.0
-17,Governor,2018,71.6,28.4,43.3,Whitmer(D)+43.3
-17,Representative in Congress,2018,100.0,0.0,100.0,D(D)+100.0
-17,Representative in State Legislature,2018,72.5,27.5,45.1,D(D)+45.1
-17,United States Senator,2018,69.7,30.3,39.5,Stabenow(D)+39.5
-17,President of the United States,2020,74.7,25.3,49.5,Biden(D)+49.5
-17,Representative in Congress,2020,76.0,24.0,52.0,D(D)+52.0
-17,Representative in State Legislature,2020,77.3,22.7,54.7,D(D)+54.7
-17,United States Senator,2020,75.4,24.6,50.8,Peters(D)+50.8
-18,President of the United States,2016,79.9,20.1,59.8,Clinton(D)+59.8
-18,Representative in Congress,2016,80.3,19.7,60.7,D(D)+60.7
-18,Representative in State Legislature,2016,81.4,18.6,62.8,D(D)+62.8
-18,Governor,2018,81.5,18.5,63.0,Whitmer(D)+63.0
-18,Representative in Congress,2018,82.6,17.4,65.2,D(D)+65.2
-18,Representative in State Legislature,2018,82.7,17.3,65.4,D(D)+65.4
-18,United States Senator,2018,80.0,20.0,60.0,Stabenow(D)+60.0
-18,President of the United States,2020,79.4,20.6,58.7,Biden(D)+58.7
-18,Representative in Congress,2020,80.8,19.2,61.6,D(D)+61.6
-18,Representative in State Legislature,2020,80.5,19.5,61.0,D(D)+61.0
-18,United States Senator,2020,78.9,21.1,57.7,Peters(D)+57.7
-19,President of the United States,2016,65.9,34.1,31.9,Clinton(D)+31.9
-19,Representative in Congress,2016,63.8,36.2,27.6,D(D)+27.6
-19,Representative in State Legislature,2016,62.2,37.8,24.4,D(D)+24.4
-19,Governor,2018,67.5,32.5,35.0,Whitmer(D)+35.0
-19,Representative in Congress,2018,68.4,31.6,36.9,D(D)+36.9
-19,Representative in State Legislature,2018,67.9,32.1,35.8,D(D)+35.8
-19,United States Senator,2018,66.2,33.8,32.4,Stabenow(D)+32.4
-19,President of the United States,2020,68.4,31.6,36.7,Biden(D)+36.7
-19,Representative in Congress,2020,68.3,31.7,36.6,D(D)+36.6
-19,Representative in State Legislature,2020,67.4,32.6,34.9,D(D)+34.9
-19,United States Senator,2020,65.6,34.4,31.3,Peters(D)+31.3
-20,President of the United States,2016,55.2,44.8,10.4,Clinton(D)+10.4
-20,Representative in Congress,2016,52.6,47.4,5.1,D(D)+5.1
-20,Representative in State Legislature,2016,51.0,49.0,2.0,D(D)+2.0
-20,Governor,2018,60.0,40.0,19.9,Whitmer(D)+19.9
-20,Representative in Congress,2018,60.3,39.7,20.6,D(D)+20.6
-20,Representative in State Legislature,2018,54.0,46.0,8.0,D(D)+8.0
-20,United States Senator,2018,58.6,41.4,17.3,Stabenow(D)+17.3
-20,President of the United States,2020,56.3,43.7,12.6,Biden(D)+12.6
-20,Representative in Congress,2020,55.9,44.1,11.7,D(D)+11.7
-20,Representative in State Legislature,2020,54.6,45.4,9.2,D(D)+9.2
-20,United States Senator,2020,55.0,45.0,10.1,Peters(D)+10.1
-21,President of the United States,2016,52.7,47.3,5.4,Clinton(D)+5.4
-21,Representative in Congress,2016,47.5,52.5,-5.0,R(R)+5.0
-21,Representative in State Legislature,2016,46.5,53.5,-7.1,R(R)+7.1
-21,Governor,2018,55.8,44.2,11.7,Whitmer(D)+11.7
-21,Representative in Congress,2018,56.4,43.6,12.9,D(D)+12.9
-21,Representative in State Legislature,2018,53.1,46.9,6.1,D(D)+6.1
-21,United States Senator,2018,54.5,45.5,8.9,Stabenow(D)+8.9
-21,President of the United States,2020,57.1,42.9,14.2,Biden(D)+14.2
-21,Representative in Congress,2020,55.1,44.9,10.1,D(D)+10.1
-21,Representative in State Legislature,2020,55.2,44.8,10.5,D(D)+10.5
-21,United States Senator,2020,54.3,45.7,8.5,Peters(D)+8.5
-22,President of the United States,2016,49.8,50.2,-0.5,Trump(R)+0.5
-22,Representative in Congress,2016,43.0,57.0,-14.0,R(R)+14.0
-22,Representative in State Legislature,2016,43.7,56.3,-12.7,R(R)+12.7
-22,Governor,2018,53.2,46.8,6.4,Whitmer(D)+6.4
-22,Representative in Congress,2018,53.1,46.9,6.1,D(D)+6.1
-22,Representative in State Legislature,2018,49.1,50.9,-1.8,R(R)+1.8
-22,United States Senator,2018,51.9,48.1,3.8,Stabenow(D)+3.8
-22,President of the United States,2020,54.4,45.6,8.8,Biden(D)+8.8
-22,Representative in Congress,2020,52.1,47.9,4.2,D(D)+4.2
-22,Representative in State Legislature,2020,53.0,47.0,5.9,D(D)+5.9
-22,United States Senator,2020,51.5,48.5,2.9,Peters(D)+2.9
-23,President of the United States,2016,64.7,35.3,29.5,Clinton(D)+29.5
-23,Representative in Congress,2016,59.8,40.2,19.6,D(D)+19.6
-23,Representative in State Legislature,2016,59.6,40.4,19.2,D(D)+19.2
-23,Governor,2018,65.4,34.6,30.9,Whitmer(D)+30.9
-23,Representative in Congress,2018,66.0,34.0,32.0,D(D)+32.0
-23,Representative in State Legislature,2018,63.5,36.5,27.0,D(D)+27.0
-23,United States Senator,2018,64.3,35.7,28.5,Stabenow(D)+28.5
-23,President of the United States,2020,66.9,33.1,33.9,Biden(D)+33.9
-23,Representative in Congress,2020,65.1,34.9,30.2,D(D)+30.2
-23,Representative in State Legislature,2020,65.1,34.9,30.3,D(D)+30.3
-23,United States Senator,2020,63.9,36.1,27.8,Peters(D)+27.8
-24,President of the United States,2016,56.9,43.1,13.9,Clinton(D)+13.9
-24,Representative in Congress,2016,51.5,48.5,3.1,D(D)+3.1
-24,Representative in State Legislature,2016,57.1,42.9,14.2,D(D)+14.2
-24,Governor,2018,62.1,37.9,24.1,Whitmer(D)+24.1
-24,Representative in Congress,2018,62.2,37.8,24.4,D(D)+24.4
-24,Representative in State Legislature,2018,60.7,39.3,21.5,D(D)+21.5
-24,United States Senator,2018,60.4,39.6,20.8,Stabenow(D)+20.8
-24,President of the United States,2020,62.0,38.0,23.9,Biden(D)+23.9
-24,Representative in Congress,2020,61.3,38.7,22.7,D(D)+22.7
-24,Representative in State Legislature,2020,59.6,40.4,19.2,D(D)+19.2
-24,United States Senator,2020,60.3,39.7,20.6,Peters(D)+20.6
-25,President of the United States,2016,57.8,42.2,15.7,Clinton(D)+15.7
-25,Representative in Congress,2016,59.6,40.4,19.3,D(D)+19.3
-25,Representative in State Legislature,2016,64.5,35.5,29.0,D(D)+29.0
-25,Governor,2018,64.7,35.3,29.5,Whitmer(D)+29.5
-25,Representative in Congress,2018,97.9,2.1,95.8,D(D)+95.8
-25,Representative in State Legislature,2018,65.1,34.9,30.2,D(D)+30.2
-25,United States Senator,2018,63.3,36.7,26.5,Stabenow(D)+26.5
-25,President of the United States,2020,59.9,40.1,19.7,Biden(D)+19.7
-25,Representative in Congress,2020,58.9,41.1,17.9,D(D)+17.9
-25,Representative in State Legislature,2020,61.4,38.6,22.8,D(D)+22.8
-25,United States Senator,2020,60.3,39.7,20.6,Peters(D)+20.6
-26,President of the United States,2016,66.7,33.3,33.5,Clinton(D)+33.5
-26,Representative in Congress,2016,70.3,29.7,40.6,D(D)+40.6
-26,Representative in State Legislature,2016,78.6,21.4,57.3,D(D)+57.3
-26,Governor,2018,72.4,27.6,44.8,Whitmer(D)+44.8
-26,Representative in Congress,2018,100.0,0.0,100.0,D(D)+100.0
-26,Representative in State Legislature,2018,71.3,28.7,42.6,D(D)+42.6
-26,United States Senator,2018,70.4,29.6,40.7,Stabenow(D)+40.7
-26,President of the United States,2020,65.8,34.2,31.6,Biden(D)+31.6
-26,Representative in Congress,2020,66.4,33.6,32.9,D(D)+32.9
-26,Representative in State Legislature,2020,67.6,32.4,35.1,D(D)+35.1
-26,United States Senator,2020,66.9,33.1,33.8,Peters(D)+33.8
-27,President of the United States,2016,45.8,54.2,-8.5,Trump(R)+8.5
-27,Representative in Congress,2016,55.2,44.8,10.5,D(D)+10.5
-27,Representative in State Legislature,2016,51.7,48.3,3.5,D(D)+3.5
-27,Governor,2018,54.1,45.9,8.3,Whitmer(D)+8.3
-27,Representative in Congress,2018,55.7,44.3,11.5,D(D)+11.5
-27,Representative in State Legislature,2018,56.8,43.2,13.7,D(D)+13.7
-27,United States Senator,2018,52.2,47.8,4.4,Stabenow(D)+4.4
-27,President of the United States,2020,47.9,52.1,-4.1,Trump(R)+4.1
-27,Representative in Congress,2020,53.3,46.7,6.7,D(D)+6.7
-27,Representative in State Legislature,2020,53.0,47.0,6.0,D(D)+6.0
-27,United States Senator,2020,48.2,51.8,-3.5,James(R)+3.5
-28,President of the United States,2016,45.6,54.4,-8.7,Trump(R)+8.7
-28,Representative in Congress,2016,55.0,45.0,10.0,D(D)+10.0
-28,Representative in State Legislature,2016,53.9,46.1,7.7,D(D)+7.7
-28,Governor,2018,55.5,44.5,11.1,Whitmer(D)+11.1
-28,Representative in Congress,2018,56.0,44.0,12.1,D(D)+12.1
-28,Representative in State Legislature,2018,56.4,43.6,12.8,D(D)+12.8
-28,United States Senator,2018,53.4,46.6,6.9,Stabenow(D)+6.9
-28,President of the United States,2020,47.7,52.3,-4.7,Trump(R)+4.7
-28,Representative in Congress,2020,52.2,47.8,4.3,D(D)+4.3
-28,Representative in State Legislature,2020,51.5,48.5,3.0,D(D)+3.0
-28,United States Senator,2020,48.8,51.2,-2.4,James(R)+2.4
-29,President of the United States,2016,43.4,56.6,-13.2,Trump(R)+13.2
-29,Representative in Congress,2016,52.0,48.0,3.9,D(D)+3.9
-29,Representative in State Legislature,2016,52.0,48.0,3.9,D(D)+3.9
-29,Governor,2018,54.7,45.3,9.3,Whitmer(D)+9.3
-29,Representative in Congress,2018,56.7,43.3,13.4,D(D)+13.4
-29,Representative in State Legislature,2018,54.1,45.9,8.1,D(D)+8.1
-29,United States Senator,2018,52.8,47.2,5.6,Stabenow(D)+5.6
-29,President of the United States,2020,46.6,53.4,-6.8,Trump(R)+6.8
-29,Representative in Congress,2020,50.7,49.3,1.4,D(D)+1.4
-29,Representative in State Legislature,2020,49.3,50.7,-1.4,R(R)+1.4
-29,United States Senator,2020,48.2,51.8,-3.6,James(R)+3.6
-30,President of the United States,2016,39.6,60.4,-20.9,Trump(R)+20.9
-30,Representative in Congress,2016,41.1,58.9,-17.8,R(R)+17.8
-30,Representative in State Legislature,2016,41.2,58.8,-17.6,R(R)+17.6
-30,Governor,2018,45.8,54.2,-8.3,Schuette(R)+8.3
-30,Representative in Congress,2018,44.1,55.9,-11.8,R(R)+11.8
-30,Representative in State Legislature,2018,39.4,60.6,-21.2,R(R)+21.2
-30,United States Senator,2018,44.3,55.7,-11.4,James(R)+11.4
-30,President of the United States,2020,39.4,60.6,-21.1,Trump(R)+21.1
-30,Representative in Congress,2020,39.0,61.0,-22.0,R(R)+22.0
-30,Representative in State Legislature,2020,35.8,64.2,-28.3,R(R)+28.3
-30,United States Senator,2020,39.7,60.3,-20.7,James(R)+20.7
-31,President of the United States,2016,49.9,50.1,-0.2,Trump(R)+0.2
-31,Representative in Congress,2016,53.9,46.1,7.8,D(D)+7.8
-31,Representative in State Legislature,2016,54.5,45.5,9.0,D(D)+9.0
-31,Governor,2018,56.6,43.4,13.1,Whitmer(D)+13.1
-31,Representative in Congress,2018,58.0,42.0,16.0,D(D)+16.0
-31,Representative in State Legislature,2018,54.4,45.6,8.7,D(D)+8.7
-31,United States Senator,2018,54.8,45.2,9.6,Stabenow(D)+9.6
-31,President of the United States,2020,50.2,49.8,0.3,Biden(D)+0.3
-31,Representative in Congress,2020,51.7,48.3,3.4,D(D)+3.4
-31,Representative in State Legislature,2020,50.0,50.0,0.1,D(D)+0.1
-31,United States Senator,2020,50.5,49.5,1.0,Peters(D)+1.0
-32,President of the United States,2016,76.6,23.4,53.2,Clinton(D)+53.2
-32,Representative in Congress,2016,77.8,22.2,55.7,D(D)+55.7
-32,Representative in State Legislature,2016,76.0,24.0,52.1,D(D)+52.1
-32,Governor,2018,79.4,20.6,58.7,Whitmer(D)+58.7
-32,Representative in Congress,2018,79.9,20.1,59.8,D(D)+59.8
-32,Representative in State Legislature,2018,79.7,20.3,59.5,D(D)+59.5
-32,United States Senator,2018,77.6,22.4,55.3,Stabenow(D)+55.3
-32,President of the United States,2020,78.1,21.9,56.2,Biden(D)+56.2
-32,Representative in Congress,2020,79.5,20.5,59.0,D(D)+59.0
-32,Representative in State Legislature,2020,78.7,21.3,57.4,D(D)+57.4
-32,United States Senator,2020,77.0,23.0,53.9,Peters(D)+53.9
-33,President of the United States,2016,73.6,26.4,47.2,Clinton(D)+47.2
-33,Representative in Congress,2016,71.1,28.9,42.3,D(D)+42.3
-33,Representative in State Legislature,2016,70.0,30.0,40.0,D(D)+40.0
-33,Governor,2018,75.0,25.0,49.9,Whitmer(D)+49.9
-33,Representative in Congress,2018,75.4,24.6,50.7,D(D)+50.7
-33,Representative in State Legislature,2018,74.9,25.1,49.7,D(D)+49.7
-33,United States Senator,2018,73.6,26.4,47.2,Stabenow(D)+47.2
-33,President of the United States,2020,76.1,23.9,52.2,Biden(D)+52.2
-33,Representative in Congress,2020,75.0,25.0,50.0,D(D)+50.0
-33,Representative in State Legislature,2020,74.6,25.4,49.3,D(D)+49.3
-33,United States Senator,2020,73.1,26.9,46.2,Peters(D)+46.2
-34,President of the United States,2016,39.9,60.1,-20.2,Trump(R)+20.2
-34,Representative in Congress,2016,41.4,58.6,-17.1,R(R)+17.1
-34,Representative in State Legislature,2016,43.7,56.3,-12.5,R(R)+12.5
-34,Governor,2018,46.3,53.7,-7.4,Schuette(R)+7.4
-34,Representative in Congress,2018,45.9,54.1,-8.2,R(R)+8.2
-34,Representative in State Legislature,2018,38.4,61.6,-23.1,R(R)+23.1
-34,United States Senator,2018,44.8,55.2,-10.4,James(R)+10.4
-34,President of the United States,2020,41.1,58.9,-17.9,Trump(R)+17.9
-34,Representative in Congress,2020,40.0,60.0,-19.9,R(R)+19.9
-34,Representative in State Legislature,2020,35.0,65.0,-30.0,R(R)+30.0
-34,United States Senator,2020,39.5,60.5,-20.9,James(R)+20.9
-35,President of the United States,2016,27.7,72.3,-44.6,Trump(R)+44.6
-35,Representative in Congress,2016,29.4,70.6,-41.2,R(R)+41.2
-35,Representative in State Legislature,2016,26.3,73.7,-47.5,R(R)+47.5
-35,Governor,2018,33.9,66.1,-32.1,Schuette(R)+32.1
-35,Representative in Congress,2018,32.7,67.3,-34.6,R(R)+34.6
-35,Representative in State Legislature,2018,30.0,70.0,-39.9,R(R)+39.9
-35,United States Senator,2018,32.8,67.2,-34.3,James(R)+34.3
-35,President of the United States,2020,27.8,72.2,-44.4,Trump(R)+44.4
-35,Representative in Congress,2020,27.2,72.8,-45.6,R(R)+45.6
-35,Representative in State Legislature,2020,28.7,71.3,-42.5,R(R)+42.5
-35,United States Senator,2020,29.2,70.8,-41.6,James(R)+41.6
-36,President of the United States,2016,32.9,67.1,-34.3,Trump(R)+34.3
-36,Representative in Congress,2016,28.7,71.3,-42.6,R(R)+42.6
-36,Representative in State Legislature,2016,31.8,68.2,-36.3,R(R)+36.3
-36,Governor,2018,38.7,61.3,-22.7,Schuette(R)+22.7
-36,Representative in Congress,2018,36.7,63.3,-26.7,R(R)+26.7
-36,Representative in State Legislature,2018,32.9,67.1,-34.3,R(R)+34.3
-36,United States Senator,2018,36.8,63.2,-26.5,James(R)+26.5
-36,President of the United States,2020,33.8,66.2,-32.5,Trump(R)+32.5
-36,Representative in Congress,2020,29.2,70.8,-41.6,R(R)+41.6
-36,Representative in State Legislature,2020,33.9,66.1,-32.2,R(R)+32.2
-36,United States Senator,2020,32.7,67.3,-34.7,James(R)+34.7
-37,President of the United States,2016,36.4,63.6,-27.2,Trump(R)+27.2
-37,Representative in Congress,2016,29.6,70.4,-40.8,R(R)+40.8
-37,Representative in State Legislature,2016,31.4,68.6,-37.1,R(R)+37.1
-37,Governor,2018,40.6,59.4,-18.7,Schuette(R)+18.7
-37,Representative in Congress,2018,38.7,61.3,-22.6,R(R)+22.6
-37,Representative in State Legislature,2018,37.1,62.9,-25.8,R(R)+25.8
-37,United States Senator,2018,39.6,60.4,-20.8,James(R)+20.8
-37,President of the United States,2020,40.7,59.3,-18.5,Trump(R)+18.5
-37,Representative in Congress,2020,36.6,63.4,-26.8,R(R)+26.8
-37,Representative in State Legislature,2020,37.0,63.0,-26.0,R(R)+26.0
-37,United States Senator,2020,38.7,61.3,-22.7,James(R)+22.7
-38,President of the United States,2016,49.0,51.0,-2.0,Trump(R)+2.0
-38,Representative in Congress,2016,39.9,60.1,-20.2,R(R)+20.2
-38,Representative in State Legislature,2016,41.6,58.4,-16.7,R(R)+16.7
-38,Governor,2018,52.3,47.7,4.5,Whitmer(D)+4.5
-38,Representative in Congress,2018,49.1,50.9,-1.7,R(R)+1.7
-38,Representative in State Legislature,2018,47.0,53.0,-6.0,R(R)+6.0
-38,United States Senator,2018,50.8,49.2,1.6,Stabenow(D)+1.6
-38,President of the United States,2020,56.3,43.7,12.7,Biden(D)+12.7
-38,Representative in Congress,2020,48.5,51.5,-3.0,R(R)+3.0
-38,Representative in State Legislature,2020,49.3,50.7,-1.4,R(R)+1.4
-38,United States Senator,2020,53.5,46.5,7.0,Peters(D)+7.0
-39,President of the United States,2016,37.9,62.1,-24.1,Trump(R)+24.1
-39,Representative in Congress,2016,32.9,67.1,-34.3,R(R)+34.3
-39,Representative in State Legislature,2016,38.5,61.5,-23.0,R(R)+23.0
-39,Governor,2018,43.8,56.2,-12.3,Schuette(R)+12.3
-39,Representative in Congress,2018,41.7,58.3,-16.6,R(R)+16.6
-39,Representative in State Legislature,2018,38.8,61.2,-22.5,R(R)+22.5
-39,United States Senator,2018,42.3,57.7,-15.5,James(R)+15.5
-39,President of the United States,2020,39.6,60.4,-20.8,Trump(R)+20.8
-39,Representative in Congress,2020,33.7,66.3,-32.7,R(R)+32.7
-39,Representative in State Legislature,2020,35.4,64.6,-29.2,R(R)+29.2
-39,United States Senator,2020,38.3,61.7,-23.4,James(R)+23.4
-40,President of the United States,2016,54.8,45.2,9.7,Clinton(D)+9.7
-40,Representative in Congress,2016,43.4,56.6,-13.1,R(R)+13.1
-40,Representative in State Legislature,2016,49.7,50.3,-0.6,R(R)+0.6
-40,Governor,2018,57.7,42.3,15.4,Whitmer(D)+15.4
-40,Representative in Congress,2018,54.3,45.7,8.5,D(D)+8.5
-40,Representative in State Legislature,2018,51.1,48.9,2.3,D(D)+2.3
-40,United States Senator,2018,56.4,43.6,12.9,Stabenow(D)+12.9
-40,President of the United States,2020,59.1,40.9,18.2,Biden(D)+18.2
-40,Representative in Congress,2020,50.5,49.5,1.0,D(D)+1.0
-40,Representative in State Legislature,2020,56.6,43.4,13.1,D(D)+13.1
-40,United States Senator,2020,55.2,44.8,10.3,Peters(D)+10.3
-41,President of the United States,2016,75.0,25.0,50.0,Clinton(D)+50.0
-41,Representative in Congress,2016,66.5,33.5,33.0,D(D)+33.0
-41,Representative in State Legislature,2016,74.3,25.7,48.6,D(D)+48.6
-41,Governor,2018,77.6,22.4,55.2,Whitmer(D)+55.2
-41,Representative in Congress,2018,74.5,25.5,49.1,D(D)+49.1
-41,Representative in State Legislature,2018,76.7,23.3,53.5,D(D)+53.5
-41,United States Senator,2018,75.4,24.6,50.8,Stabenow(D)+50.8
-41,President of the United States,2020,76.8,23.2,53.6,Biden(D)+53.6
-41,Representative in Congress,2020,71.5,28.5,42.9,D(D)+42.9
-41,Representative in State Legislature,2020,75.4,24.6,50.9,D(D)+50.9
-41,United States Senator,2020,74.6,25.4,49.2,Peters(D)+49.2
-42,President of the United States,2016,43.2,56.8,-13.6,Trump(R)+13.6
-42,Representative in Congress,2016,34.9,65.1,-30.3,R(R)+30.3
-42,Representative in State Legislature,2016,37.9,62.1,-24.1,R(R)+24.1
-42,Governor,2018,48.7,51.3,-2.6,Schuette(R)+2.6
-42,Representative in Congress,2018,44.3,55.7,-11.4,R(R)+11.4
-42,Representative in State Legislature,2018,42.7,57.3,-14.6,R(R)+14.6
-42,United States Senator,2018,47.0,53.0,-6.0,James(R)+6.0
-42,President of the United States,2020,46.3,53.7,-7.4,Trump(R)+7.4
-42,Representative in Congress,2020,38.1,61.9,-23.9,R(R)+23.9
-42,Representative in State Legislature,2020,40.7,59.3,-18.6,R(R)+18.6
-42,United States Senator,2020,44.0,56.0,-12.0,James(R)+12.0
-43,President of the United States,2016,28.1,71.9,-43.9,Trump(R)+43.9
-43,Representative in Congress,2016,26.2,73.8,-47.6,R(R)+47.6
-43,Representative in State Legislature,2016,26.1,73.9,-47.7,R(R)+47.7
-43,Governor,2018,34.3,65.7,-31.4,Schuette(R)+31.4
-43,Representative in Congress,2018,32.6,67.4,-34.8,R(R)+34.8
-43,Representative in State Legislature,2018,30.5,69.5,-39.0,R(R)+39.0
-43,United States Senator,2018,32.7,67.3,-34.6,James(R)+34.6
-43,President of the United States,2020,29.9,70.1,-40.3,Trump(R)+40.3
-43,Representative in Congress,2020,27.5,72.5,-45.0,R(R)+45.0
-43,Representative in State Legislature,2020,26.9,73.1,-46.2,R(R)+46.2
-43,United States Senator,2020,28.7,71.3,-42.5,James(R)+42.5
-44,President of the United States,2016,43.9,56.1,-12.3,Trump(R)+12.3
-44,Representative in Congress,2016,40.7,59.3,-18.5,R(R)+18.5
-44,Representative in State Legislature,2016,42.1,57.9,-15.9,R(R)+15.9
-44,Governor,2018,49.6,50.4,-0.7,Schuette(R)+0.7
-44,Representative in Congress,2018,43.9,56.1,-12.2,R(R)+12.2
-44,Representative in State Legislature,2018,42.6,57.4,-14.7,R(R)+14.7
-44,United States Senator,2018,48.0,52.0,-4.1,James(R)+4.1
-44,President of the United States,2020,49.8,50.2,-0.4,Trump(R)+0.4
-44,Representative in Congress,2020,47.7,52.3,-4.6,R(R)+4.6
-44,Representative in State Legislature,2020,48.1,51.9,-3.7,R(R)+3.7
-44,United States Senator,2020,49.3,50.7,-1.4,James(R)+1.4
-45,President of the United States,2016,31.9,68.1,-36.3,Trump(R)+36.3
-45,Representative in Congress,2016,31.1,68.9,-37.9,R(R)+37.9
-45,Representative in State Legislature,2016,29.8,70.2,-40.3,R(R)+40.3
-45,Governor,2018,38.6,61.4,-22.8,Schuette(R)+22.8
-45,Representative in Congress,2018,35.3,64.7,-29.5,R(R)+29.5
-45,Representative in State Legislature,2018,33.2,66.8,-33.6,R(R)+33.6
-45,United States Senator,2018,37.3,62.7,-25.5,James(R)+25.5
-45,President of the United States,2020,33.4,66.6,-33.2,Trump(R)+33.2
-45,Representative in Congress,2020,32.4,67.6,-35.2,R(R)+35.2
-45,Representative in State Legislature,2020,29.3,70.7,-41.4,R(R)+41.4
-45,United States Senator,2020,34.3,65.7,-31.5,James(R)+31.5
-46,President of the United States,2016,48.9,51.1,-2.2,Trump(R)+2.2
-46,Representative in Congress,2016,49.3,50.7,-1.4,R(R)+1.4
-46,Representative in State Legislature,2016,46.5,53.5,-6.9,R(R)+6.9
-46,Governor,2018,54.1,45.9,8.3,Whitmer(D)+8.3
-46,Representative in Congress,2018,52.5,47.5,5.1,D(D)+5.1
-46,Representative in State Legislature,2018,50.0,50.0,-0.1,R(R)+0.1
-46,United States Senator,2018,52.0,48.0,3.9,Stabenow(D)+3.9
-46,President of the United States,2020,49.8,50.2,-0.5,Trump(R)+0.5
-46,Representative in Congress,2020,48.0,52.0,-4.0,R(R)+4.0
-46,Representative in State Legislature,2020,46.9,53.1,-6.3,R(R)+6.3
-46,United States Senator,2020,51.1,48.9,2.2,Peters(D)+2.2
-47,President of the United States,2016,61.3,38.7,22.7,Clinton(D)+22.7
-47,Representative in Congress,2016,59.3,40.7,18.5,D(D)+18.5
-47,Representative in State Legislature,2016,58.4,41.6,16.8,D(D)+16.8
-47,Governor,2018,65.2,34.8,30.5,Whitmer(D)+30.5
-47,Representative in Congress,2018,63.8,36.2,27.5,D(D)+27.5
-47,Representative in State Legislature,2018,63.4,36.6,26.8,D(D)+26.8
-47,United States Senator,2018,63.9,36.1,27.9,Stabenow(D)+27.9
-47,President of the United States,2020,62.4,37.6,24.7,Biden(D)+24.7
-47,Representative in Congress,2020,59.8,40.2,19.6,D(D)+19.6
-47,Representative in State Legislature,2020,59.9,40.1,19.8,D(D)+19.8
-47,United States Senator,2020,61.4,38.6,22.7,Peters(D)+22.7
-48,President of the United States,2016,47.6,52.4,-4.8,Trump(R)+4.8
-48,Representative in Congress,2016,44.3,55.7,-11.4,R(R)+11.4
-48,Representative in State Legislature,2016,45.3,54.7,-9.4,R(R)+9.4
-48,Governor,2018,52.6,47.4,5.2,Whitmer(D)+5.2
-48,Representative in Congress,2018,52.1,47.9,4.1,D(D)+4.1
-48,Representative in State Legislature,2018,51.2,48.8,2.5,D(D)+2.5
-48,United States Senator,2018,51.0,49.0,2.0,Stabenow(D)+2.0
-48,President of the United States,2020,50.9,49.1,1.8,Biden(D)+1.8
-48,Representative in Congress,2020,51.4,48.6,2.7,D(D)+2.7
-48,Representative in State Legislature,2020,48.2,51.8,-3.7,R(R)+3.7
-48,United States Senator,2020,48.7,51.3,-2.5,James(R)+2.5
-49,President of the United States,2016,41.6,58.4,-16.8,Trump(R)+16.8
-49,Representative in Congress,2016,36.8,63.2,-26.3,R(R)+26.3
-49,Representative in State Legislature,2016,38.2,61.8,-23.6,R(R)+23.6
-49,Governor,2018,47.2,52.8,-5.5,Schuette(R)+5.5
-49,Representative in Congress,2018,46.6,53.4,-6.9,R(R)+6.9
-49,Representative in State Legislature,2018,42.5,57.5,-15.0,R(R)+15.0
-49,United States Senator,2018,45.4,54.6,-9.3,James(R)+9.3
-49,President of the United States,2020,46.0,54.0,-8.0,Trump(R)+8.0
-49,Representative in Congress,2020,46.5,53.5,-7.0,R(R)+7.0
-49,Representative in State Legislature,2020,42.1,57.9,-15.8,R(R)+15.8
-49,United States Senator,2020,44.3,55.7,-11.5,James(R)+11.5
-50,President of the United States,2016,31.4,68.6,-37.2,Trump(R)+37.2
-50,Representative in Congress,2016,28.1,71.9,-43.8,R(R)+43.8
-50,Representative in State Legislature,2016,28.3,71.7,-43.4,R(R)+43.4
-50,Governor,2018,39.1,60.9,-21.8,Schuette(R)+21.8
-50,Representative in Congress,2018,37.6,62.4,-24.7,R(R)+24.7
-50,Representative in State Legislature,2018,33.4,66.6,-33.1,R(R)+33.1
-50,United States Senator,2018,36.9,63.1,-26.2,James(R)+26.2
-50,President of the United States,2020,35.2,64.8,-29.5,Trump(R)+29.5
-50,Representative in Congress,2020,37.6,62.4,-24.8,R(R)+24.8
-50,Representative in State Legislature,2020,31.3,68.7,-37.5,R(R)+37.5
-50,United States Senator,2020,34.6,65.4,-30.7,James(R)+30.7
-51,President of the United States,2016,35.4,64.6,-29.1,Trump(R)+29.1
-51,Representative in Congress,2016,32.3,67.7,-35.5,R(R)+35.5
-51,Representative in State Legislature,2016,31.8,68.2,-36.3,R(R)+36.3
-51,Governor,2018,43.0,57.0,-14.1,Schuette(R)+14.1
-51,Representative in Congress,2018,42.8,57.2,-14.5,R(R)+14.5
-51,Representative in State Legislature,2018,39.8,60.2,-20.4,R(R)+20.4
-51,United States Senator,2018,41.1,58.9,-17.9,James(R)+17.9
-51,President of the United States,2020,40.5,59.5,-18.9,Trump(R)+18.9
-51,Representative in Congress,2020,39.4,60.6,-21.1,R(R)+21.1
-51,Representative in State Legislature,2020,39.9,60.1,-20.3,R(R)+20.3
-51,United States Senator,2020,39.3,60.7,-21.3,James(R)+21.3
-52,President of the United States,2016,37.2,62.8,-25.7,Trump(R)+25.7
-52,Representative in Congress,2016,32.6,67.4,-34.9,R(R)+34.9
-52,Representative in State Legislature,2016,31.2,68.8,-37.7,R(R)+37.7
-52,Governor,2018,45.0,55.0,-10.0,Schuette(R)+10.0
-52,Representative in Congress,2018,44.7,55.3,-10.7,R(R)+10.7
-52,Representative in State Legislature,2018,41.7,58.3,-16.7,R(R)+16.7
-52,United States Senator,2018,43.1,56.9,-13.7,James(R)+13.7
-52,President of the United States,2020,41.9,58.1,-16.1,Trump(R)+16.1
-52,Representative in Congress,2020,43.5,56.5,-12.9,R(R)+12.9
-52,Representative in State Legislature,2020,38.4,61.6,-23.2,R(R)+23.2
-52,United States Senator,2020,41.4,58.6,-17.1,James(R)+17.1
-53,President of the United States,2016,72.9,27.1,45.8,Clinton(D)+45.8
-53,Representative in Congress,2016,73.9,26.1,47.8,D(D)+47.8
-53,Representative in State Legislature,2016,73.2,26.8,46.3,D(D)+46.3
-53,Governor,2018,72.5,27.5,45.0,Whitmer(D)+45.0
-53,Representative in Congress,2018,73.3,26.7,46.7,D(D)+46.7
-53,Representative in State Legislature,2018,72.1,27.9,44.2,D(D)+44.2
-53,United States Senator,2018,70.5,29.5,41.0,Stabenow(D)+41.0
-53,President of the United States,2020,68.7,31.3,37.5,Biden(D)+37.5
-53,Representative in Congress,2020,70.2,29.8,40.4,D(D)+40.4
-53,Representative in State Legislature,2020,69.6,30.4,39.3,D(D)+39.3
-53,United States Senator,2020,69.1,30.9,38.1,Peters(D)+38.1
-54,President of the United States,2016,45.5,54.5,-8.9,Trump(R)+8.9
-54,Representative in Congress,2016,40.2,59.8,-19.7,R(R)+19.7
-54,Representative in State Legislature,2016,40.0,60.0,-20.0,R(R)+20.0
-54,Governor,2018,50.1,49.9,0.2,Whitmer(D)+0.2
-54,Representative in Congress,2018,49.7,50.3,-0.5,R(R)+0.5
-54,Representative in State Legislature,2018,48.0,52.0,-4.0,R(R)+4.0
-54,United States Senator,2018,48.2,51.8,-3.7,James(R)+3.7
-54,President of the United States,2020,51.0,49.0,2.0,Biden(D)+2.0
-54,Representative in Congress,2020,51.4,48.6,2.7,D(D)+2.7
-54,Representative in State Legislature,2020,48.9,51.1,-2.2,R(R)+2.2
-54,United States Senator,2020,48.6,51.4,-2.7,James(R)+2.7
-55,President of the United States,2016,45.1,54.9,-9.7,Trump(R)+9.7
-55,Representative in Congress,2016,35.9,64.1,-28.2,R(R)+28.2
-55,Representative in State Legislature,2016,36.2,63.8,-27.6,R(R)+27.6
-55,Governor,2018,49.7,50.3,-0.7,Schuette(R)+0.7
-55,Representative in Congress,2018,49.3,50.7,-1.3,R(R)+1.3
-55,Representative in State Legislature,2018,44.1,55.9,-11.8,R(R)+11.8
-55,United States Senator,2018,48.4,51.6,-3.3,James(R)+3.3
-55,President of the United States,2020,51.3,48.7,2.7,Biden(D)+2.7
-55,Representative in Congress,2020,52.4,47.6,4.8,D(D)+4.8
-55,Representative in State Legislature,2020,48.2,51.8,-3.6,R(R)+3.6
-55,United States Senator,2020,49.2,50.8,-1.7,James(R)+1.7
-56,President of the United States,2016,52.6,47.4,5.2,Clinton(D)+5.2
-56,Representative in Congress,2016,48.9,51.1,-2.2,R(R)+2.2
-56,Representative in State Legislature,2016,46.3,53.7,-7.3,R(R)+7.3
-56,Governor,2018,57.2,42.8,14.4,Whitmer(D)+14.4
-56,Representative in Congress,2018,57.7,42.3,15.3,D(D)+15.3
-56,Representative in State Legislature,2018,54.6,45.4,9.1,D(D)+9.1
-56,United States Senator,2018,55.9,44.1,11.8,Stabenow(D)+11.8
-56,President of the United States,2020,58.3,41.7,16.5,Biden(D)+16.5
-56,Representative in Congress,2020,56.8,43.2,13.7,D(D)+13.7
-56,Representative in State Legislature,2020,57.4,42.6,14.7,D(D)+14.7
-56,United States Senator,2020,55.8,44.2,11.7,Peters(D)+11.7
-57,President of the United States,2016,45.9,54.1,-8.3,Trump(R)+8.3
-57,Representative in Congress,2016,48.3,51.7,-3.4,R(R)+3.4
-57,Representative in State Legislature,2016,47.5,52.5,-5.0,R(R)+5.0
-57,Governor,2018,52.5,47.5,5.1,Whitmer(D)+5.1
-57,Representative in Congress,2018,52.7,47.3,5.4,D(D)+5.4
-57,Representative in State Legislature,2018,48.6,51.4,-2.8,R(R)+2.8
-57,United States Senator,2018,52.2,47.8,4.4,Stabenow(D)+4.4
-57,President of the United States,2020,46.3,53.7,-7.3,Trump(R)+7.3
-57,Representative in Congress,2020,47.7,52.3,-4.6,R(R)+4.6
-57,Representative in State Legislature,2020,44.5,55.5,-11.0,R(R)+11.0
-57,United States Senator,2020,47.2,52.8,-5.6,James(R)+5.6
-58,President of the United States,2016,44.8,55.2,-10.4,Trump(R)+10.4
-58,Representative in Congress,2016,49.9,50.1,-0.1,R(R)+0.1
-58,Representative in State Legislature,2016,52.8,47.2,5.5,D(D)+5.5
-58,Governor,2018,53.4,46.6,6.7,Whitmer(D)+6.7
-58,Representative in Congress,2018,52.0,48.0,4.0,D(D)+4.0
-58,Representative in State Legislature,2018,52.6,47.4,5.3,D(D)+5.3
-58,United States Senator,2018,52.3,47.7,4.5,Stabenow(D)+4.5
-58,President of the United States,2020,47.1,52.9,-5.8,Trump(R)+5.8
-58,Representative in Congress,2020,49.0,51.0,-2.1,R(R)+2.1
-58,Representative in State Legislature,2020,50.2,49.8,0.4,D(D)+0.4
-58,United States Senator,2020,48.4,51.6,-3.2,James(R)+3.2
-59,President of the United States,2016,33.1,66.9,-33.8,Trump(R)+33.8
-59,Representative in Congress,2016,31.7,68.3,-36.6,R(R)+36.6
-59,Representative in State Legislature,2016,30.6,69.4,-38.7,R(R)+38.7
-59,Governor,2018,40.6,59.4,-18.7,Schuette(R)+18.7
-59,Representative in Congress,2018,35.9,64.1,-28.2,R(R)+28.2
-59,Representative in State Legislature,2018,33.9,66.1,-32.3,R(R)+32.3
-59,United States Senator,2018,39.9,60.1,-20.2,James(R)+20.2
-59,President of the United States,2020,35.8,64.2,-28.3,Trump(R)+28.3
-59,Representative in Congress,2020,33.9,66.1,-32.2,R(R)+32.2
-59,Representative in State Legislature,2020,31.3,68.7,-37.5,R(R)+37.5
-59,United States Senator,2020,36.3,63.7,-27.4,James(R)+27.4
-60,President of the United States,2016,38.5,61.5,-23.1,Trump(R)+23.1
-60,Representative in Congress,2016,41.0,59.0,-17.9,R(R)+17.9
-60,Representative in State Legislature,2016,38.2,61.8,-23.6,R(R)+23.6
-60,Governor,2018,47.6,52.4,-4.7,Schuette(R)+4.7
-60,Representative in Congress,2018,43.9,56.1,-12.1,R(R)+12.1
-60,Representative in State Legislature,2018,41.2,58.8,-17.6,R(R)+17.6
-60,United States Senator,2018,46.5,53.5,-7.0,James(R)+7.0
-60,President of the United States,2020,41.4,58.6,-17.3,Trump(R)+17.3
-60,Representative in Congress,2020,41.1,58.9,-17.8,R(R)+17.8
-60,Representative in State Legislature,2020,37.3,62.7,-25.4,R(R)+25.4
-60,United States Senator,2020,42.1,57.9,-15.8,James(R)+15.8
-61,President of the United States,2016,47.5,52.5,-5.0,Trump(R)+5.0
-61,Representative in Congress,2016,56.2,43.8,12.3,D(D)+12.3
-61,Representative in State Legislature,2016,55.7,44.3,11.5,D(D)+11.5
-61,Governor,2018,55.1,44.9,10.2,Whitmer(D)+10.2
-61,Representative in Congress,2018,55.8,44.2,11.6,D(D)+11.6
-61,Representative in State Legislature,2018,56.4,43.6,12.8,D(D)+12.8
-61,United States Senator,2018,54.5,45.5,9.0,Stabenow(D)+9.0
-61,President of the United States,2020,49.9,50.1,-0.2,Trump(R)+0.2
-61,Representative in Congress,2020,54.0,46.0,8.1,D(D)+8.1
-61,Representative in State Legislature,2020,53.9,46.1,7.7,D(D)+7.7
-61,United States Senator,2020,50.9,49.1,1.8,Peters(D)+1.8
-62,President of the United States,2016,44.6,55.4,-10.7,Trump(R)+10.7
-62,Representative in Congress,2016,52.5,47.5,5.0,D(D)+5.0
-62,Representative in State Legislature,2016,52.5,47.5,5.0,D(D)+5.0
-62,Governor,2018,52.6,47.4,5.2,Whitmer(D)+5.2
-62,Representative in Congress,2018,51.5,48.5,2.9,D(D)+2.9
-62,Representative in State Legislature,2018,51.8,48.2,3.6,D(D)+3.6
-62,United States Senator,2018,52.2,47.8,4.4,Stabenow(D)+4.4
-62,President of the United States,2020,46.5,53.5,-7.1,Trump(R)+7.1
-62,Representative in Congress,2020,48.6,51.4,-2.8,R(R)+2.8
-62,Representative in State Legislature,2020,48.5,51.5,-3.0,R(R)+3.0
-62,United States Senator,2020,47.8,52.2,-4.3,James(R)+4.3
-63,President of the United States,2016,32.5,67.5,-35.0,Trump(R)+35.0
-63,Representative in Congress,2016,38.6,61.4,-22.8,R(R)+22.8
-63,Representative in State Legislature,2016,35.3,64.7,-29.4,R(R)+29.4
-63,Governor,2018,42.9,57.1,-14.3,Schuette(R)+14.3
-63,Representative in Congress,2018,37.6,62.4,-24.9,R(R)+24.9
-63,Representative in State Legislature,2018,38.8,61.2,-22.4,R(R)+22.4
-63,United States Senator,2018,41.3,58.7,-17.4,James(R)+17.4
-63,President of the United States,2020,35.0,65.0,-30.0,Trump(R)+30.0
-63,Representative in Congress,2020,34.0,66.0,-32.0,R(R)+32.0
-63,Representative in State Legislature,2020,34.5,65.5,-31.1,R(R)+31.1
-63,United States Senator,2020,36.6,63.4,-26.8,James(R)+26.8
-64,President of the United States,2016,38.2,61.8,-23.7,Trump(R)+23.7
-64,Representative in Congress,2016,40.9,59.1,-18.2,R(R)+18.2
-64,Representative in State Legislature,2016,40.0,60.0,-20.1,R(R)+20.1
-64,Governor,2018,48.5,51.5,-2.9,Schuette(R)+2.9
-64,Representative in Congress,2018,43.3,56.7,-13.3,R(R)+13.3
-64,Representative in State Legislature,2018,42.1,57.9,-15.9,R(R)+15.9
-64,United States Senator,2018,45.8,54.2,-8.3,James(R)+8.3
-64,President of the United States,2020,41.0,59.0,-18.0,Trump(R)+18.0
-64,Representative in Congress,2020,40.2,59.8,-19.6,R(R)+19.6
-64,Representative in State Legislature,2020,39.2,60.8,-21.5,R(R)+21.5
-64,United States Senator,2020,41.7,58.3,-16.7,James(R)+16.7
-65,President of the United States,2016,27.2,72.8,-45.5,Trump(R)+45.5
-65,Representative in Congress,2016,29.5,70.5,-41.1,R(R)+41.1
-65,Representative in State Legislature,2016,28.1,71.9,-43.8,R(R)+43.8
-65,Governor,2018,36.3,63.7,-27.3,Schuette(R)+27.3
-65,Representative in Congress,2018,31.9,68.1,-36.1,R(R)+36.1
-65,Representative in State Legislature,2018,30.2,69.8,-39.6,R(R)+39.6
-65,United States Senator,2018,35.5,64.5,-29.1,James(R)+29.1
-65,President of the United States,2020,28.9,71.1,-42.3,Trump(R)+42.3
-65,Representative in Congress,2020,28.5,71.5,-42.9,R(R)+42.9
-65,Representative in State Legislature,2020,25.8,74.2,-48.5,R(R)+48.5
-65,United States Senator,2020,30.6,69.4,-38.8,James(R)+38.8
-66,President of the United States,2016,30.3,69.7,-39.3,Trump(R)+39.3
-66,Representative in Congress,2016,27.2,72.8,-45.7,R(R)+45.7
-66,Representative in State Legislature,2016,27.0,73.0,-46.0,R(R)+46.0
-66,Governor,2018,37.6,62.4,-24.8,Schuette(R)+24.8
-66,Representative in Congress,2018,34.8,65.2,-30.4,R(R)+30.4
-66,Representative in State Legislature,2018,34.1,65.9,-31.9,R(R)+31.9
-66,United States Senator,2018,35.9,64.1,-28.2,James(R)+28.2
-66,President of the United States,2020,34.2,65.8,-31.7,Trump(R)+31.7
-66,Representative in Congress,2020,34.8,65.2,-30.3,R(R)+30.3
-66,Representative in State Legislature,2020,32.0,68.0,-36.1,R(R)+36.1
-66,United States Senator,2020,33.7,66.3,-32.7,James(R)+32.7
-67,President of the United States,2016,39.8,60.2,-20.4,Trump(R)+20.4
-67,Representative in Congress,2016,46.0,54.0,-8.0,R(R)+8.0
-67,Representative in State Legislature,2016,44.3,55.7,-11.4,R(R)+11.4
-67,Governor,2018,49.0,51.0,-2.0,Schuette(R)+2.0
-67,Representative in Congress,2018,47.5,52.5,-4.9,R(R)+4.9
-67,Representative in State Legislature,2018,44.5,55.5,-11.0,R(R)+11.0
-67,United States Senator,2018,45.9,54.1,-8.1,James(R)+8.1
-67,President of the United States,2020,40.4,59.6,-19.3,Trump(R)+19.3
-67,Representative in Congress,2020,42.3,57.7,-15.5,R(R)+15.5
-67,Representative in State Legislature,2020,39.5,60.5,-21.0,R(R)+21.0
-67,United States Senator,2020,42.0,58.0,-16.0,James(R)+16.0
-68,President of the United States,2016,44.7,55.3,-10.5,Trump(R)+10.5
-68,Representative in Congress,2016,55.3,44.7,10.5,D(D)+10.5
-68,Representative in State Legislature,2016,48.0,52.0,-3.9,R(R)+3.9
-68,Governor,2018,53.1,46.9,6.1,Whitmer(D)+6.1
-68,Representative in Congress,2018,56.1,43.9,12.2,D(D)+12.2
-68,Representative in State Legislature,2018,52.2,47.8,4.4,D(D)+4.4
-68,United States Senator,2018,49.7,50.3,-0.6,James(R)+0.6
-68,President of the United States,2020,46.9,53.1,-6.2,Trump(R)+6.2
-68,Representative in Congress,2020,51.8,48.2,3.6,D(D)+3.6
-68,Representative in State Legislature,2020,48.9,51.1,-2.1,R(R)+2.1
-68,United States Senator,2020,47.9,52.1,-4.3,James(R)+4.3
-69,President of the United States,2016,56.6,43.4,13.3,Clinton(D)+13.3
-69,Representative in Congress,2016,68.2,31.8,36.4,D(D)+36.4
-69,Representative in State Legislature,2016,59.9,40.1,19.9,D(D)+19.9
-69,Governor,2018,63.6,36.4,27.3,Whitmer(D)+27.3
-69,Representative in Congress,2018,67.6,32.4,35.1,D(D)+35.1
-69,Representative in State Legislature,2018,64.0,36.0,28.0,D(D)+28.0
-69,United States Senator,2018,60.9,39.1,21.9,Stabenow(D)+21.9
-69,President of the United States,2020,57.2,42.8,14.5,Biden(D)+14.5
-69,Representative in Congress,2020,62.7,37.3,25.3,D(D)+25.3
-69,Representative in State Legislature,2020,59.9,40.1,19.8,D(D)+19.8
-69,United States Senator,2020,58.9,41.1,17.7,Peters(D)+17.7
-70,President of the United States,2016,82.7,17.3,65.4,Clinton(D)+65.4
-70,Representative in Congress,2016,87.9,12.1,75.9,D(D)+75.9
-70,Representative in State Legislature,2016,84.3,15.7,68.7,D(D)+68.7
-70,Governor,2018,85.2,14.8,70.5,Whitmer(D)+70.5
-70,Representative in Congress,2018,87.4,12.6,74.9,D(D)+74.9
-70,Representative in State Legislature,2018,86.0,14.0,72.0,D(D)+72.0
-70,United States Senator,2018,83.5,16.5,67.1,Stabenow(D)+67.1
-70,President of the United States,2020,80.7,19.3,61.5,Biden(D)+61.5
-70,Representative in Congress,2020,84.2,15.8,68.3,D(D)+68.3
-70,Representative in State Legislature,2020,82.8,17.2,65.5,D(D)+65.5
-70,United States Senator,2020,81.7,18.3,63.4,Peters(D)+63.4
-71,President of the United States,2016,39.1,60.9,-21.9,Trump(R)+21.9
-71,Representative in Congress,2016,40.7,59.3,-18.7,R(R)+18.7
-71,Representative in State Legislature,2016,38.6,61.4,-22.9,R(R)+22.9
-71,Governor,2018,47.6,52.4,-4.8,Schuette(R)+4.8
-71,Representative in Congress,2018,42.1,57.9,-15.9,R(R)+15.9
-71,Representative in State Legislature,2018,39.0,61.0,-22.1,R(R)+22.1
-71,United States Senator,2018,44.8,55.2,-10.5,James(R)+10.5
-71,President of the United States,2020,39.4,60.6,-21.3,Trump(R)+21.3
-71,Representative in Congress,2020,38.3,61.7,-23.4,R(R)+23.4
-71,Representative in State Legislature,2020,35.8,64.2,-28.4,R(R)+28.4
-71,United States Senator,2020,41.3,58.7,-17.5,James(R)+17.5
-72,President of the United States,2016,42.3,57.7,-15.4,Trump(R)+15.4
-72,Representative in Congress,2016,48.6,51.4,-2.9,R(R)+2.9
-72,Representative in State Legislature,2016,41.6,58.4,-16.8,R(R)+16.8
-72,Governor,2018,49.6,50.4,-0.9,Schuette(R)+0.9
-72,Representative in Congress,2018,51.6,48.4,3.2,D(D)+3.2
-72,Representative in State Legislature,2018,45.9,54.1,-8.2,R(R)+8.2
-72,United States Senator,2018,46.5,53.5,-7.0,James(R)+7.0
-72,President of the United States,2020,44.7,55.3,-10.7,Trump(R)+10.7
-72,Representative in Congress,2020,48.1,51.9,-3.7,R(R)+3.7
-72,Representative in State Legislature,2020,42.0,58.0,-16.0,R(R)+16.0
-72,United States Senator,2020,45.0,55.0,-10.0,James(R)+10.0
-73,President of the United States,2016,55.3,44.7,10.7,Clinton(D)+10.7
-73,Representative in Congress,2016,50.0,50.0,0.0,R(R)+0.0
-73,Representative in State Legislature,2016,56.3,43.7,12.6,D(D)+12.6
-73,Governor,2018,61.2,38.8,22.3,Whitmer(D)+22.3
-73,Representative in Congress,2018,61.5,38.5,23.0,D(D)+23.0
-73,Representative in State Legislature,2018,57.4,42.6,14.7,D(D)+14.7
-73,United States Senator,2018,58.5,41.5,17.1,Stabenow(D)+17.1
-73,President of the United States,2020,56.1,43.9,12.3,Biden(D)+12.3
-73,Representative in Congress,2020,58.7,41.3,17.5,D(D)+17.5
-73,Representative in State Legislature,2020,55.2,44.8,10.5,D(D)+10.5
-73,United States Senator,2020,55.6,44.4,11.3,Peters(D)+11.3
-74,President of the United States,2016,66.5,33.5,33.1,Clinton(D)+33.1
-74,Representative in Congress,2016,62.3,37.7,24.6,D(D)+24.6
-74,Representative in State Legislature,2016,69.4,30.6,38.9,D(D)+38.9
-74,Governor,2018,71.2,28.8,42.5,Whitmer(D)+42.5
-74,Representative in Congress,2018,72.0,28.0,44.0,D(D)+44.0
-74,Representative in State Legislature,2018,69.9,30.1,39.9,D(D)+39.9
-74,United States Senator,2018,69.0,31.0,38.1,Stabenow(D)+38.1
-74,President of the United States,2020,68.5,31.5,37.1,Biden(D)+37.1
-74,Representative in Congress,2020,71.1,28.9,42.2,D(D)+42.2
-74,Representative in State Legislature,2020,69.0,31.0,38.0,D(D)+38.0
-74,United States Senator,2020,68.2,31.8,36.5,Peters(D)+36.5
-75,President of the United States,2016,58.1,41.9,16.1,Clinton(D)+16.1
-75,Representative in Congress,2016,51.5,48.5,3.1,D(D)+3.1
-75,Representative in State Legislature,2016,54.6,45.4,9.3,D(D)+9.3
-75,Governor,2018,64.2,35.8,28.4,Whitmer(D)+28.4
-75,Representative in Congress,2018,59.4,40.6,18.8,D(D)+18.8
-75,Representative in State Legislature,2018,59.8,40.2,19.5,D(D)+19.5
-75,United States Senator,2018,60.9,39.1,21.8,Stabenow(D)+21.8
-75,President of the United States,2020,61.0,39.0,22.0,Biden(D)+22.0
-75,Representative in Congress,2020,57.6,42.4,15.1,D(D)+15.1
-75,Representative in State Legislature,2020,55.3,44.7,10.7,D(D)+10.7
-75,United States Senator,2020,59.5,40.5,19.1,Peters(D)+19.1
-76,President of the United States,2016,47.6,52.4,-4.7,Trump(R)+4.7
-76,Representative in Congress,2016,45.9,54.1,-8.2,R(R)+8.2
-76,Representative in State Legislature,2016,42.0,58.0,-16.0,R(R)+16.0
-76,Governor,2018,54.8,45.2,9.7,Whitmer(D)+9.7
-76,Representative in Congress,2018,51.0,49.0,1.9,D(D)+1.9
-76,Representative in State Legislature,2018,48.5,51.5,-2.9,R(R)+2.9
-76,United States Senator,2018,52.5,47.5,5.1,Stabenow(D)+5.1
-76,President of the United States,2020,51.7,48.3,3.4,Biden(D)+3.4
-76,Representative in Congress,2020,48.2,51.8,-3.5,R(R)+3.5
-76,Representative in State Legislature,2020,50.0,50.0,0.1,D(D)+0.1
-76,United States Senator,2020,52.4,47.6,4.7,Peters(D)+4.7
-77,President of the United States,2016,62.7,37.3,25.4,Clinton(D)+25.4
-77,Representative in Congress,2016,57.3,42.7,14.6,D(D)+14.6
-77,Representative in State Legislature,2016,59.4,40.6,18.8,D(D)+18.8
-77,Governor,2018,68.1,31.9,36.3,Whitmer(D)+36.3
-77,Representative in Congress,2018,64.1,35.9,28.3,D(D)+28.3
-77,Representative in State Legislature,2018,62.4,37.6,24.8,D(D)+24.8
-77,United States Senator,2018,65.7,34.3,31.3,Stabenow(D)+31.3
-77,President of the United States,2020,64.2,35.8,28.5,Biden(D)+28.5
-77,Representative in Congress,2020,61.5,38.5,23.1,D(D)+23.1
-77,Representative in State Legislature,2020,59.7,40.3,19.4,D(D)+19.4
-77,United States Senator,2020,64.1,35.9,28.2,Peters(D)+28.2
-78,President of the United States,2016,32.9,67.1,-34.1,Trump(R)+34.1
-78,Representative in Congress,2016,29.6,70.4,-40.7,R(R)+40.7
-78,Representative in State Legislature,2016,32.1,67.9,-35.9,R(R)+35.9
-78,Governor,2018,41.1,58.9,-17.8,Schuette(R)+17.8
-78,Representative in Congress,2018,34.4,65.6,-31.2,R(R)+31.2
-78,Representative in State Legislature,2018,33.8,66.2,-32.4,R(R)+32.4
-78,United States Senator,2018,38.8,61.2,-22.4,James(R)+22.4
-78,President of the United States,2020,35.0,65.0,-30.0,Trump(R)+30.0
-78,Representative in Congress,2020,34.5,65.5,-30.9,R(R)+30.9
-78,Representative in State Legislature,2020,30.3,69.7,-39.5,R(R)+39.5
-78,United States Senator,2020,34.5,65.5,-31.1,James(R)+31.1
-79,President of the United States,2016,30.1,69.9,-39.7,Trump(R)+39.7
-79,Representative in Congress,2016,24.0,76.0,-52.1,R(R)+52.1
-79,Representative in State Legislature,2016,25.7,74.3,-48.6,R(R)+48.6
-79,Governor,2018,34.3,65.7,-31.4,Schuette(R)+31.4
-79,Representative in Congress,2018,29.2,70.8,-41.7,R(R)+41.7
-79,Representative in State Legislature,2018,28.7,71.3,-42.5,R(R)+42.5
-79,United States Senator,2018,32.8,67.2,-34.3,James(R)+34.3
-79,President of the United States,2020,35.0,65.0,-29.9,Trump(R)+29.9
-79,Representative in Congress,2020,33.5,66.5,-33.0,R(R)+33.0
-79,Representative in State Legislature,2020,29.3,70.7,-41.4,R(R)+41.4
-79,United States Senator,2020,32.0,68.0,-36.0,James(R)+36.0
-80,President of the United States,2016,54.5,45.5,9.1,Clinton(D)+9.1
-80,Representative in Congress,2016,44.6,55.4,-10.8,R(R)+10.8
-80,Representative in State Legislature,2016,46.9,53.1,-6.1,R(R)+6.1
-80,Governor,2018,55.4,44.6,10.9,Whitmer(D)+10.9
-80,Representative in Congress,2018,51.4,48.6,2.9,D(D)+2.9
-80,Representative in State Legislature,2018,52.1,47.9,4.3,D(D)+4.3
-80,United States Senator,2018,53.4,46.6,6.9,Stabenow(D)+6.9
-80,President of the United States,2020,59.5,40.5,19.0,Biden(D)+19.0
-80,Representative in Congress,2020,53.8,46.2,7.6,D(D)+7.6
-80,Representative in State Legislature,2020,54.7,45.3,9.5,D(D)+9.5
-80,United States Senator,2020,54.9,45.1,9.9,Peters(D)+9.9
-81,President of the United States,2016,50.9,49.1,1.8,Clinton(D)+1.8
-81,Representative in Congress,2016,41.6,58.4,-16.9,R(R)+16.9
-81,Representative in State Legislature,2016,47.0,53.0,-6.1,R(R)+6.1
-81,Governor,2018,55.3,44.7,10.6,Whitmer(D)+10.6
-81,Representative in Congress,2018,49.5,50.5,-0.9,R(R)+0.9
-81,Representative in State Legislature,2018,51.6,48.4,3.3,D(D)+3.3
-81,United States Senator,2018,52.9,47.1,5.7,Stabenow(D)+5.7
-81,President of the United States,2020,57.4,42.6,14.7,Biden(D)+14.7
-81,Representative in Congress,2020,54.3,45.7,8.6,D(D)+8.6
-81,Representative in State Legislature,2020,53.7,46.3,7.3,D(D)+7.3
-81,United States Senator,2020,53.2,46.8,6.4,Peters(D)+6.4
-82,President of the United States,2016,74.8,25.2,49.5,Clinton(D)+49.5
-82,Representative in Congress,2016,64.1,35.9,28.2,D(D)+28.2
-82,Representative in State Legislature,2016,72.1,27.9,44.2,D(D)+44.2
-82,Governor,2018,74.8,25.2,49.6,Whitmer(D)+49.6
-82,Representative in Congress,2018,69.7,30.3,39.4,D(D)+39.4
-82,Representative in State Legislature,2018,73.4,26.6,46.8,D(D)+46.8
-82,United States Senator,2018,72.5,27.5,45.0,Stabenow(D)+45.0
-82,President of the United States,2020,77.0,23.0,54.0,Biden(D)+54.0
-82,Representative in Congress,2020,74.4,25.6,48.7,D(D)+48.7
-82,Representative in State Legislature,2020,74.1,25.9,48.1,D(D)+48.1
-82,United States Senator,2020,73.1,26.9,46.3,Peters(D)+46.3
-83,President of the United States,2016,50.1,49.9,0.3,Clinton(D)+0.3
-83,Representative in Congress,2016,43.5,56.5,-13.0,R(R)+13.0
-83,Representative in State Legislature,2016,42.7,57.3,-14.6,R(R)+14.6
-83,Governor,2018,54.5,45.5,9.1,Whitmer(D)+9.1
-83,Representative in Congress,2018,51.9,48.1,3.8,D(D)+3.8
-83,Representative in State Legislature,2018,47.0,53.0,-6.0,R(R)+6.0
-83,United States Senator,2018,52.1,47.9,4.3,Stabenow(D)+4.3
-83,President of the United States,2020,55.0,45.0,10.0,Biden(D)+10.0
-83,Representative in Congress,2020,50.1,49.9,0.2,D(D)+0.2
-83,Representative in State Legislature,2020,48.3,51.7,-3.4,R(R)+3.4
-83,United States Senator,2020,52.6,47.4,5.1,Peters(D)+5.1
-84,President of the United States,2016,48.5,51.5,-3.1,Trump(R)+3.1
-84,Representative in Congress,2016,41.0,59.0,-18.0,R(R)+18.0
-84,Representative in State Legislature,2016,46.0,54.0,-8.1,R(R)+8.1
-84,Governor,2018,54.6,45.4,9.1,Whitmer(D)+9.1
-84,Representative in Congress,2018,49.9,50.1,-0.2,R(R)+0.2
-84,Representative in State Legislature,2018,52.0,48.0,4.0,D(D)+4.0
-84,United States Senator,2018,52.4,47.6,4.8,Stabenow(D)+4.8
-84,President of the United States,2020,55.3,44.7,10.5,Biden(D)+10.5
-84,Representative in Congress,2020,51.8,48.2,3.5,D(D)+3.5
-84,Representative in State Legislature,2020,51.8,48.2,3.7,D(D)+3.7
-84,United States Senator,2020,52.3,47.7,4.6,Peters(D)+4.6
-85,President of the United States,2016,24.7,75.3,-50.6,Trump(R)+50.6
-85,Representative in Congress,2016,17.9,82.1,-64.2,R(R)+64.2
-85,Representative in State Legislature,2016,21.0,79.0,-58.0,R(R)+58.0
-85,Governor,2018,29.1,70.9,-41.8,Schuette(R)+41.8
-85,Representative in Congress,2018,27.3,72.7,-45.4,R(R)+45.4
-85,Representative in State Legislature,2018,25.4,74.6,-49.2,R(R)+49.2
-85,United States Senator,2018,27.6,72.4,-44.9,James(R)+44.9
-85,President of the United States,2020,32.0,68.0,-36.1,Trump(R)+36.1
-85,Representative in Congress,2020,26.8,73.2,-46.4,R(R)+46.4
-85,Representative in State Legislature,2020,26.3,73.7,-47.5,R(R)+47.5
-85,United States Senator,2020,28.3,71.7,-43.3,James(R)+43.3
-86,President of the United States,2016,45.1,54.9,-9.8,Trump(R)+9.8
-86,Representative in Congress,2016,34.3,65.7,-31.4,R(R)+31.4
-86,Representative in State Legislature,2016,35.5,64.5,-29.0,R(R)+29.0
-86,Governor,2018,47.7,52.3,-4.5,Schuette(R)+4.5
-86,Representative in Congress,2018,47.0,53.0,-5.9,R(R)+5.9
-86,Representative in State Legislature,2018,42.8,57.2,-14.5,R(R)+14.5
-86,United States Senator,2018,45.5,54.5,-9.0,James(R)+9.0
-86,President of the United States,2020,50.6,49.4,1.3,Biden(D)+1.3
-86,Representative in Congress,2020,45.3,54.7,-9.4,R(R)+9.4
-86,Representative in State Legislature,2020,44.3,55.7,-11.5,R(R)+11.5
-86,United States Senator,2020,46.6,53.4,-6.8,James(R)+6.8
-87,President of the United States,2016,61.0,39.0,22.1,Clinton(D)+22.1
-87,Representative in Congress,2016,56.9,43.1,13.8,D(D)+13.8
-87,Representative in State Legislature,2016,67.3,32.7,34.6,D(D)+34.6
-87,Governor,2018,64.5,35.5,29.0,Whitmer(D)+29.0
-87,Representative in Congress,2018,62.9,37.1,25.9,D(D)+25.9
-87,Representative in State Legislature,2018,67.0,33.0,34.0,D(D)+34.0
-87,United States Senator,2018,62.4,37.6,24.9,Stabenow(D)+24.9
-87,President of the United States,2020,60.0,40.0,20.1,Biden(D)+20.1
-87,Representative in Congress,2020,55.7,44.3,11.3,D(D)+11.3
-87,Representative in State Legislature,2020,63.5,36.5,27.1,D(D)+27.1
-87,United States Senator,2020,59.4,40.6,18.7,Peters(D)+18.7
-88,President of the United States,2016,42.1,57.9,-15.8,Trump(R)+15.8
-88,Representative in Congress,2016,34.0,66.0,-32.1,R(R)+32.1
-88,Representative in State Legislature,2016,41.3,58.7,-17.3,R(R)+17.3
-88,Governor,2018,47.1,52.9,-5.9,Schuette(R)+5.9
-88,Representative in Congress,2018,46.9,53.1,-6.2,R(R)+6.2
-88,Representative in State Legislature,2018,42.0,58.0,-15.9,R(R)+15.9
-88,United States Senator,2018,45.3,54.7,-9.3,James(R)+9.3
-88,President of the United States,2020,45.6,54.4,-8.7,Trump(R)+8.7
-88,Representative in Congress,2020,40.1,59.9,-19.8,R(R)+19.8
-88,Representative in State Legislature,2020,41.2,58.8,-17.6,R(R)+17.6
-88,United States Senator,2020,42.9,57.1,-14.3,James(R)+14.3
-89,President of the United States,2016,31.6,68.4,-36.9,Trump(R)+36.9
-89,Representative in Congress,2016,27.3,72.7,-45.4,R(R)+45.4
-89,Representative in State Legislature,2016,32.8,67.2,-34.5,R(R)+34.5
-89,Governor,2018,37.0,63.0,-25.9,Schuette(R)+25.9
-89,Representative in Congress,2018,35.3,64.7,-29.3,R(R)+29.3
-89,Representative in State Legislature,2018,33.8,66.2,-32.4,R(R)+32.4
-89,United States Senator,2018,36.1,63.9,-27.9,James(R)+27.9
-89,President of the United States,2020,33.2,66.8,-33.5,Trump(R)+33.5
-89,Representative in Congress,2020,29.7,70.3,-40.6,R(R)+40.6
-89,Representative in State Legislature,2020,30.3,69.7,-39.3,R(R)+39.3
-89,United States Senator,2020,32.3,67.7,-35.3,James(R)+35.3
-90,President of the United States,2016,35.5,64.5,-28.9,Trump(R)+28.9
-90,Representative in Congress,2016,29.4,70.6,-41.2,R(R)+41.2
-90,Representative in State Legislature,2016,31.5,68.5,-37.0,R(R)+37.0
-90,Governor,2018,41.0,59.0,-18.0,Schuette(R)+18.0
-90,Representative in Congress,2018,35.4,64.6,-29.2,R(R)+29.2
-90,Representative in State Legislature,2018,36.4,63.6,-27.1,R(R)+27.1
-90,United States Senator,2018,39.7,60.3,-20.6,James(R)+20.6
-90,President of the United States,2020,40.2,59.8,-19.6,Trump(R)+19.6
-90,Representative in Congress,2020,38.5,61.5,-23.0,R(R)+23.0
-90,Representative in State Legislature,2020,35.3,64.7,-29.3,R(R)+29.3
-90,United States Senator,2020,37.4,62.6,-25.1,James(R)+25.1
-91,President of the United States,2016,31.8,68.2,-36.5,Trump(R)+36.5
-91,Representative in Congress,2016,30.2,69.8,-39.6,R(R)+39.6
-91,Representative in State Legislature,2016,32.9,67.1,-34.2,R(R)+34.2
-91,Governor,2018,40.1,59.9,-19.7,Schuette(R)+19.7
-91,Representative in Congress,2018,34.4,65.6,-31.1,R(R)+31.1
-91,Representative in State Legislature,2018,35.6,64.4,-28.9,R(R)+28.9
-91,United States Senator,2018,38.2,61.8,-23.5,James(R)+23.5
-91,President of the United States,2020,31.9,68.1,-36.3,Trump(R)+36.3
-91,Representative in Congress,2020,30.8,69.2,-38.4,R(R)+38.4
-91,Representative in State Legislature,2020,29.7,70.3,-40.6,R(R)+40.6
-91,United States Senator,2020,32.2,67.8,-35.7,James(R)+35.7
-92,President of the United States,2016,46.7,53.3,-6.6,Trump(R)+6.6
-92,Representative in Congress,2016,39.5,60.5,-20.9,R(R)+20.9
-92,Representative in State Legislature,2016,42.6,57.4,-14.9,R(R)+14.9
-92,Governor,2018,52.9,47.1,5.9,Whitmer(D)+5.9
-92,Representative in Congress,2018,43.8,56.2,-12.4,R(R)+12.4
-92,Representative in State Legislature,2018,44.1,55.9,-11.9,R(R)+11.9
-92,United States Senator,2018,50.2,49.8,0.4,Stabenow(D)+0.4
-92,President of the United States,2020,46.9,53.1,-6.1,Trump(R)+6.1
-92,Representative in Congress,2020,38.6,61.4,-22.9,R(R)+22.9
-92,Representative in State Legislature,2020,36.8,63.2,-26.3,R(R)+26.3
-92,United States Senator,2020,47.0,53.0,-5.9,James(R)+5.9
-93,President of the United States,2016,35.0,65.0,-30.1,Trump(R)+30.1
-93,Representative in Congress,2016,35.5,64.5,-29.0,R(R)+29.0
-93,Representative in State Legislature,2016,32.4,67.6,-35.1,R(R)+35.1
-93,Governor,2018,42.2,57.8,-15.5,Schuette(R)+15.5
-93,Representative in Congress,2018,37.2,62.8,-25.6,R(R)+25.6
-93,Representative in State Legislature,2018,40.6,59.4,-18.9,R(R)+18.9
-93,United States Senator,2018,40.7,59.3,-18.6,James(R)+18.6
-93,President of the United States,2020,36.0,64.0,-28.0,Trump(R)+28.0
-93,Representative in Congress,2020,33.1,66.9,-33.9,R(R)+33.9
-93,Representative in State Legislature,2020,32.7,67.3,-34.6,R(R)+34.6
-93,United States Senator,2020,37.1,62.9,-25.7,James(R)+25.7
-94,President of the United States,2016,67.1,32.9,34.2,Clinton(D)+34.2
-94,Representative in Congress,2016,72.6,27.4,45.2,D(D)+45.2
-94,Representative in State Legislature,2016,67.4,32.6,34.8,D(D)+34.8
-94,Governor,2018,69.8,30.2,39.5,Whitmer(D)+39.5
-94,Representative in Congress,2018,71.9,28.1,43.8,D(D)+43.8
-94,Representative in State Legislature,2018,69.5,30.5,39.0,D(D)+39.0
-94,United States Senator,2018,67.6,32.4,35.1,Stabenow(D)+35.1
-94,President of the United States,2020,67.3,32.7,34.7,Biden(D)+34.7
-94,Representative in Congress,2020,68.6,31.4,37.2,D(D)+37.2
-94,Representative in State Legislature,2020,67.7,32.3,35.3,D(D)+35.3
-94,United States Senator,2020,67.9,32.1,35.8,Peters(D)+35.8
-95,President of the United States,2016,39.6,60.4,-20.8,Trump(R)+20.8
-95,Representative in Congress,2016,32.7,67.3,-34.7,R(R)+34.7
-95,Representative in State Legislature,2016,40.5,59.5,-19.0,R(R)+19.0
-95,Governor,2018,43.4,56.6,-13.1,Schuette(R)+13.1
-95,Representative in Congress,2018,38.5,61.5,-23.1,R(R)+23.1
-95,Representative in State Legislature,2018,45.6,54.4,-8.9,R(R)+8.9
-95,United States Senator,2018,42.7,57.3,-14.7,James(R)+14.7
-95,President of the United States,2020,42.4,57.6,-15.3,Trump(R)+15.3
-95,Representative in Congress,2020,35.3,64.7,-29.3,R(R)+29.3
-95,Representative in State Legislature,2020,39.8,60.2,-20.4,R(R)+20.4
-95,United States Senator,2020,41.5,58.5,-16.9,James(R)+16.9
-96,President of the United States,2016,44.6,55.4,-10.8,Trump(R)+10.8
-96,Representative in Congress,2016,57.5,42.5,14.9,D(D)+14.9
-96,Representative in State Legislature,2016,54.1,45.9,8.2,D(D)+8.2
-96,Governor,2018,52.5,47.5,5.1,Whitmer(D)+5.1
-96,Representative in Congress,2018,56.2,43.8,12.3,D(D)+12.3
-96,Representative in State Legislature,2018,53.2,46.8,6.5,D(D)+6.5
-96,United States Senator,2018,50.8,49.2,1.6,Stabenow(D)+1.6
-96,President of the United States,2020,45.5,54.5,-9.1,Trump(R)+9.1
-96,Representative in Congress,2020,47.5,52.5,-5.1,R(R)+5.1
-96,Representative in State Legislature,2020,43.0,57.0,-14.1,R(R)+14.1
-96,United States Senator,2020,47.6,52.4,-4.8,James(R)+4.8
-97,President of the United States,2016,33.8,66.2,-32.5,Trump(R)+32.5
-97,Representative in Congress,2016,40.1,59.9,-19.8,R(R)+19.8
-97,Representative in State Legislature,2016,36.7,63.3,-26.7,R(R)+26.7
-97,Governor,2018,41.7,58.3,-16.6,Schuette(R)+16.6
-97,Representative in Congress,2018,40.8,59.2,-18.4,R(R)+18.4
-97,Representative in State Legislature,2018,39.8,60.2,-20.5,R(R)+20.5
-97,United States Senator,2018,40.1,59.9,-19.7,James(R)+19.7
-97,President of the United States,2020,35.0,65.0,-29.9,Trump(R)+29.9
-97,Representative in Congress,2020,36.0,64.0,-28.0,R(R)+28.0
-97,Representative in State Legislature,2020,34.4,65.6,-31.2,R(R)+31.2
-97,United States Senator,2020,37.0,63.0,-26.1,James(R)+26.1
-98,President of the United States,2016,27.9,72.1,-44.3,Trump(R)+44.3
-98,Representative in Congress,2016,27.1,72.9,-45.7,R(R)+45.7
-98,Representative in State Legislature,2016,30.0,70.0,-40.0,R(R)+40.0
-98,Governor,2018,35.1,64.9,-29.8,Schuette(R)+29.8
-98,Representative in Congress,2018,30.8,69.2,-38.3,R(R)+38.3
-98,Representative in State Legislature,2018,29.4,70.6,-41.2,R(R)+41.2
-98,United States Senator,2018,35.2,64.8,-29.6,James(R)+29.6
-98,President of the United States,2020,28.2,71.8,-43.6,Trump(R)+43.6
-98,Representative in Congress,2020,28.6,71.4,-42.8,R(R)+42.8
-98,Representative in State Legislature,2020,27.2,72.8,-45.6,R(R)+45.6
-98,United States Senator,2020,31.0,69.0,-38.0,James(R)+38.0
-99,President of the United States,2016,32.4,67.6,-35.1,Trump(R)+35.1
-99,Representative in Congress,2016,37.5,62.5,-25.1,R(R)+25.1
-99,Representative in State Legislature,2016,37.6,62.4,-24.7,R(R)+24.7
-99,Governor,2018,40.3,59.7,-19.4,Schuette(R)+19.4
-99,Representative in Congress,2018,38.9,61.1,-22.2,R(R)+22.2
-99,Representative in State Legislature,2018,36.6,63.4,-26.7,R(R)+26.7
-99,United States Senator,2018,39.5,60.5,-20.9,James(R)+20.9
-99,President of the United States,2020,32.2,67.8,-35.7,Trump(R)+35.7
-99,Representative in Congress,2020,32.7,67.3,-34.6,R(R)+34.6
-99,Representative in State Legislature,2020,31.0,69.0,-38.0,R(R)+38.0
-99,United States Senator,2020,35.9,64.1,-28.1,James(R)+28.1
-100,President of the United States,2016,33.4,66.6,-33.2,Trump(R)+33.2
-100,Representative in Congress,2016,33.8,66.2,-32.4,R(R)+32.4
-100,Representative in State Legislature,2016,34.8,65.2,-30.3,R(R)+30.3
-100,Governor,2018,39.4,60.6,-21.2,Schuette(R)+21.2
-100,Representative in Congress,2018,36.0,64.0,-28.0,R(R)+28.0
-100,Representative in State Legislature,2018,34.7,65.3,-30.7,R(R)+30.7
-100,United States Senator,2018,39.1,60.9,-21.9,James(R)+21.9
-100,President of the United States,2020,33.0,67.0,-33.9,Trump(R)+33.9
-100,Representative in Congress,2020,30.8,69.2,-38.4,R(R)+38.4
-100,Representative in State Legislature,2020,31.3,68.7,-37.3,R(R)+37.3
-100,United States Senator,2020,33.5,66.5,-33.1,James(R)+33.1
-101,President of the United States,2016,32.3,67.7,-35.4,Trump(R)+35.4
-101,Representative in Congress,2016,30.2,69.8,-39.7,R(R)+39.7
-101,Representative in State Legislature,2016,32.0,68.0,-35.9,R(R)+35.9
-101,Governor,2018,38.5,61.5,-22.9,Schuette(R)+22.9
-101,Representative in Congress,2018,35.7,64.3,-28.6,R(R)+28.6
-101,Representative in State Legislature,2018,32.8,67.2,-34.4,R(R)+34.4
-101,United States Senator,2018,37.5,62.5,-25.0,James(R)+25.0
-101,President of the United States,2020,33.0,67.0,-34.0,Trump(R)+34.0
-101,Representative in Congress,2020,29.3,70.7,-41.4,R(R)+41.4
-101,Representative in State Legislature,2020,30.2,69.8,-39.6,R(R)+39.6
-101,United States Senator,2020,32.8,67.2,-34.5,James(R)+34.5
-102,President of the United States,2016,41.0,59.0,-18.0,Trump(R)+18.0
-102,Representative in Congress,2016,37.3,62.7,-25.5,R(R)+25.5
-102,Representative in State Legislature,2016,44.3,55.7,-11.4,R(R)+11.4
-102,Governor,2018,46.8,53.2,-6.5,Schuette(R)+6.5
-102,Representative in Congress,2018,44.9,55.1,-10.1,R(R)+10.1
-102,Representative in State Legislature,2018,43.2,56.8,-13.6,R(R)+13.6
-102,United States Senator,2018,45.5,54.5,-9.0,James(R)+9.0
-102,President of the United States,2020,42.0,58.0,-16.0,Trump(R)+16.0
-102,Representative in Congress,2020,36.7,63.3,-26.6,R(R)+26.6
-102,Representative in State Legislature,2020,39.1,60.9,-21.8,R(R)+21.8
-102,United States Senator,2020,41.2,58.8,-17.7,James(R)+17.7
-103,President of the United States,2016,47.6,52.4,-4.9,Trump(R)+4.9
-103,Representative in Congress,2016,45.1,54.9,-9.9,R(R)+9.9
-103,Representative in State Legislature,2016,48.7,51.3,-2.7,R(R)+2.7
-103,Governor,2018,52.6,47.4,5.2,Whitmer(D)+5.2
-103,Representative in Congress,2018,52.1,47.9,4.2,D(D)+4.2
-103,Representative in State Legislature,2018,51.5,48.5,2.9,D(D)+2.9
-103,United States Senator,2018,51.2,48.8,2.4,Stabenow(D)+2.4
-103,President of the United States,2020,53.0,47.0,5.9,Biden(D)+5.9
-103,Representative in Congress,2020,47.8,52.2,-4.4,R(R)+4.4
-103,Representative in State Legislature,2020,50.3,49.7,0.7,D(D)+0.7
-103,United States Senator,2020,50.1,49.9,0.3,Peters(D)+0.3
-104,President of the United States,2016,35.3,64.7,-29.4,Trump(R)+29.4
-104,Representative in Congress,2016,35.3,64.7,-29.4,R(R)+29.4
-104,Representative in State Legislature,2016,36.8,63.2,-26.3,R(R)+26.3
-104,Governor,2018,41.4,58.6,-17.2,Schuette(R)+17.2
-104,Representative in Congress,2018,38.8,61.2,-22.4,R(R)+22.4
-104,Representative in State Legislature,2018,36.7,63.3,-26.6,R(R)+26.6
-104,United States Senator,2018,40.4,59.6,-19.2,James(R)+19.2
-104,President of the United States,2020,38.1,61.9,-23.8,Trump(R)+23.8
-104,Representative in Congress,2020,33.0,67.0,-34.0,R(R)+34.0
-104,Representative in State Legislature,2020,34.1,65.9,-31.7,R(R)+31.7
-104,United States Senator,2020,37.3,62.7,-25.4,James(R)+25.4
-105,President of the United States,2016,30.7,69.3,-38.5,Trump(R)+38.5
-105,Representative in Congress,2016,33.3,66.7,-33.5,R(R)+33.5
-105,Representative in State Legislature,2016,38.1,61.9,-23.8,R(R)+23.8
-105,Governor,2018,37.1,62.9,-25.8,Schuette(R)+25.8
-105,Representative in Congress,2018,34.5,65.5,-30.9,R(R)+30.9
-105,Representative in State Legislature,2018,34.5,65.5,-31.1,R(R)+31.1
-105,United States Senator,2018,36.6,63.4,-26.8,James(R)+26.8
-105,President of the United States,2020,31.9,68.1,-36.2,Trump(R)+36.2
-105,Representative in Congress,2020,29.0,71.0,-42.0,R(R)+42.0
-105,Representative in State Legislature,2020,31.1,68.9,-37.8,R(R)+37.8
-105,United States Senator,2020,32.4,67.6,-35.2,James(R)+35.2
-106,President of the United States,2016,32.5,67.5,-35.0,Trump(R)+35.0
-106,Representative in Congress,2016,38.5,61.5,-23.0,R(R)+23.0
-106,Representative in State Legislature,2016,32.9,67.1,-34.2,R(R)+34.2
-106,Governor,2018,40.3,59.7,-19.4,Schuette(R)+19.4
-106,Representative in Congress,2018,37.3,62.7,-25.4,R(R)+25.4
-106,Representative in State Legislature,2018,36.9,63.1,-26.3,R(R)+26.3
-106,United States Senator,2018,39.4,60.6,-21.3,James(R)+21.3
-106,President of the United States,2020,33.5,66.5,-32.9,Trump(R)+32.9
-106,Representative in Congress,2020,30.2,69.8,-39.7,R(R)+39.7
-106,Representative in State Legislature,2020,30.3,69.7,-39.5,R(R)+39.5
-106,United States Senator,2020,35.2,64.8,-29.5,James(R)+29.5
-107,President of the United States,2016,38.0,62.0,-24.0,Trump(R)+24.0
-107,Representative in Congress,2016,39.7,60.3,-20.7,R(R)+20.7
-107,Representative in State Legislature,2016,34.9,65.1,-30.3,R(R)+30.3
-107,Governor,2018,44.2,55.8,-11.6,Schuette(R)+11.6
-107,Representative in Congress,2018,41.5,58.5,-17.1,R(R)+17.1
-107,Representative in State Legislature,2018,42.4,57.6,-15.3,R(R)+15.3
-107,United States Senator,2018,42.7,57.3,-14.6,James(R)+14.6
-107,President of the United States,2020,42.4,57.6,-15.2,Trump(R)+15.2
-107,Representative in Congress,2020,37.4,62.6,-25.2,R(R)+25.2
-107,Representative in State Legislature,2020,41.2,58.8,-17.6,R(R)+17.6
-107,United States Senator,2020,41.3,58.7,-17.3,James(R)+17.3
-108,President of the United States,2016,35.0,65.0,-30.0,Trump(R)+30.0
-108,Representative in Congress,2016,42.4,57.6,-15.2,R(R)+15.2
-108,Representative in State Legislature,2016,43.9,56.1,-12.2,R(R)+12.2
-108,Governor,2018,42.4,57.6,-15.3,Schuette(R)+15.3
-108,Representative in Congress,2018,41.4,58.6,-17.3,R(R)+17.3
-108,Representative in State Legislature,2018,40.8,59.2,-18.3,R(R)+18.3
-108,United States Senator,2018,42.0,58.0,-16.0,James(R)+16.0
-108,President of the United States,2020,35.2,64.8,-29.6,Trump(R)+29.6
-108,Representative in Congress,2020,33.7,66.3,-32.5,R(R)+32.5
-108,Representative in State Legislature,2020,36.8,63.2,-26.4,R(R)+26.4
-108,United States Senator,2020,36.4,63.6,-27.3,James(R)+27.3
-109,President of the United States,2016,47.5,52.5,-4.9,Trump(R)+4.9
-109,Representative in Congress,2016,50.6,49.4,1.2,D(D)+1.2
-109,Representative in State Legislature,2016,63.5,36.5,27.0,D(D)+27.0
-109,Governor,2018,54.6,45.4,9.2,Whitmer(D)+9.2
-109,Representative in Congress,2018,52.5,47.5,4.9,D(D)+4.9
-109,Representative in State Legislature,2018,56.6,43.4,13.2,D(D)+13.2
-109,United States Senator,2018,53.7,46.3,7.4,Stabenow(D)+7.4
-109,President of the United States,2020,50.3,49.7,0.6,Biden(D)+0.6
-109,Representative in Congress,2020,47.0,53.0,-6.0,R(R)+6.0
-109,Representative in State Legislature,2020,54.8,45.2,9.6,D(D)+9.6
-109,United States Senator,2020,50.7,49.3,1.5,Peters(D)+1.5
-110,President of the United States,2016,38.0,62.0,-24.0,Trump(R)+24.0
-110,Representative in Congress,2016,42.6,57.4,-14.7,R(R)+14.7
-110,Representative in State Legislature,2016,57.5,42.5,14.9,D(D)+14.9
-110,Governor,2018,45.1,54.9,-9.9,Schuette(R)+9.9
-110,Representative in Congress,2018,43.4,56.6,-13.2,R(R)+13.2
-110,Representative in State Legislature,2018,45.2,54.8,-9.7,R(R)+9.7
-110,United States Senator,2018,44.7,55.3,-10.6,James(R)+10.6
-110,President of the United States,2020,39.8,60.2,-20.3,Trump(R)+20.3
-110,Representative in Congress,2020,36.6,63.4,-26.8,R(R)+26.8
-110,Representative in State Legislature,2020,39.9,60.1,-20.2,R(R)+20.2
-110,United States Senator,2020,41.0,59.0,-18.0,James(R)+18.0
+1,President of the United States,2016,83.9,16.1,67.8,Clinton+67.8
+1,Representative in Congress,2016,87.5,12.5,74.9,D+74.9
+1,Representative in State Legislature,2016,88.0,12.0,76.0,D+76.0
+1,Governor,2018,86.6,13.4,73.2,Whitmer+73.2
+1,Representative in Congress,2018,100.0,0.0,100.0,D+100.0
+1,Representative in State Legislature,2018,83.8,16.2,67.7,D+67.7
+1,United States Senator,2018,84.4,15.6,68.7,Stabenow+68.7
+1,President of the United States,2020,83.6,16.4,67.2,Biden+67.2
+1,Representative in Congress,2020,86.1,13.9,72.3,D+72.3
+1,Representative in State Legislature,2020,93.6,6.4,87.2,D+87.2
+1,United States Senator,2020,83.9,16.1,67.8,Peters+67.8
+2,President of the United States,2016,52.4,47.6,4.7,Clinton+4.7
+2,Representative in Congress,2016,62.3,37.7,24.6,D+24.6
+2,Representative in State Legislature,2016,65.5,34.5,30.9,D+30.9
+2,Governor,2018,62.0,38.0,24.0,Whitmer+24.0
+2,Representative in Congress,2018,66.6,33.4,33.3,D+33.3
+2,Representative in State Legislature,2018,67.0,33.0,34.0,D+34.0
+2,United States Senator,2018,60.4,39.6,20.7,Stabenow+20.7
+2,President of the United States,2020,56.0,44.0,11.9,Biden+11.9
+2,Representative in Congress,2020,61.6,38.4,23.2,D+23.2
+2,Representative in State Legislature,2020,63.0,37.0,25.9,D+25.9
+2,United States Senator,2020,57.1,42.9,14.2,Peters+14.2
+3,President of the United States,2016,67.5,32.5,35.0,Clinton+35.0
+3,Representative in Congress,2016,73.6,26.4,47.2,D+47.2
+3,Representative in State Legislature,2016,66.1,33.9,32.1,D+32.1
+3,Governor,2018,71.7,28.3,43.5,Whitmer+43.5
+3,Representative in Congress,2018,81.9,18.1,63.9,D+63.9
+3,Representative in State Legislature,2018,70.5,29.5,41.1,D+41.1
+3,United States Senator,2018,71.1,28.9,42.2,Stabenow+42.2
+3,President of the United States,2020,73.1,26.9,46.3,Biden+46.3
+3,Representative in Congress,2020,77.1,22.9,54.2,D+54.2
+3,Representative in State Legislature,2020,76.3,23.7,52.5,D+52.5
+3,United States Senator,2020,74.1,25.9,48.2,Peters+48.2
+4,President of the United States,2016,85.1,14.9,70.1,Clinton+70.1
+4,Representative in Congress,2016,90.4,9.6,80.8,D+80.8
+4,Representative in State Legislature,2016,87.1,12.9,74.2,D+74.2
+4,Governor,2018,89.3,10.7,78.6,Whitmer+78.6
+4,Representative in Congress,2018,91.5,8.5,83.0,D+83.0
+4,Representative in State Legislature,2018,89.5,10.5,79.0,D+79.0
+4,United States Senator,2018,90.0,10.0,80.0,Stabenow+80.0
+4,President of the United States,2020,87.6,12.4,75.1,Biden+75.1
+4,Representative in Congress,2020,91.4,8.6,82.7,D+82.7
+4,Representative in State Legislature,2020,91.2,8.8,82.3,D+82.3
+4,United States Senator,2020,89.3,10.7,78.7,Peters+78.7
+5,President of the United States,2016,67.0,33.0,34.0,Clinton+34.0
+5,Representative in Congress,2016,63.1,36.9,26.1,D+26.1
+5,Representative in State Legislature,2016,63.5,36.5,27.1,D+27.1
+5,Governor,2018,69.0,31.0,38.1,Whitmer+38.1
+5,Representative in Congress,2018,69.7,30.3,39.3,D+39.3
+5,Representative in State Legislature,2018,70.1,29.9,40.1,D+40.1
+5,United States Senator,2018,67.0,33.0,34.0,Stabenow+34.0
+5,President of the United States,2020,72.5,27.5,45.0,Biden+45.0
+5,Representative in Congress,2020,72.3,27.7,44.7,D+44.7
+5,Representative in State Legislature,2020,72.4,27.6,44.7,D+44.7
+5,United States Senator,2020,70.0,30.0,40.1,Peters+40.1
+6,President of the United States,2016,70.7,29.3,41.4,Clinton+41.4
+6,Representative in Congress,2016,71.3,28.7,42.5,D+42.5
+6,Representative in State Legislature,2016,70.5,29.5,41.0,D+41.0
+6,Governor,2018,73.2,26.8,46.4,Whitmer+46.4
+6,Representative in Congress,2018,74.3,25.7,48.5,D+48.5
+6,Representative in State Legislature,2018,76.4,23.6,52.9,D+52.9
+6,United States Senator,2018,71.5,28.5,43.1,Stabenow+43.1
+6,President of the United States,2020,77.1,22.9,54.2,Biden+54.2
+6,Representative in Congress,2020,78.4,21.6,56.8,D+56.8
+6,Representative in State Legislature,2020,76.7,23.3,53.3,D+53.3
+6,United States Senator,2020,75.1,24.9,50.2,Peters+50.2
+7,President of the United States,2016,72.5,27.5,44.9,Clinton+44.9
+7,Representative in Congress,2016,73.3,26.7,46.5,D+46.5
+7,Representative in State Legislature,2016,71.0,29.0,41.9,D+41.9
+7,Governor,2018,76.7,23.3,53.4,Whitmer+53.4
+7,Representative in Congress,2018,77.1,22.9,54.1,D+54.1
+7,Representative in State Legislature,2018,78.0,22.0,55.9,D+55.9
+7,United States Senator,2018,74.5,25.5,49.0,Stabenow+49.0
+7,President of the United States,2020,78.5,21.5,57.0,Biden+57.0
+7,Representative in Congress,2020,79.6,20.4,59.2,D+59.2
+7,Representative in State Legislature,2020,78.0,22.0,55.9,D+55.9
+7,United States Senator,2020,76.5,23.5,52.9,Peters+52.9
+8,President of the United States,2016,61.6,38.4,23.2,Clinton+23.2
+8,Representative in Congress,2016,68.7,31.3,37.4,D+37.4
+8,Representative in State Legislature,2016,64.6,35.4,29.3,D+29.3
+8,Governor,2018,69.7,30.3,39.5,Whitmer+39.5
+8,Representative in Congress,2018,75.4,24.6,50.7,D+50.7
+8,Representative in State Legislature,2018,71.6,28.4,43.1,D+43.1
+8,United States Senator,2018,67.4,32.6,34.8,Stabenow+34.8
+8,President of the United States,2020,68.3,31.7,36.6,Biden+36.6
+8,Representative in Congress,2020,72.1,27.9,44.1,D+44.1
+8,Representative in State Legislature,2020,69.6,30.4,39.3,D+39.3
+8,United States Senator,2020,68.9,31.1,37.9,Peters+37.9
+9,President of the United States,2016,87.8,12.2,75.6,Clinton+75.6
+9,Representative in Congress,2016,87.9,12.1,75.7,D+75.7
+9,Representative in State Legislature,2016,88.4,11.6,76.8,D+76.8
+9,Governor,2018,89.5,10.5,79.0,Whitmer+79.0
+9,Representative in Congress,2018,90.9,9.1,81.8,D+81.8
+9,Representative in State Legislature,2018,90.3,9.7,80.5,D+80.5
+9,United States Senator,2018,89.7,10.3,79.4,Stabenow+79.4
+9,President of the United States,2020,89.4,10.6,78.7,Biden+78.7
+9,Representative in Congress,2020,91.3,8.7,82.6,D+82.6
+9,Representative in State Legislature,2020,92.4,7.6,84.7,D+84.7
+9,United States Senator,2020,90.1,9.9,80.2,Peters+80.2
+10,President of the United States,2016,49.8,50.2,-0.3,Trump+0.3
+10,Representative in Congress,2016,44.3,55.7,-11.4,R+11.4
+10,Representative in State Legislature,2016,38.5,61.5,-23.1,R+23.1
+10,Governor,2018,53.2,46.8,6.5,Whitmer+6.5
+10,Representative in Congress,2018,52.3,47.7,4.5,D+4.5
+10,Representative in State Legislature,2018,49.6,50.4,-0.9,R+0.9
+10,United States Senator,2018,50.7,49.3,1.3,Stabenow+1.3
+10,President of the United States,2020,60.0,40.0,20.1,Biden+20.1
+10,Representative in Congress,2020,58.5,41.5,16.9,D+16.9
+10,Representative in State Legislature,2020,58.9,41.1,17.8,D+17.8
+10,United States Senator,2020,56.3,43.7,12.5,Peters+12.5
+11,President of the United States,2016,53.3,46.7,6.6,Clinton+6.6
+11,Representative in Congress,2016,61.2,38.8,22.4,D+22.4
+11,Representative in State Legislature,2016,60.4,39.6,20.9,D+20.9
+11,Governor,2018,60.5,39.5,21.0,Whitmer+21.0
+11,Representative in Congress,2018,61.2,38.8,22.4,D+22.4
+11,Representative in State Legislature,2018,62.0,38.0,24.0,D+24.0
+11,United States Senator,2018,59.2,40.8,18.5,Stabenow+18.5
+11,President of the United States,2020,60.2,39.8,20.3,Biden+20.3
+11,Representative in Congress,2020,63.9,36.1,27.9,D+27.9
+11,Representative in State Legislature,2020,64.0,36.0,28.0,D+28.0
+11,United States Senator,2020,60.7,39.3,21.4,Peters+21.4
+12,President of the United States,2016,62.9,37.1,25.7,Clinton+25.7
+12,Representative in Congress,2016,72.0,28.0,44.0,D+44.0
+12,Representative in State Legislature,2016,72.0,28.0,44.0,D+44.0
+12,Governor,2018,69.8,30.2,39.5,Whitmer+39.5
+12,Representative in Congress,2018,71.4,28.6,42.8,D+42.8
+12,Representative in State Legislature,2018,72.5,27.5,45.0,D+45.0
+12,United States Senator,2018,68.5,31.5,37.1,Stabenow+37.1
+12,President of the United States,2020,66.1,33.9,32.1,Biden+32.1
+12,Representative in Congress,2020,70.3,29.7,40.6,D+40.6
+12,Representative in State Legislature,2020,71.0,29.0,42.0,D+42.0
+12,United States Senator,2020,67.7,32.3,35.4,Peters+35.4
+13,President of the United States,2016,51.9,48.1,3.9,Clinton+3.9
+13,Representative in Congress,2016,62.8,37.2,25.5,D+25.5
+13,Representative in State Legislature,2016,61.0,39.0,22.0,D+22.0
+13,Governor,2018,59.6,40.4,19.3,Whitmer+19.3
+13,Representative in Congress,2018,61.4,38.6,22.8,D+22.8
+13,Representative in State Legislature,2018,60.7,39.3,21.5,D+21.5
+13,United States Senator,2018,58.8,41.2,17.6,Stabenow+17.6
+13,President of the United States,2020,58.0,42.0,16.0,Biden+16.0
+13,Representative in Congress,2020,62.8,37.2,25.5,D+25.5
+13,Representative in State Legislature,2020,60.6,39.4,21.3,D+21.3
+13,United States Senator,2020,59.9,40.1,19.8,Peters+19.8
+14,President of the United States,2016,61.2,38.8,22.3,Clinton+22.3
+14,Representative in Congress,2016,69.9,30.1,39.9,D+39.9
+14,Representative in State Legislature,2016,69.2,30.8,38.4,D+38.4
+14,Governor,2018,66.3,33.7,32.7,Whitmer+32.7
+14,Representative in Congress,2018,68.0,32.0,35.9,D+35.9
+14,Representative in State Legislature,2018,67.4,32.6,34.8,D+34.8
+14,United States Senator,2018,65.4,34.6,30.8,Stabenow+30.8
+14,President of the United States,2020,64.9,35.1,29.9,Biden+29.9
+14,Representative in Congress,2020,69.3,30.7,38.6,D+38.6
+14,Representative in State Legislature,2020,67.7,32.3,35.4,D+35.4
+14,United States Senator,2020,66.5,33.5,33.1,Peters+33.1
+15,President of the United States,2016,57.8,42.2,15.6,Clinton+15.6
+15,Representative in Congress,2016,63.2,36.8,26.4,D+26.4
+15,Representative in State Legislature,2016,61.9,38.1,23.9,D+23.9
+15,Governor,2018,65.0,35.0,30.0,Whitmer+30.0
+15,Representative in Congress,2018,83.2,16.8,66.4,D+66.4
+15,Representative in State Legislature,2018,62.3,37.7,24.6,D+24.6
+15,United States Senator,2018,64.0,36.0,28.0,Stabenow+28.0
+15,President of the United States,2020,62.1,37.9,24.1,Biden+24.1
+15,Representative in Congress,2020,66.1,33.9,32.2,D+32.2
+15,Representative in State Legislature,2020,63.8,36.2,27.7,D+27.7
+15,United States Senator,2020,63.2,36.8,26.4,Peters+26.4
+16,President of the United States,2016,75.0,25.0,50.0,Clinton+50.0
+16,Representative in Congress,2016,76.2,23.8,52.4,D+52.4
+16,Representative in State Legislature,2016,77.4,22.6,54.7,D+54.7
+16,Governor,2018,79.6,20.4,59.2,Whitmer+59.2
+16,Representative in Congress,2018,100.0,0.0,100.0,D+100.0
+16,Representative in State Legislature,2018,79.9,20.1,59.8,D+59.8
+16,United States Senator,2018,77.8,22.2,55.6,Stabenow+55.6
+16,President of the United States,2020,81.4,18.6,62.8,Biden+62.8
+16,Representative in Congress,2020,82.0,18.0,63.9,D+63.9
+16,Representative in State Legislature,2020,83.5,16.5,67.0,D+67.0
+16,United States Senator,2020,81.6,18.4,63.2,Peters+63.2
+17,President of the United States,2016,65.5,34.5,30.9,Clinton+30.9
+17,Representative in Congress,2016,67.1,32.9,34.1,D+34.1
+17,Representative in State Legislature,2016,69.0,31.0,38.0,D+38.0
+17,Governor,2018,71.6,28.4,43.3,Whitmer+43.3
+17,Representative in Congress,2018,100.0,0.0,100.0,D+100.0
+17,Representative in State Legislature,2018,72.5,27.5,45.1,D+45.1
+17,United States Senator,2018,69.7,30.3,39.5,Stabenow+39.5
+17,President of the United States,2020,74.7,25.3,49.5,Biden+49.5
+17,Representative in Congress,2020,76.0,24.0,52.0,D+52.0
+17,Representative in State Legislature,2020,77.3,22.7,54.7,D+54.7
+17,United States Senator,2020,75.4,24.6,50.8,Peters+50.8
+18,President of the United States,2016,79.9,20.1,59.8,Clinton+59.8
+18,Representative in Congress,2016,80.3,19.7,60.7,D+60.7
+18,Representative in State Legislature,2016,81.4,18.6,62.8,D+62.8
+18,Governor,2018,81.5,18.5,63.0,Whitmer+63.0
+18,Representative in Congress,2018,82.6,17.4,65.2,D+65.2
+18,Representative in State Legislature,2018,82.7,17.3,65.4,D+65.4
+18,United States Senator,2018,80.0,20.0,60.0,Stabenow+60.0
+18,President of the United States,2020,79.4,20.6,58.7,Biden+58.7
+18,Representative in Congress,2020,80.8,19.2,61.6,D+61.6
+18,Representative in State Legislature,2020,80.5,19.5,61.0,D+61.0
+18,United States Senator,2020,78.9,21.1,57.7,Peters+57.7
+19,President of the United States,2016,65.9,34.1,31.9,Clinton+31.9
+19,Representative in Congress,2016,63.8,36.2,27.6,D+27.6
+19,Representative in State Legislature,2016,62.2,37.8,24.4,D+24.4
+19,Governor,2018,67.5,32.5,35.0,Whitmer+35.0
+19,Representative in Congress,2018,68.4,31.6,36.9,D+36.9
+19,Representative in State Legislature,2018,67.9,32.1,35.8,D+35.8
+19,United States Senator,2018,66.2,33.8,32.4,Stabenow+32.4
+19,President of the United States,2020,68.4,31.6,36.7,Biden+36.7
+19,Representative in Congress,2020,68.3,31.7,36.6,D+36.6
+19,Representative in State Legislature,2020,67.4,32.6,34.9,D+34.9
+19,United States Senator,2020,65.6,34.4,31.3,Peters+31.3
+20,President of the United States,2016,55.2,44.8,10.4,Clinton+10.4
+20,Representative in Congress,2016,52.6,47.4,5.1,D+5.1
+20,Representative in State Legislature,2016,51.0,49.0,2.0,D+2.0
+20,Governor,2018,60.0,40.0,19.9,Whitmer+19.9
+20,Representative in Congress,2018,60.3,39.7,20.6,D+20.6
+20,Representative in State Legislature,2018,54.0,46.0,8.0,D+8.0
+20,United States Senator,2018,58.6,41.4,17.3,Stabenow+17.3
+20,President of the United States,2020,56.3,43.7,12.6,Biden+12.6
+20,Representative in Congress,2020,55.9,44.1,11.7,D+11.7
+20,Representative in State Legislature,2020,54.6,45.4,9.2,D+9.2
+20,United States Senator,2020,55.0,45.0,10.1,Peters+10.1
+21,President of the United States,2016,52.7,47.3,5.4,Clinton+5.4
+21,Representative in Congress,2016,47.5,52.5,-5.0,R+5.0
+21,Representative in State Legislature,2016,46.5,53.5,-7.1,R+7.1
+21,Governor,2018,55.8,44.2,11.7,Whitmer+11.7
+21,Representative in Congress,2018,56.4,43.6,12.9,D+12.9
+21,Representative in State Legislature,2018,53.1,46.9,6.1,D+6.1
+21,United States Senator,2018,54.5,45.5,8.9,Stabenow+8.9
+21,President of the United States,2020,57.1,42.9,14.2,Biden+14.2
+21,Representative in Congress,2020,55.1,44.9,10.1,D+10.1
+21,Representative in State Legislature,2020,55.2,44.8,10.5,D+10.5
+21,United States Senator,2020,54.3,45.7,8.5,Peters+8.5
+22,President of the United States,2016,49.8,50.2,-0.5,Trump+0.5
+22,Representative in Congress,2016,43.0,57.0,-14.0,R+14.0
+22,Representative in State Legislature,2016,43.7,56.3,-12.7,R+12.7
+22,Governor,2018,53.2,46.8,6.4,Whitmer+6.4
+22,Representative in Congress,2018,53.1,46.9,6.1,D+6.1
+22,Representative in State Legislature,2018,49.1,50.9,-1.8,R+1.8
+22,United States Senator,2018,51.9,48.1,3.8,Stabenow+3.8
+22,President of the United States,2020,54.4,45.6,8.8,Biden+8.8
+22,Representative in Congress,2020,52.1,47.9,4.2,D+4.2
+22,Representative in State Legislature,2020,53.0,47.0,5.9,D+5.9
+22,United States Senator,2020,51.5,48.5,2.9,Peters+2.9
+23,President of the United States,2016,64.7,35.3,29.5,Clinton+29.5
+23,Representative in Congress,2016,59.8,40.2,19.6,D+19.6
+23,Representative in State Legislature,2016,59.6,40.4,19.2,D+19.2
+23,Governor,2018,65.4,34.6,30.9,Whitmer+30.9
+23,Representative in Congress,2018,66.0,34.0,32.0,D+32.0
+23,Representative in State Legislature,2018,63.5,36.5,27.0,D+27.0
+23,United States Senator,2018,64.3,35.7,28.5,Stabenow+28.5
+23,President of the United States,2020,66.9,33.1,33.9,Biden+33.9
+23,Representative in Congress,2020,65.1,34.9,30.2,D+30.2
+23,Representative in State Legislature,2020,65.1,34.9,30.3,D+30.3
+23,United States Senator,2020,63.9,36.1,27.8,Peters+27.8
+24,President of the United States,2016,56.9,43.1,13.9,Clinton+13.9
+24,Representative in Congress,2016,51.5,48.5,3.1,D+3.1
+24,Representative in State Legislature,2016,57.1,42.9,14.2,D+14.2
+24,Governor,2018,62.1,37.9,24.1,Whitmer+24.1
+24,Representative in Congress,2018,62.2,37.8,24.4,D+24.4
+24,Representative in State Legislature,2018,60.7,39.3,21.5,D+21.5
+24,United States Senator,2018,60.4,39.6,20.8,Stabenow+20.8
+24,President of the United States,2020,62.0,38.0,23.9,Biden+23.9
+24,Representative in Congress,2020,61.3,38.7,22.7,D+22.7
+24,Representative in State Legislature,2020,59.6,40.4,19.2,D+19.2
+24,United States Senator,2020,60.3,39.7,20.6,Peters+20.6
+25,President of the United States,2016,57.8,42.2,15.7,Clinton+15.7
+25,Representative in Congress,2016,59.6,40.4,19.3,D+19.3
+25,Representative in State Legislature,2016,64.5,35.5,29.0,D+29.0
+25,Governor,2018,64.7,35.3,29.5,Whitmer+29.5
+25,Representative in Congress,2018,97.9,2.1,95.8,D+95.8
+25,Representative in State Legislature,2018,65.1,34.9,30.2,D+30.2
+25,United States Senator,2018,63.3,36.7,26.5,Stabenow+26.5
+25,President of the United States,2020,59.9,40.1,19.7,Biden+19.7
+25,Representative in Congress,2020,58.9,41.1,17.9,D+17.9
+25,Representative in State Legislature,2020,61.4,38.6,22.8,D+22.8
+25,United States Senator,2020,60.3,39.7,20.6,Peters+20.6
+26,President of the United States,2016,66.7,33.3,33.5,Clinton+33.5
+26,Representative in Congress,2016,70.3,29.7,40.6,D+40.6
+26,Representative in State Legislature,2016,78.6,21.4,57.3,D+57.3
+26,Governor,2018,72.4,27.6,44.8,Whitmer+44.8
+26,Representative in Congress,2018,100.0,0.0,100.0,D+100.0
+26,Representative in State Legislature,2018,71.3,28.7,42.6,D+42.6
+26,United States Senator,2018,70.4,29.6,40.7,Stabenow+40.7
+26,President of the United States,2020,65.8,34.2,31.6,Biden+31.6
+26,Representative in Congress,2020,66.4,33.6,32.9,D+32.9
+26,Representative in State Legislature,2020,67.6,32.4,35.1,D+35.1
+26,United States Senator,2020,66.9,33.1,33.8,Peters+33.8
+27,President of the United States,2016,45.8,54.2,-8.5,Trump+8.5
+27,Representative in Congress,2016,55.2,44.8,10.5,D+10.5
+27,Representative in State Legislature,2016,51.7,48.3,3.5,D+3.5
+27,Governor,2018,54.1,45.9,8.3,Whitmer+8.3
+27,Representative in Congress,2018,55.7,44.3,11.5,D+11.5
+27,Representative in State Legislature,2018,56.8,43.2,13.7,D+13.7
+27,United States Senator,2018,52.2,47.8,4.4,Stabenow+4.4
+27,President of the United States,2020,47.9,52.1,-4.1,Trump+4.1
+27,Representative in Congress,2020,53.3,46.7,6.7,D+6.7
+27,Representative in State Legislature,2020,53.0,47.0,6.0,D+6.0
+27,United States Senator,2020,48.2,51.8,-3.5,James+3.5
+28,President of the United States,2016,45.6,54.4,-8.7,Trump+8.7
+28,Representative in Congress,2016,55.0,45.0,10.0,D+10.0
+28,Representative in State Legislature,2016,53.9,46.1,7.7,D+7.7
+28,Governor,2018,55.5,44.5,11.1,Whitmer+11.1
+28,Representative in Congress,2018,56.0,44.0,12.1,D+12.1
+28,Representative in State Legislature,2018,56.4,43.6,12.8,D+12.8
+28,United States Senator,2018,53.4,46.6,6.9,Stabenow+6.9
+28,President of the United States,2020,47.7,52.3,-4.7,Trump+4.7
+28,Representative in Congress,2020,52.2,47.8,4.3,D+4.3
+28,Representative in State Legislature,2020,51.5,48.5,3.0,D+3.0
+28,United States Senator,2020,48.8,51.2,-2.4,James+2.4
+29,President of the United States,2016,43.4,56.6,-13.2,Trump+13.2
+29,Representative in Congress,2016,52.0,48.0,3.9,D+3.9
+29,Representative in State Legislature,2016,52.0,48.0,3.9,D+3.9
+29,Governor,2018,54.7,45.3,9.3,Whitmer+9.3
+29,Representative in Congress,2018,56.7,43.3,13.4,D+13.4
+29,Representative in State Legislature,2018,54.1,45.9,8.1,D+8.1
+29,United States Senator,2018,52.8,47.2,5.6,Stabenow+5.6
+29,President of the United States,2020,46.6,53.4,-6.8,Trump+6.8
+29,Representative in Congress,2020,50.7,49.3,1.4,D+1.4
+29,Representative in State Legislature,2020,49.3,50.7,-1.4,R+1.4
+29,United States Senator,2020,48.2,51.8,-3.6,James+3.6
+30,President of the United States,2016,39.6,60.4,-20.9,Trump+20.9
+30,Representative in Congress,2016,41.1,58.9,-17.8,R+17.8
+30,Representative in State Legislature,2016,41.2,58.8,-17.6,R+17.6
+30,Governor,2018,45.8,54.2,-8.3,Schuette+8.3
+30,Representative in Congress,2018,44.1,55.9,-11.8,R+11.8
+30,Representative in State Legislature,2018,39.4,60.6,-21.2,R+21.2
+30,United States Senator,2018,44.3,55.7,-11.4,James+11.4
+30,President of the United States,2020,39.4,60.6,-21.1,Trump+21.1
+30,Representative in Congress,2020,39.0,61.0,-22.0,R+22.0
+30,Representative in State Legislature,2020,35.8,64.2,-28.3,R+28.3
+30,United States Senator,2020,39.7,60.3,-20.7,James+20.7
+31,President of the United States,2016,49.9,50.1,-0.2,Trump+0.2
+31,Representative in Congress,2016,53.9,46.1,7.8,D+7.8
+31,Representative in State Legislature,2016,54.5,45.5,9.0,D+9.0
+31,Governor,2018,56.6,43.4,13.1,Whitmer+13.1
+31,Representative in Congress,2018,58.0,42.0,16.0,D+16.0
+31,Representative in State Legislature,2018,54.4,45.6,8.7,D+8.7
+31,United States Senator,2018,54.8,45.2,9.6,Stabenow+9.6
+31,President of the United States,2020,50.2,49.8,0.3,Biden+0.3
+31,Representative in Congress,2020,51.7,48.3,3.4,D+3.4
+31,Representative in State Legislature,2020,50.0,50.0,0.1,D+0.1
+31,United States Senator,2020,50.5,49.5,1.0,Peters+1.0
+32,President of the United States,2016,76.6,23.4,53.2,Clinton+53.2
+32,Representative in Congress,2016,77.8,22.2,55.7,D+55.7
+32,Representative in State Legislature,2016,76.0,24.0,52.1,D+52.1
+32,Governor,2018,79.4,20.6,58.7,Whitmer+58.7
+32,Representative in Congress,2018,79.9,20.1,59.8,D+59.8
+32,Representative in State Legislature,2018,79.7,20.3,59.5,D+59.5
+32,United States Senator,2018,77.6,22.4,55.3,Stabenow+55.3
+32,President of the United States,2020,78.1,21.9,56.2,Biden+56.2
+32,Representative in Congress,2020,79.5,20.5,59.0,D+59.0
+32,Representative in State Legislature,2020,78.7,21.3,57.4,D+57.4
+32,United States Senator,2020,77.0,23.0,53.9,Peters+53.9
+33,President of the United States,2016,73.6,26.4,47.2,Clinton+47.2
+33,Representative in Congress,2016,71.1,28.9,42.3,D+42.3
+33,Representative in State Legislature,2016,70.0,30.0,40.0,D+40.0
+33,Governor,2018,75.0,25.0,49.9,Whitmer+49.9
+33,Representative in Congress,2018,75.4,24.6,50.7,D+50.7
+33,Representative in State Legislature,2018,74.9,25.1,49.7,D+49.7
+33,United States Senator,2018,73.6,26.4,47.2,Stabenow+47.2
+33,President of the United States,2020,76.1,23.9,52.2,Biden+52.2
+33,Representative in Congress,2020,75.0,25.0,50.0,D+50.0
+33,Representative in State Legislature,2020,74.6,25.4,49.3,D+49.3
+33,United States Senator,2020,73.1,26.9,46.2,Peters+46.2
+34,President of the United States,2016,39.9,60.1,-20.2,Trump+20.2
+34,Representative in Congress,2016,41.4,58.6,-17.1,R+17.1
+34,Representative in State Legislature,2016,43.7,56.3,-12.5,R+12.5
+34,Governor,2018,46.3,53.7,-7.4,Schuette+7.4
+34,Representative in Congress,2018,45.9,54.1,-8.2,R+8.2
+34,Representative in State Legislature,2018,38.4,61.6,-23.1,R+23.1
+34,United States Senator,2018,44.8,55.2,-10.4,James+10.4
+34,President of the United States,2020,41.1,58.9,-17.9,Trump+17.9
+34,Representative in Congress,2020,40.0,60.0,-19.9,R+19.9
+34,Representative in State Legislature,2020,35.0,65.0,-30.0,R+30.0
+34,United States Senator,2020,39.5,60.5,-20.9,James+20.9
+35,President of the United States,2016,27.7,72.3,-44.6,Trump+44.6
+35,Representative in Congress,2016,29.4,70.6,-41.2,R+41.2
+35,Representative in State Legislature,2016,26.3,73.7,-47.5,R+47.5
+35,Governor,2018,33.9,66.1,-32.1,Schuette+32.1
+35,Representative in Congress,2018,32.7,67.3,-34.6,R+34.6
+35,Representative in State Legislature,2018,30.0,70.0,-39.9,R+39.9
+35,United States Senator,2018,32.8,67.2,-34.3,James+34.3
+35,President of the United States,2020,27.8,72.2,-44.4,Trump+44.4
+35,Representative in Congress,2020,27.2,72.8,-45.6,R+45.6
+35,Representative in State Legislature,2020,28.7,71.3,-42.5,R+42.5
+35,United States Senator,2020,29.2,70.8,-41.6,James+41.6
+36,President of the United States,2016,32.9,67.1,-34.3,Trump+34.3
+36,Representative in Congress,2016,28.7,71.3,-42.6,R+42.6
+36,Representative in State Legislature,2016,31.8,68.2,-36.3,R+36.3
+36,Governor,2018,38.7,61.3,-22.7,Schuette+22.7
+36,Representative in Congress,2018,36.7,63.3,-26.7,R+26.7
+36,Representative in State Legislature,2018,32.9,67.1,-34.3,R+34.3
+36,United States Senator,2018,36.8,63.2,-26.5,James+26.5
+36,President of the United States,2020,33.8,66.2,-32.5,Trump+32.5
+36,Representative in Congress,2020,29.2,70.8,-41.6,R+41.6
+36,Representative in State Legislature,2020,33.9,66.1,-32.2,R+32.2
+36,United States Senator,2020,32.7,67.3,-34.7,James+34.7
+37,President of the United States,2016,36.4,63.6,-27.2,Trump+27.2
+37,Representative in Congress,2016,29.6,70.4,-40.8,R+40.8
+37,Representative in State Legislature,2016,31.4,68.6,-37.1,R+37.1
+37,Governor,2018,40.6,59.4,-18.7,Schuette+18.7
+37,Representative in Congress,2018,38.7,61.3,-22.6,R+22.6
+37,Representative in State Legislature,2018,37.1,62.9,-25.8,R+25.8
+37,United States Senator,2018,39.6,60.4,-20.8,James+20.8
+37,President of the United States,2020,40.7,59.3,-18.5,Trump+18.5
+37,Representative in Congress,2020,36.6,63.4,-26.8,R+26.8
+37,Representative in State Legislature,2020,37.0,63.0,-26.0,R+26.0
+37,United States Senator,2020,38.7,61.3,-22.7,James+22.7
+38,President of the United States,2016,49.0,51.0,-2.0,Trump+2.0
+38,Representative in Congress,2016,39.9,60.1,-20.2,R+20.2
+38,Representative in State Legislature,2016,41.6,58.4,-16.7,R+16.7
+38,Governor,2018,52.3,47.7,4.5,Whitmer+4.5
+38,Representative in Congress,2018,49.1,50.9,-1.7,R+1.7
+38,Representative in State Legislature,2018,47.0,53.0,-6.0,R+6.0
+38,United States Senator,2018,50.8,49.2,1.6,Stabenow+1.6
+38,President of the United States,2020,56.3,43.7,12.7,Biden+12.7
+38,Representative in Congress,2020,48.5,51.5,-3.0,R+3.0
+38,Representative in State Legislature,2020,49.3,50.7,-1.4,R+1.4
+38,United States Senator,2020,53.5,46.5,7.0,Peters+7.0
+39,President of the United States,2016,37.9,62.1,-24.1,Trump+24.1
+39,Representative in Congress,2016,32.9,67.1,-34.3,R+34.3
+39,Representative in State Legislature,2016,38.5,61.5,-23.0,R+23.0
+39,Governor,2018,43.8,56.2,-12.3,Schuette+12.3
+39,Representative in Congress,2018,41.7,58.3,-16.6,R+16.6
+39,Representative in State Legislature,2018,38.8,61.2,-22.5,R+22.5
+39,United States Senator,2018,42.3,57.7,-15.5,James+15.5
+39,President of the United States,2020,39.6,60.4,-20.8,Trump+20.8
+39,Representative in Congress,2020,33.7,66.3,-32.7,R+32.7
+39,Representative in State Legislature,2020,35.4,64.6,-29.2,R+29.2
+39,United States Senator,2020,38.3,61.7,-23.4,James+23.4
+40,President of the United States,2016,54.8,45.2,9.7,Clinton+9.7
+40,Representative in Congress,2016,43.4,56.6,-13.1,R+13.1
+40,Representative in State Legislature,2016,49.7,50.3,-0.6,R+0.6
+40,Governor,2018,57.7,42.3,15.4,Whitmer+15.4
+40,Representative in Congress,2018,54.3,45.7,8.5,D+8.5
+40,Representative in State Legislature,2018,51.1,48.9,2.3,D+2.3
+40,United States Senator,2018,56.4,43.6,12.9,Stabenow+12.9
+40,President of the United States,2020,59.1,40.9,18.2,Biden+18.2
+40,Representative in Congress,2020,50.5,49.5,1.0,D+1.0
+40,Representative in State Legislature,2020,56.6,43.4,13.1,D+13.1
+40,United States Senator,2020,55.2,44.8,10.3,Peters+10.3
+41,President of the United States,2016,75.0,25.0,50.0,Clinton+50.0
+41,Representative in Congress,2016,66.5,33.5,33.0,D+33.0
+41,Representative in State Legislature,2016,74.3,25.7,48.6,D+48.6
+41,Governor,2018,77.6,22.4,55.2,Whitmer+55.2
+41,Representative in Congress,2018,74.5,25.5,49.1,D+49.1
+41,Representative in State Legislature,2018,76.7,23.3,53.5,D+53.5
+41,United States Senator,2018,75.4,24.6,50.8,Stabenow+50.8
+41,President of the United States,2020,76.8,23.2,53.6,Biden+53.6
+41,Representative in Congress,2020,71.5,28.5,42.9,D+42.9
+41,Representative in State Legislature,2020,75.4,24.6,50.9,D+50.9
+41,United States Senator,2020,74.6,25.4,49.2,Peters+49.2
+42,President of the United States,2016,43.2,56.8,-13.6,Trump+13.6
+42,Representative in Congress,2016,34.9,65.1,-30.3,R+30.3
+42,Representative in State Legislature,2016,37.9,62.1,-24.1,R+24.1
+42,Governor,2018,48.7,51.3,-2.6,Schuette+2.6
+42,Representative in Congress,2018,44.3,55.7,-11.4,R+11.4
+42,Representative in State Legislature,2018,42.7,57.3,-14.6,R+14.6
+42,United States Senator,2018,47.0,53.0,-6.0,James+6.0
+42,President of the United States,2020,46.3,53.7,-7.4,Trump+7.4
+42,Representative in Congress,2020,38.1,61.9,-23.9,R+23.9
+42,Representative in State Legislature,2020,40.7,59.3,-18.6,R+18.6
+42,United States Senator,2020,44.0,56.0,-12.0,James+12.0
+43,President of the United States,2016,28.1,71.9,-43.9,Trump+43.9
+43,Representative in Congress,2016,26.2,73.8,-47.6,R+47.6
+43,Representative in State Legislature,2016,26.1,73.9,-47.7,R+47.7
+43,Governor,2018,34.3,65.7,-31.4,Schuette+31.4
+43,Representative in Congress,2018,32.6,67.4,-34.8,R+34.8
+43,Representative in State Legislature,2018,30.5,69.5,-39.0,R+39.0
+43,United States Senator,2018,32.7,67.3,-34.6,James+34.6
+43,President of the United States,2020,29.9,70.1,-40.3,Trump+40.3
+43,Representative in Congress,2020,27.5,72.5,-45.0,R+45.0
+43,Representative in State Legislature,2020,26.9,73.1,-46.2,R+46.2
+43,United States Senator,2020,28.7,71.3,-42.5,James+42.5
+44,President of the United States,2016,43.9,56.1,-12.3,Trump+12.3
+44,Representative in Congress,2016,40.7,59.3,-18.5,R+18.5
+44,Representative in State Legislature,2016,42.1,57.9,-15.9,R+15.9
+44,Governor,2018,49.6,50.4,-0.7,Schuette+0.7
+44,Representative in Congress,2018,43.9,56.1,-12.2,R+12.2
+44,Representative in State Legislature,2018,42.6,57.4,-14.7,R+14.7
+44,United States Senator,2018,48.0,52.0,-4.1,James+4.1
+44,President of the United States,2020,49.8,50.2,-0.4,Trump+0.4
+44,Representative in Congress,2020,47.7,52.3,-4.6,R+4.6
+44,Representative in State Legislature,2020,48.1,51.9,-3.7,R+3.7
+44,United States Senator,2020,49.3,50.7,-1.4,James+1.4
+45,President of the United States,2016,31.9,68.1,-36.3,Trump+36.3
+45,Representative in Congress,2016,31.1,68.9,-37.9,R+37.9
+45,Representative in State Legislature,2016,29.8,70.2,-40.3,R+40.3
+45,Governor,2018,38.6,61.4,-22.8,Schuette+22.8
+45,Representative in Congress,2018,35.3,64.7,-29.5,R+29.5
+45,Representative in State Legislature,2018,33.2,66.8,-33.6,R+33.6
+45,United States Senator,2018,37.3,62.7,-25.5,James+25.5
+45,President of the United States,2020,33.4,66.6,-33.2,Trump+33.2
+45,Representative in Congress,2020,32.4,67.6,-35.2,R+35.2
+45,Representative in State Legislature,2020,29.3,70.7,-41.4,R+41.4
+45,United States Senator,2020,34.3,65.7,-31.5,James+31.5
+46,President of the United States,2016,48.9,51.1,-2.2,Trump+2.2
+46,Representative in Congress,2016,49.3,50.7,-1.4,R+1.4
+46,Representative in State Legislature,2016,46.5,53.5,-6.9,R+6.9
+46,Governor,2018,54.1,45.9,8.3,Whitmer+8.3
+46,Representative in Congress,2018,52.5,47.5,5.1,D+5.1
+46,Representative in State Legislature,2018,50.0,50.0,-0.1,R+0.1
+46,United States Senator,2018,52.0,48.0,3.9,Stabenow+3.9
+46,President of the United States,2020,49.8,50.2,-0.5,Trump+0.5
+46,Representative in Congress,2020,48.0,52.0,-4.0,R+4.0
+46,Representative in State Legislature,2020,46.9,53.1,-6.3,R+6.3
+46,United States Senator,2020,51.1,48.9,2.2,Peters+2.2
+47,President of the United States,2016,61.3,38.7,22.7,Clinton+22.7
+47,Representative in Congress,2016,59.3,40.7,18.5,D+18.5
+47,Representative in State Legislature,2016,58.4,41.6,16.8,D+16.8
+47,Governor,2018,65.2,34.8,30.5,Whitmer+30.5
+47,Representative in Congress,2018,63.8,36.2,27.5,D+27.5
+47,Representative in State Legislature,2018,63.4,36.6,26.8,D+26.8
+47,United States Senator,2018,63.9,36.1,27.9,Stabenow+27.9
+47,President of the United States,2020,62.4,37.6,24.7,Biden+24.7
+47,Representative in Congress,2020,59.8,40.2,19.6,D+19.6
+47,Representative in State Legislature,2020,59.9,40.1,19.8,D+19.8
+47,United States Senator,2020,61.4,38.6,22.7,Peters+22.7
+48,President of the United States,2016,47.6,52.4,-4.8,Trump+4.8
+48,Representative in Congress,2016,44.3,55.7,-11.4,R+11.4
+48,Representative in State Legislature,2016,45.3,54.7,-9.4,R+9.4
+48,Governor,2018,52.6,47.4,5.2,Whitmer+5.2
+48,Representative in Congress,2018,52.1,47.9,4.1,D+4.1
+48,Representative in State Legislature,2018,51.2,48.8,2.5,D+2.5
+48,United States Senator,2018,51.0,49.0,2.0,Stabenow+2.0
+48,President of the United States,2020,50.9,49.1,1.8,Biden+1.8
+48,Representative in Congress,2020,51.4,48.6,2.7,D+2.7
+48,Representative in State Legislature,2020,48.2,51.8,-3.7,R+3.7
+48,United States Senator,2020,48.7,51.3,-2.5,James+2.5
+49,President of the United States,2016,41.6,58.4,-16.8,Trump+16.8
+49,Representative in Congress,2016,36.8,63.2,-26.3,R+26.3
+49,Representative in State Legislature,2016,38.2,61.8,-23.6,R+23.6
+49,Governor,2018,47.2,52.8,-5.5,Schuette+5.5
+49,Representative in Congress,2018,46.6,53.4,-6.9,R+6.9
+49,Representative in State Legislature,2018,42.5,57.5,-15.0,R+15.0
+49,United States Senator,2018,45.4,54.6,-9.3,James+9.3
+49,President of the United States,2020,46.0,54.0,-8.0,Trump+8.0
+49,Representative in Congress,2020,46.5,53.5,-7.0,R+7.0
+49,Representative in State Legislature,2020,42.1,57.9,-15.8,R+15.8
+49,United States Senator,2020,44.3,55.7,-11.5,James+11.5
+50,President of the United States,2016,31.4,68.6,-37.2,Trump+37.2
+50,Representative in Congress,2016,28.1,71.9,-43.8,R+43.8
+50,Representative in State Legislature,2016,28.3,71.7,-43.4,R+43.4
+50,Governor,2018,39.1,60.9,-21.8,Schuette+21.8
+50,Representative in Congress,2018,37.6,62.4,-24.7,R+24.7
+50,Representative in State Legislature,2018,33.4,66.6,-33.1,R+33.1
+50,United States Senator,2018,36.9,63.1,-26.2,James+26.2
+50,President of the United States,2020,35.2,64.8,-29.5,Trump+29.5
+50,Representative in Congress,2020,37.6,62.4,-24.8,R+24.8
+50,Representative in State Legislature,2020,31.3,68.7,-37.5,R+37.5
+50,United States Senator,2020,34.6,65.4,-30.7,James+30.7
+51,President of the United States,2016,35.4,64.6,-29.1,Trump+29.1
+51,Representative in Congress,2016,32.3,67.7,-35.5,R+35.5
+51,Representative in State Legislature,2016,31.8,68.2,-36.3,R+36.3
+51,Governor,2018,43.0,57.0,-14.1,Schuette+14.1
+51,Representative in Congress,2018,42.8,57.2,-14.5,R+14.5
+51,Representative in State Legislature,2018,39.8,60.2,-20.4,R+20.4
+51,United States Senator,2018,41.1,58.9,-17.9,James+17.9
+51,President of the United States,2020,40.5,59.5,-18.9,Trump+18.9
+51,Representative in Congress,2020,39.4,60.6,-21.1,R+21.1
+51,Representative in State Legislature,2020,39.9,60.1,-20.3,R+20.3
+51,United States Senator,2020,39.3,60.7,-21.3,James+21.3
+52,President of the United States,2016,37.2,62.8,-25.7,Trump+25.7
+52,Representative in Congress,2016,32.6,67.4,-34.9,R+34.9
+52,Representative in State Legislature,2016,31.2,68.8,-37.7,R+37.7
+52,Governor,2018,45.0,55.0,-10.0,Schuette+10.0
+52,Representative in Congress,2018,44.7,55.3,-10.7,R+10.7
+52,Representative in State Legislature,2018,41.7,58.3,-16.7,R+16.7
+52,United States Senator,2018,43.1,56.9,-13.7,James+13.7
+52,President of the United States,2020,41.9,58.1,-16.1,Trump+16.1
+52,Representative in Congress,2020,43.5,56.5,-12.9,R+12.9
+52,Representative in State Legislature,2020,38.4,61.6,-23.2,R+23.2
+52,United States Senator,2020,41.4,58.6,-17.1,James+17.1
+53,President of the United States,2016,72.9,27.1,45.8,Clinton+45.8
+53,Representative in Congress,2016,73.9,26.1,47.8,D+47.8
+53,Representative in State Legislature,2016,73.2,26.8,46.3,D+46.3
+53,Governor,2018,72.5,27.5,45.0,Whitmer+45.0
+53,Representative in Congress,2018,73.3,26.7,46.7,D+46.7
+53,Representative in State Legislature,2018,72.1,27.9,44.2,D+44.2
+53,United States Senator,2018,70.5,29.5,41.0,Stabenow+41.0
+53,President of the United States,2020,68.7,31.3,37.5,Biden+37.5
+53,Representative in Congress,2020,70.2,29.8,40.4,D+40.4
+53,Representative in State Legislature,2020,69.6,30.4,39.3,D+39.3
+53,United States Senator,2020,69.1,30.9,38.1,Peters+38.1
+54,President of the United States,2016,45.5,54.5,-8.9,Trump+8.9
+54,Representative in Congress,2016,40.2,59.8,-19.7,R+19.7
+54,Representative in State Legislature,2016,40.0,60.0,-20.0,R+20.0
+54,Governor,2018,50.1,49.9,0.2,Whitmer+0.2
+54,Representative in Congress,2018,49.7,50.3,-0.5,R+0.5
+54,Representative in State Legislature,2018,48.0,52.0,-4.0,R+4.0
+54,United States Senator,2018,48.2,51.8,-3.7,James+3.7
+54,President of the United States,2020,51.0,49.0,2.0,Biden+2.0
+54,Representative in Congress,2020,51.4,48.6,2.7,D+2.7
+54,Representative in State Legislature,2020,48.9,51.1,-2.2,R+2.2
+54,United States Senator,2020,48.6,51.4,-2.7,James+2.7
+55,President of the United States,2016,45.1,54.9,-9.7,Trump+9.7
+55,Representative in Congress,2016,35.9,64.1,-28.2,R+28.2
+55,Representative in State Legislature,2016,36.2,63.8,-27.6,R+27.6
+55,Governor,2018,49.7,50.3,-0.7,Schuette+0.7
+55,Representative in Congress,2018,49.3,50.7,-1.3,R+1.3
+55,Representative in State Legislature,2018,44.1,55.9,-11.8,R+11.8
+55,United States Senator,2018,48.4,51.6,-3.3,James+3.3
+55,President of the United States,2020,51.3,48.7,2.7,Biden+2.7
+55,Representative in Congress,2020,52.4,47.6,4.8,D+4.8
+55,Representative in State Legislature,2020,48.2,51.8,-3.6,R+3.6
+55,United States Senator,2020,49.2,50.8,-1.7,James+1.7
+56,President of the United States,2016,52.6,47.4,5.2,Clinton+5.2
+56,Representative in Congress,2016,48.9,51.1,-2.2,R+2.2
+56,Representative in State Legislature,2016,46.3,53.7,-7.3,R+7.3
+56,Governor,2018,57.2,42.8,14.4,Whitmer+14.4
+56,Representative in Congress,2018,57.7,42.3,15.3,D+15.3
+56,Representative in State Legislature,2018,54.6,45.4,9.1,D+9.1
+56,United States Senator,2018,55.9,44.1,11.8,Stabenow+11.8
+56,President of the United States,2020,58.3,41.7,16.5,Biden+16.5
+56,Representative in Congress,2020,56.8,43.2,13.7,D+13.7
+56,Representative in State Legislature,2020,57.4,42.6,14.7,D+14.7
+56,United States Senator,2020,55.8,44.2,11.7,Peters+11.7
+57,President of the United States,2016,45.9,54.1,-8.3,Trump+8.3
+57,Representative in Congress,2016,48.3,51.7,-3.4,R+3.4
+57,Representative in State Legislature,2016,47.5,52.5,-5.0,R+5.0
+57,Governor,2018,52.5,47.5,5.1,Whitmer+5.1
+57,Representative in Congress,2018,52.7,47.3,5.4,D+5.4
+57,Representative in State Legislature,2018,48.6,51.4,-2.8,R+2.8
+57,United States Senator,2018,52.2,47.8,4.4,Stabenow+4.4
+57,President of the United States,2020,46.3,53.7,-7.3,Trump+7.3
+57,Representative in Congress,2020,47.7,52.3,-4.6,R+4.6
+57,Representative in State Legislature,2020,44.5,55.5,-11.0,R+11.0
+57,United States Senator,2020,47.2,52.8,-5.6,James+5.6
+58,President of the United States,2016,44.8,55.2,-10.4,Trump+10.4
+58,Representative in Congress,2016,49.9,50.1,-0.1,R+0.1
+58,Representative in State Legislature,2016,52.8,47.2,5.5,D+5.5
+58,Governor,2018,53.4,46.6,6.7,Whitmer+6.7
+58,Representative in Congress,2018,52.0,48.0,4.0,D+4.0
+58,Representative in State Legislature,2018,52.6,47.4,5.3,D+5.3
+58,United States Senator,2018,52.3,47.7,4.5,Stabenow+4.5
+58,President of the United States,2020,47.1,52.9,-5.8,Trump+5.8
+58,Representative in Congress,2020,49.0,51.0,-2.1,R+2.1
+58,Representative in State Legislature,2020,50.2,49.8,0.4,D+0.4
+58,United States Senator,2020,48.4,51.6,-3.2,James+3.2
+59,President of the United States,2016,33.1,66.9,-33.8,Trump+33.8
+59,Representative in Congress,2016,31.7,68.3,-36.6,R+36.6
+59,Representative in State Legislature,2016,30.6,69.4,-38.7,R+38.7
+59,Governor,2018,40.6,59.4,-18.7,Schuette+18.7
+59,Representative in Congress,2018,35.9,64.1,-28.2,R+28.2
+59,Representative in State Legislature,2018,33.9,66.1,-32.3,R+32.3
+59,United States Senator,2018,39.9,60.1,-20.2,James+20.2
+59,President of the United States,2020,35.8,64.2,-28.3,Trump+28.3
+59,Representative in Congress,2020,33.9,66.1,-32.2,R+32.2
+59,Representative in State Legislature,2020,31.3,68.7,-37.5,R+37.5
+59,United States Senator,2020,36.3,63.7,-27.4,James+27.4
+60,President of the United States,2016,38.5,61.5,-23.1,Trump+23.1
+60,Representative in Congress,2016,41.0,59.0,-17.9,R+17.9
+60,Representative in State Legislature,2016,38.2,61.8,-23.6,R+23.6
+60,Governor,2018,47.6,52.4,-4.7,Schuette+4.7
+60,Representative in Congress,2018,43.9,56.1,-12.1,R+12.1
+60,Representative in State Legislature,2018,41.2,58.8,-17.6,R+17.6
+60,United States Senator,2018,46.5,53.5,-7.0,James+7.0
+60,President of the United States,2020,41.4,58.6,-17.3,Trump+17.3
+60,Representative in Congress,2020,41.1,58.9,-17.8,R+17.8
+60,Representative in State Legislature,2020,37.3,62.7,-25.4,R+25.4
+60,United States Senator,2020,42.1,57.9,-15.8,James+15.8
+61,President of the United States,2016,47.5,52.5,-5.0,Trump+5.0
+61,Representative in Congress,2016,56.2,43.8,12.3,D+12.3
+61,Representative in State Legislature,2016,55.7,44.3,11.5,D+11.5
+61,Governor,2018,55.1,44.9,10.2,Whitmer+10.2
+61,Representative in Congress,2018,55.8,44.2,11.6,D+11.6
+61,Representative in State Legislature,2018,56.4,43.6,12.8,D+12.8
+61,United States Senator,2018,54.5,45.5,9.0,Stabenow+9.0
+61,President of the United States,2020,49.9,50.1,-0.2,Trump+0.2
+61,Representative in Congress,2020,54.0,46.0,8.1,D+8.1
+61,Representative in State Legislature,2020,53.9,46.1,7.7,D+7.7
+61,United States Senator,2020,50.9,49.1,1.8,Peters+1.8
+62,President of the United States,2016,44.6,55.4,-10.7,Trump+10.7
+62,Representative in Congress,2016,52.5,47.5,5.0,D+5.0
+62,Representative in State Legislature,2016,52.5,47.5,5.0,D+5.0
+62,Governor,2018,52.6,47.4,5.2,Whitmer+5.2
+62,Representative in Congress,2018,51.5,48.5,2.9,D+2.9
+62,Representative in State Legislature,2018,51.8,48.2,3.6,D+3.6
+62,United States Senator,2018,52.2,47.8,4.4,Stabenow+4.4
+62,President of the United States,2020,46.5,53.5,-7.1,Trump+7.1
+62,Representative in Congress,2020,48.6,51.4,-2.8,R+2.8
+62,Representative in State Legislature,2020,48.5,51.5,-3.0,R+3.0
+62,United States Senator,2020,47.8,52.2,-4.3,James+4.3
+63,President of the United States,2016,32.5,67.5,-35.0,Trump+35.0
+63,Representative in Congress,2016,38.6,61.4,-22.8,R+22.8
+63,Representative in State Legislature,2016,35.3,64.7,-29.4,R+29.4
+63,Governor,2018,42.9,57.1,-14.3,Schuette+14.3
+63,Representative in Congress,2018,37.6,62.4,-24.9,R+24.9
+63,Representative in State Legislature,2018,38.8,61.2,-22.4,R+22.4
+63,United States Senator,2018,41.3,58.7,-17.4,James+17.4
+63,President of the United States,2020,35.0,65.0,-30.0,Trump+30.0
+63,Representative in Congress,2020,34.0,66.0,-32.0,R+32.0
+63,Representative in State Legislature,2020,34.5,65.5,-31.1,R+31.1
+63,United States Senator,2020,36.6,63.4,-26.8,James+26.8
+64,President of the United States,2016,38.2,61.8,-23.7,Trump+23.7
+64,Representative in Congress,2016,40.9,59.1,-18.2,R+18.2
+64,Representative in State Legislature,2016,40.0,60.0,-20.1,R+20.1
+64,Governor,2018,48.5,51.5,-2.9,Schuette+2.9
+64,Representative in Congress,2018,43.3,56.7,-13.3,R+13.3
+64,Representative in State Legislature,2018,42.1,57.9,-15.9,R+15.9
+64,United States Senator,2018,45.8,54.2,-8.3,James+8.3
+64,President of the United States,2020,41.0,59.0,-18.0,Trump+18.0
+64,Representative in Congress,2020,40.2,59.8,-19.6,R+19.6
+64,Representative in State Legislature,2020,39.2,60.8,-21.5,R+21.5
+64,United States Senator,2020,41.7,58.3,-16.7,James+16.7
+65,President of the United States,2016,27.2,72.8,-45.5,Trump+45.5
+65,Representative in Congress,2016,29.5,70.5,-41.1,R+41.1
+65,Representative in State Legislature,2016,28.1,71.9,-43.8,R+43.8
+65,Governor,2018,36.3,63.7,-27.3,Schuette+27.3
+65,Representative in Congress,2018,31.9,68.1,-36.1,R+36.1
+65,Representative in State Legislature,2018,30.2,69.8,-39.6,R+39.6
+65,United States Senator,2018,35.5,64.5,-29.1,James+29.1
+65,President of the United States,2020,28.9,71.1,-42.3,Trump+42.3
+65,Representative in Congress,2020,28.5,71.5,-42.9,R+42.9
+65,Representative in State Legislature,2020,25.8,74.2,-48.5,R+48.5
+65,United States Senator,2020,30.6,69.4,-38.8,James+38.8
+66,President of the United States,2016,30.3,69.7,-39.3,Trump+39.3
+66,Representative in Congress,2016,27.2,72.8,-45.7,R+45.7
+66,Representative in State Legislature,2016,27.0,73.0,-46.0,R+46.0
+66,Governor,2018,37.6,62.4,-24.8,Schuette+24.8
+66,Representative in Congress,2018,34.8,65.2,-30.4,R+30.4
+66,Representative in State Legislature,2018,34.1,65.9,-31.9,R+31.9
+66,United States Senator,2018,35.9,64.1,-28.2,James+28.2
+66,President of the United States,2020,34.2,65.8,-31.7,Trump+31.7
+66,Representative in Congress,2020,34.8,65.2,-30.3,R+30.3
+66,Representative in State Legislature,2020,32.0,68.0,-36.1,R+36.1
+66,United States Senator,2020,33.7,66.3,-32.7,James+32.7
+67,President of the United States,2016,39.8,60.2,-20.4,Trump+20.4
+67,Representative in Congress,2016,46.0,54.0,-8.0,R+8.0
+67,Representative in State Legislature,2016,44.3,55.7,-11.4,R+11.4
+67,Governor,2018,49.0,51.0,-2.0,Schuette+2.0
+67,Representative in Congress,2018,47.5,52.5,-4.9,R+4.9
+67,Representative in State Legislature,2018,44.5,55.5,-11.0,R+11.0
+67,United States Senator,2018,45.9,54.1,-8.1,James+8.1
+67,President of the United States,2020,40.4,59.6,-19.3,Trump+19.3
+67,Representative in Congress,2020,42.3,57.7,-15.5,R+15.5
+67,Representative in State Legislature,2020,39.5,60.5,-21.0,R+21.0
+67,United States Senator,2020,42.0,58.0,-16.0,James+16.0
+68,President of the United States,2016,44.7,55.3,-10.5,Trump+10.5
+68,Representative in Congress,2016,55.3,44.7,10.5,D+10.5
+68,Representative in State Legislature,2016,48.0,52.0,-3.9,R+3.9
+68,Governor,2018,53.1,46.9,6.1,Whitmer+6.1
+68,Representative in Congress,2018,56.1,43.9,12.2,D+12.2
+68,Representative in State Legislature,2018,52.2,47.8,4.4,D+4.4
+68,United States Senator,2018,49.7,50.3,-0.6,James+0.6
+68,President of the United States,2020,46.9,53.1,-6.2,Trump+6.2
+68,Representative in Congress,2020,51.8,48.2,3.6,D+3.6
+68,Representative in State Legislature,2020,48.9,51.1,-2.1,R+2.1
+68,United States Senator,2020,47.9,52.1,-4.3,James+4.3
+69,President of the United States,2016,56.6,43.4,13.3,Clinton+13.3
+69,Representative in Congress,2016,68.2,31.8,36.4,D+36.4
+69,Representative in State Legislature,2016,59.9,40.1,19.9,D+19.9
+69,Governor,2018,63.6,36.4,27.3,Whitmer+27.3
+69,Representative in Congress,2018,67.6,32.4,35.1,D+35.1
+69,Representative in State Legislature,2018,64.0,36.0,28.0,D+28.0
+69,United States Senator,2018,60.9,39.1,21.9,Stabenow+21.9
+69,President of the United States,2020,57.2,42.8,14.5,Biden+14.5
+69,Representative in Congress,2020,62.7,37.3,25.3,D+25.3
+69,Representative in State Legislature,2020,59.9,40.1,19.8,D+19.8
+69,United States Senator,2020,58.9,41.1,17.7,Peters+17.7
+70,President of the United States,2016,82.7,17.3,65.4,Clinton+65.4
+70,Representative in Congress,2016,87.9,12.1,75.9,D+75.9
+70,Representative in State Legislature,2016,84.3,15.7,68.7,D+68.7
+70,Governor,2018,85.2,14.8,70.5,Whitmer+70.5
+70,Representative in Congress,2018,87.4,12.6,74.9,D+74.9
+70,Representative in State Legislature,2018,86.0,14.0,72.0,D+72.0
+70,United States Senator,2018,83.5,16.5,67.1,Stabenow+67.1
+70,President of the United States,2020,80.7,19.3,61.5,Biden+61.5
+70,Representative in Congress,2020,84.2,15.8,68.3,D+68.3
+70,Representative in State Legislature,2020,82.8,17.2,65.5,D+65.5
+70,United States Senator,2020,81.7,18.3,63.4,Peters+63.4
+71,President of the United States,2016,39.1,60.9,-21.9,Trump+21.9
+71,Representative in Congress,2016,40.7,59.3,-18.7,R+18.7
+71,Representative in State Legislature,2016,38.6,61.4,-22.9,R+22.9
+71,Governor,2018,47.6,52.4,-4.8,Schuette+4.8
+71,Representative in Congress,2018,42.1,57.9,-15.9,R+15.9
+71,Representative in State Legislature,2018,39.0,61.0,-22.1,R+22.1
+71,United States Senator,2018,44.8,55.2,-10.5,James+10.5
+71,President of the United States,2020,39.4,60.6,-21.3,Trump+21.3
+71,Representative in Congress,2020,38.3,61.7,-23.4,R+23.4
+71,Representative in State Legislature,2020,35.8,64.2,-28.4,R+28.4
+71,United States Senator,2020,41.3,58.7,-17.5,James+17.5
+72,President of the United States,2016,42.3,57.7,-15.4,Trump+15.4
+72,Representative in Congress,2016,48.6,51.4,-2.9,R+2.9
+72,Representative in State Legislature,2016,41.6,58.4,-16.8,R+16.8
+72,Governor,2018,49.6,50.4,-0.9,Schuette+0.9
+72,Representative in Congress,2018,51.6,48.4,3.2,D+3.2
+72,Representative in State Legislature,2018,45.9,54.1,-8.2,R+8.2
+72,United States Senator,2018,46.5,53.5,-7.0,James+7.0
+72,President of the United States,2020,44.7,55.3,-10.7,Trump+10.7
+72,Representative in Congress,2020,48.1,51.9,-3.7,R+3.7
+72,Representative in State Legislature,2020,42.0,58.0,-16.0,R+16.0
+72,United States Senator,2020,45.0,55.0,-10.0,James+10.0
+73,President of the United States,2016,55.3,44.7,10.7,Clinton+10.7
+73,Representative in Congress,2016,50.0,50.0,0.0,R+0.0
+73,Representative in State Legislature,2016,56.3,43.7,12.6,D+12.6
+73,Governor,2018,61.2,38.8,22.3,Whitmer+22.3
+73,Representative in Congress,2018,61.5,38.5,23.0,D+23.0
+73,Representative in State Legislature,2018,57.4,42.6,14.7,D+14.7
+73,United States Senator,2018,58.5,41.5,17.1,Stabenow+17.1
+73,President of the United States,2020,56.1,43.9,12.3,Biden+12.3
+73,Representative in Congress,2020,58.7,41.3,17.5,D+17.5
+73,Representative in State Legislature,2020,55.2,44.8,10.5,D+10.5
+73,United States Senator,2020,55.6,44.4,11.3,Peters+11.3
+74,President of the United States,2016,66.5,33.5,33.1,Clinton+33.1
+74,Representative in Congress,2016,62.3,37.7,24.6,D+24.6
+74,Representative in State Legislature,2016,69.4,30.6,38.9,D+38.9
+74,Governor,2018,71.2,28.8,42.5,Whitmer+42.5
+74,Representative in Congress,2018,72.0,28.0,44.0,D+44.0
+74,Representative in State Legislature,2018,69.9,30.1,39.9,D+39.9
+74,United States Senator,2018,69.0,31.0,38.1,Stabenow+38.1
+74,President of the United States,2020,68.5,31.5,37.1,Biden+37.1
+74,Representative in Congress,2020,71.1,28.9,42.2,D+42.2
+74,Representative in State Legislature,2020,69.0,31.0,38.0,D+38.0
+74,United States Senator,2020,68.2,31.8,36.5,Peters+36.5
+75,President of the United States,2016,58.1,41.9,16.1,Clinton+16.1
+75,Representative in Congress,2016,51.5,48.5,3.1,D+3.1
+75,Representative in State Legislature,2016,54.6,45.4,9.3,D+9.3
+75,Governor,2018,64.2,35.8,28.4,Whitmer+28.4
+75,Representative in Congress,2018,59.4,40.6,18.8,D+18.8
+75,Representative in State Legislature,2018,59.8,40.2,19.5,D+19.5
+75,United States Senator,2018,60.9,39.1,21.8,Stabenow+21.8
+75,President of the United States,2020,61.0,39.0,22.0,Biden+22.0
+75,Representative in Congress,2020,57.6,42.4,15.1,D+15.1
+75,Representative in State Legislature,2020,55.3,44.7,10.7,D+10.7
+75,United States Senator,2020,59.5,40.5,19.1,Peters+19.1
+76,President of the United States,2016,47.6,52.4,-4.7,Trump+4.7
+76,Representative in Congress,2016,45.9,54.1,-8.2,R+8.2
+76,Representative in State Legislature,2016,42.0,58.0,-16.0,R+16.0
+76,Governor,2018,54.8,45.2,9.7,Whitmer+9.7
+76,Representative in Congress,2018,51.0,49.0,1.9,D+1.9
+76,Representative in State Legislature,2018,48.5,51.5,-2.9,R+2.9
+76,United States Senator,2018,52.5,47.5,5.1,Stabenow+5.1
+76,President of the United States,2020,51.7,48.3,3.4,Biden+3.4
+76,Representative in Congress,2020,48.2,51.8,-3.5,R+3.5
+76,Representative in State Legislature,2020,50.0,50.0,0.1,D+0.1
+76,United States Senator,2020,52.4,47.6,4.7,Peters+4.7
+77,President of the United States,2016,62.7,37.3,25.4,Clinton+25.4
+77,Representative in Congress,2016,57.3,42.7,14.6,D+14.6
+77,Representative in State Legislature,2016,59.4,40.6,18.8,D+18.8
+77,Governor,2018,68.1,31.9,36.3,Whitmer+36.3
+77,Representative in Congress,2018,64.1,35.9,28.3,D+28.3
+77,Representative in State Legislature,2018,62.4,37.6,24.8,D+24.8
+77,United States Senator,2018,65.7,34.3,31.3,Stabenow+31.3
+77,President of the United States,2020,64.2,35.8,28.5,Biden+28.5
+77,Representative in Congress,2020,61.5,38.5,23.1,D+23.1
+77,Representative in State Legislature,2020,59.7,40.3,19.4,D+19.4
+77,United States Senator,2020,64.1,35.9,28.2,Peters+28.2
+78,President of the United States,2016,32.9,67.1,-34.1,Trump+34.1
+78,Representative in Congress,2016,29.6,70.4,-40.7,R+40.7
+78,Representative in State Legislature,2016,32.1,67.9,-35.9,R+35.9
+78,Governor,2018,41.1,58.9,-17.8,Schuette+17.8
+78,Representative in Congress,2018,34.4,65.6,-31.2,R+31.2
+78,Representative in State Legislature,2018,33.8,66.2,-32.4,R+32.4
+78,United States Senator,2018,38.8,61.2,-22.4,James+22.4
+78,President of the United States,2020,35.0,65.0,-30.0,Trump+30.0
+78,Representative in Congress,2020,34.5,65.5,-30.9,R+30.9
+78,Representative in State Legislature,2020,30.3,69.7,-39.5,R+39.5
+78,United States Senator,2020,34.5,65.5,-31.1,James+31.1
+79,President of the United States,2016,30.1,69.9,-39.7,Trump+39.7
+79,Representative in Congress,2016,24.0,76.0,-52.1,R+52.1
+79,Representative in State Legislature,2016,25.7,74.3,-48.6,R+48.6
+79,Governor,2018,34.3,65.7,-31.4,Schuette+31.4
+79,Representative in Congress,2018,29.2,70.8,-41.7,R+41.7
+79,Representative in State Legislature,2018,28.7,71.3,-42.5,R+42.5
+79,United States Senator,2018,32.8,67.2,-34.3,James+34.3
+79,President of the United States,2020,35.0,65.0,-29.9,Trump+29.9
+79,Representative in Congress,2020,33.5,66.5,-33.0,R+33.0
+79,Representative in State Legislature,2020,29.3,70.7,-41.4,R+41.4
+79,United States Senator,2020,32.0,68.0,-36.0,James+36.0
+80,President of the United States,2016,54.5,45.5,9.1,Clinton+9.1
+80,Representative in Congress,2016,44.6,55.4,-10.8,R+10.8
+80,Representative in State Legislature,2016,46.9,53.1,-6.1,R+6.1
+80,Governor,2018,55.4,44.6,10.9,Whitmer+10.9
+80,Representative in Congress,2018,51.4,48.6,2.9,D+2.9
+80,Representative in State Legislature,2018,52.1,47.9,4.3,D+4.3
+80,United States Senator,2018,53.4,46.6,6.9,Stabenow+6.9
+80,President of the United States,2020,59.5,40.5,19.0,Biden+19.0
+80,Representative in Congress,2020,53.8,46.2,7.6,D+7.6
+80,Representative in State Legislature,2020,54.7,45.3,9.5,D+9.5
+80,United States Senator,2020,54.9,45.1,9.9,Peters+9.9
+81,President of the United States,2016,50.9,49.1,1.8,Clinton+1.8
+81,Representative in Congress,2016,41.6,58.4,-16.9,R+16.9
+81,Representative in State Legislature,2016,47.0,53.0,-6.1,R+6.1
+81,Governor,2018,55.3,44.7,10.6,Whitmer+10.6
+81,Representative in Congress,2018,49.5,50.5,-0.9,R+0.9
+81,Representative in State Legislature,2018,51.6,48.4,3.3,D+3.3
+81,United States Senator,2018,52.9,47.1,5.7,Stabenow+5.7
+81,President of the United States,2020,57.4,42.6,14.7,Biden+14.7
+81,Representative in Congress,2020,54.3,45.7,8.6,D+8.6
+81,Representative in State Legislature,2020,53.7,46.3,7.3,D+7.3
+81,United States Senator,2020,53.2,46.8,6.4,Peters+6.4
+82,President of the United States,2016,74.8,25.2,49.5,Clinton+49.5
+82,Representative in Congress,2016,64.1,35.9,28.2,D+28.2
+82,Representative in State Legislature,2016,72.1,27.9,44.2,D+44.2
+82,Governor,2018,74.8,25.2,49.6,Whitmer+49.6
+82,Representative in Congress,2018,69.7,30.3,39.4,D+39.4
+82,Representative in State Legislature,2018,73.4,26.6,46.8,D+46.8
+82,United States Senator,2018,72.5,27.5,45.0,Stabenow+45.0
+82,President of the United States,2020,77.0,23.0,54.0,Biden+54.0
+82,Representative in Congress,2020,74.4,25.6,48.7,D+48.7
+82,Representative in State Legislature,2020,74.1,25.9,48.1,D+48.1
+82,United States Senator,2020,73.1,26.9,46.3,Peters+46.3
+83,President of the United States,2016,50.1,49.9,0.3,Clinton+0.3
+83,Representative in Congress,2016,43.5,56.5,-13.0,R+13.0
+83,Representative in State Legislature,2016,42.7,57.3,-14.6,R+14.6
+83,Governor,2018,54.5,45.5,9.1,Whitmer+9.1
+83,Representative in Congress,2018,51.9,48.1,3.8,D+3.8
+83,Representative in State Legislature,2018,47.0,53.0,-6.0,R+6.0
+83,United States Senator,2018,52.1,47.9,4.3,Stabenow+4.3
+83,President of the United States,2020,55.0,45.0,10.0,Biden+10.0
+83,Representative in Congress,2020,50.1,49.9,0.2,D+0.2
+83,Representative in State Legislature,2020,48.3,51.7,-3.4,R+3.4
+83,United States Senator,2020,52.6,47.4,5.1,Peters+5.1
+84,President of the United States,2016,48.5,51.5,-3.1,Trump+3.1
+84,Representative in Congress,2016,41.0,59.0,-18.0,R+18.0
+84,Representative in State Legislature,2016,46.0,54.0,-8.1,R+8.1
+84,Governor,2018,54.6,45.4,9.1,Whitmer+9.1
+84,Representative in Congress,2018,49.9,50.1,-0.2,R+0.2
+84,Representative in State Legislature,2018,52.0,48.0,4.0,D+4.0
+84,United States Senator,2018,52.4,47.6,4.8,Stabenow+4.8
+84,President of the United States,2020,55.3,44.7,10.5,Biden+10.5
+84,Representative in Congress,2020,51.8,48.2,3.5,D+3.5
+84,Representative in State Legislature,2020,51.8,48.2,3.7,D+3.7
+84,United States Senator,2020,52.3,47.7,4.6,Peters+4.6
+85,President of the United States,2016,24.7,75.3,-50.6,Trump+50.6
+85,Representative in Congress,2016,17.9,82.1,-64.2,R+64.2
+85,Representative in State Legislature,2016,21.0,79.0,-58.0,R+58.0
+85,Governor,2018,29.1,70.9,-41.8,Schuette+41.8
+85,Representative in Congress,2018,27.3,72.7,-45.4,R+45.4
+85,Representative in State Legislature,2018,25.4,74.6,-49.2,R+49.2
+85,United States Senator,2018,27.6,72.4,-44.9,James+44.9
+85,President of the United States,2020,32.0,68.0,-36.1,Trump+36.1
+85,Representative in Congress,2020,26.8,73.2,-46.4,R+46.4
+85,Representative in State Legislature,2020,26.3,73.7,-47.5,R+47.5
+85,United States Senator,2020,28.3,71.7,-43.3,James+43.3
+86,President of the United States,2016,45.1,54.9,-9.8,Trump+9.8
+86,Representative in Congress,2016,34.3,65.7,-31.4,R+31.4
+86,Representative in State Legislature,2016,35.5,64.5,-29.0,R+29.0
+86,Governor,2018,47.7,52.3,-4.5,Schuette+4.5
+86,Representative in Congress,2018,47.0,53.0,-5.9,R+5.9
+86,Representative in State Legislature,2018,42.8,57.2,-14.5,R+14.5
+86,United States Senator,2018,45.5,54.5,-9.0,James+9.0
+86,President of the United States,2020,50.6,49.4,1.3,Biden+1.3
+86,Representative in Congress,2020,45.3,54.7,-9.4,R+9.4
+86,Representative in State Legislature,2020,44.3,55.7,-11.5,R+11.5
+86,United States Senator,2020,46.6,53.4,-6.8,James+6.8
+87,President of the United States,2016,61.0,39.0,22.1,Clinton+22.1
+87,Representative in Congress,2016,56.9,43.1,13.8,D+13.8
+87,Representative in State Legislature,2016,67.3,32.7,34.6,D+34.6
+87,Governor,2018,64.5,35.5,29.0,Whitmer+29.0
+87,Representative in Congress,2018,62.9,37.1,25.9,D+25.9
+87,Representative in State Legislature,2018,67.0,33.0,34.0,D+34.0
+87,United States Senator,2018,62.4,37.6,24.9,Stabenow+24.9
+87,President of the United States,2020,60.0,40.0,20.1,Biden+20.1
+87,Representative in Congress,2020,55.7,44.3,11.3,D+11.3
+87,Representative in State Legislature,2020,63.5,36.5,27.1,D+27.1
+87,United States Senator,2020,59.4,40.6,18.7,Peters+18.7
+88,President of the United States,2016,42.1,57.9,-15.8,Trump+15.8
+88,Representative in Congress,2016,34.0,66.0,-32.1,R+32.1
+88,Representative in State Legislature,2016,41.3,58.7,-17.3,R+17.3
+88,Governor,2018,47.1,52.9,-5.9,Schuette+5.9
+88,Representative in Congress,2018,46.9,53.1,-6.2,R+6.2
+88,Representative in State Legislature,2018,42.0,58.0,-15.9,R+15.9
+88,United States Senator,2018,45.3,54.7,-9.3,James+9.3
+88,President of the United States,2020,45.6,54.4,-8.7,Trump+8.7
+88,Representative in Congress,2020,40.1,59.9,-19.8,R+19.8
+88,Representative in State Legislature,2020,41.2,58.8,-17.6,R+17.6
+88,United States Senator,2020,42.9,57.1,-14.3,James+14.3
+89,President of the United States,2016,31.6,68.4,-36.9,Trump+36.9
+89,Representative in Congress,2016,27.3,72.7,-45.4,R+45.4
+89,Representative in State Legislature,2016,32.8,67.2,-34.5,R+34.5
+89,Governor,2018,37.0,63.0,-25.9,Schuette+25.9
+89,Representative in Congress,2018,35.3,64.7,-29.3,R+29.3
+89,Representative in State Legislature,2018,33.8,66.2,-32.4,R+32.4
+89,United States Senator,2018,36.1,63.9,-27.9,James+27.9
+89,President of the United States,2020,33.2,66.8,-33.5,Trump+33.5
+89,Representative in Congress,2020,29.7,70.3,-40.6,R+40.6
+89,Representative in State Legislature,2020,30.3,69.7,-39.3,R+39.3
+89,United States Senator,2020,32.3,67.7,-35.3,James+35.3
+90,President of the United States,2016,35.5,64.5,-28.9,Trump+28.9
+90,Representative in Congress,2016,29.4,70.6,-41.2,R+41.2
+90,Representative in State Legislature,2016,31.5,68.5,-37.0,R+37.0
+90,Governor,2018,41.0,59.0,-18.0,Schuette+18.0
+90,Representative in Congress,2018,35.4,64.6,-29.2,R+29.2
+90,Representative in State Legislature,2018,36.4,63.6,-27.1,R+27.1
+90,United States Senator,2018,39.7,60.3,-20.6,James+20.6
+90,President of the United States,2020,40.2,59.8,-19.6,Trump+19.6
+90,Representative in Congress,2020,38.5,61.5,-23.0,R+23.0
+90,Representative in State Legislature,2020,35.3,64.7,-29.3,R+29.3
+90,United States Senator,2020,37.4,62.6,-25.1,James+25.1
+91,President of the United States,2016,31.8,68.2,-36.5,Trump+36.5
+91,Representative in Congress,2016,30.2,69.8,-39.6,R+39.6
+91,Representative in State Legislature,2016,32.9,67.1,-34.2,R+34.2
+91,Governor,2018,40.1,59.9,-19.7,Schuette+19.7
+91,Representative in Congress,2018,34.4,65.6,-31.1,R+31.1
+91,Representative in State Legislature,2018,35.6,64.4,-28.9,R+28.9
+91,United States Senator,2018,38.2,61.8,-23.5,James+23.5
+91,President of the United States,2020,31.9,68.1,-36.3,Trump+36.3
+91,Representative in Congress,2020,30.8,69.2,-38.4,R+38.4
+91,Representative in State Legislature,2020,29.7,70.3,-40.6,R+40.6
+91,United States Senator,2020,32.2,67.8,-35.7,James+35.7
+92,President of the United States,2016,46.7,53.3,-6.6,Trump+6.6
+92,Representative in Congress,2016,39.5,60.5,-20.9,R+20.9
+92,Representative in State Legislature,2016,42.6,57.4,-14.9,R+14.9
+92,Governor,2018,52.9,47.1,5.9,Whitmer+5.9
+92,Representative in Congress,2018,43.8,56.2,-12.4,R+12.4
+92,Representative in State Legislature,2018,44.1,55.9,-11.9,R+11.9
+92,United States Senator,2018,50.2,49.8,0.4,Stabenow+0.4
+92,President of the United States,2020,46.9,53.1,-6.1,Trump+6.1
+92,Representative in Congress,2020,38.6,61.4,-22.9,R+22.9
+92,Representative in State Legislature,2020,36.8,63.2,-26.3,R+26.3
+92,United States Senator,2020,47.0,53.0,-5.9,James+5.9
+93,President of the United States,2016,35.0,65.0,-30.1,Trump+30.1
+93,Representative in Congress,2016,35.5,64.5,-29.0,R+29.0
+93,Representative in State Legislature,2016,32.4,67.6,-35.1,R+35.1
+93,Governor,2018,42.2,57.8,-15.5,Schuette+15.5
+93,Representative in Congress,2018,37.2,62.8,-25.6,R+25.6
+93,Representative in State Legislature,2018,40.6,59.4,-18.9,R+18.9
+93,United States Senator,2018,40.7,59.3,-18.6,James+18.6
+93,President of the United States,2020,36.0,64.0,-28.0,Trump+28.0
+93,Representative in Congress,2020,33.1,66.9,-33.9,R+33.9
+93,Representative in State Legislature,2020,32.7,67.3,-34.6,R+34.6
+93,United States Senator,2020,37.1,62.9,-25.7,James+25.7
+94,President of the United States,2016,67.1,32.9,34.2,Clinton+34.2
+94,Representative in Congress,2016,72.6,27.4,45.2,D+45.2
+94,Representative in State Legislature,2016,67.4,32.6,34.8,D+34.8
+94,Governor,2018,69.8,30.2,39.5,Whitmer+39.5
+94,Representative in Congress,2018,71.9,28.1,43.8,D+43.8
+94,Representative in State Legislature,2018,69.5,30.5,39.0,D+39.0
+94,United States Senator,2018,67.6,32.4,35.1,Stabenow+35.1
+94,President of the United States,2020,67.3,32.7,34.7,Biden+34.7
+94,Representative in Congress,2020,68.6,31.4,37.2,D+37.2
+94,Representative in State Legislature,2020,67.7,32.3,35.3,D+35.3
+94,United States Senator,2020,67.9,32.1,35.8,Peters+35.8
+95,President of the United States,2016,39.6,60.4,-20.8,Trump+20.8
+95,Representative in Congress,2016,32.7,67.3,-34.7,R+34.7
+95,Representative in State Legislature,2016,40.5,59.5,-19.0,R+19.0
+95,Governor,2018,43.4,56.6,-13.1,Schuette+13.1
+95,Representative in Congress,2018,38.5,61.5,-23.1,R+23.1
+95,Representative in State Legislature,2018,45.6,54.4,-8.9,R+8.9
+95,United States Senator,2018,42.7,57.3,-14.7,James+14.7
+95,President of the United States,2020,42.4,57.6,-15.3,Trump+15.3
+95,Representative in Congress,2020,35.3,64.7,-29.3,R+29.3
+95,Representative in State Legislature,2020,39.8,60.2,-20.4,R+20.4
+95,United States Senator,2020,41.5,58.5,-16.9,James+16.9
+96,President of the United States,2016,44.6,55.4,-10.8,Trump+10.8
+96,Representative in Congress,2016,57.5,42.5,14.9,D+14.9
+96,Representative in State Legislature,2016,54.1,45.9,8.2,D+8.2
+96,Governor,2018,52.5,47.5,5.1,Whitmer+5.1
+96,Representative in Congress,2018,56.2,43.8,12.3,D+12.3
+96,Representative in State Legislature,2018,53.2,46.8,6.5,D+6.5
+96,United States Senator,2018,50.8,49.2,1.6,Stabenow+1.6
+96,President of the United States,2020,45.5,54.5,-9.1,Trump+9.1
+96,Representative in Congress,2020,47.5,52.5,-5.1,R+5.1
+96,Representative in State Legislature,2020,43.0,57.0,-14.1,R+14.1
+96,United States Senator,2020,47.6,52.4,-4.8,James+4.8
+97,President of the United States,2016,33.8,66.2,-32.5,Trump+32.5
+97,Representative in Congress,2016,40.1,59.9,-19.8,R+19.8
+97,Representative in State Legislature,2016,36.7,63.3,-26.7,R+26.7
+97,Governor,2018,41.7,58.3,-16.6,Schuette+16.6
+97,Representative in Congress,2018,40.8,59.2,-18.4,R+18.4
+97,Representative in State Legislature,2018,39.8,60.2,-20.5,R+20.5
+97,United States Senator,2018,40.1,59.9,-19.7,James+19.7
+97,President of the United States,2020,35.0,65.0,-29.9,Trump+29.9
+97,Representative in Congress,2020,36.0,64.0,-28.0,R+28.0
+97,Representative in State Legislature,2020,34.4,65.6,-31.2,R+31.2
+97,United States Senator,2020,37.0,63.0,-26.1,James+26.1
+98,President of the United States,2016,27.9,72.1,-44.3,Trump+44.3
+98,Representative in Congress,2016,27.1,72.9,-45.7,R+45.7
+98,Representative in State Legislature,2016,30.0,70.0,-40.0,R+40.0
+98,Governor,2018,35.1,64.9,-29.8,Schuette+29.8
+98,Representative in Congress,2018,30.8,69.2,-38.3,R+38.3
+98,Representative in State Legislature,2018,29.4,70.6,-41.2,R+41.2
+98,United States Senator,2018,35.2,64.8,-29.6,James+29.6
+98,President of the United States,2020,28.2,71.8,-43.6,Trump+43.6
+98,Representative in Congress,2020,28.6,71.4,-42.8,R+42.8
+98,Representative in State Legislature,2020,27.2,72.8,-45.6,R+45.6
+98,United States Senator,2020,31.0,69.0,-38.0,James+38.0
+99,President of the United States,2016,32.4,67.6,-35.1,Trump+35.1
+99,Representative in Congress,2016,37.5,62.5,-25.1,R+25.1
+99,Representative in State Legislature,2016,37.6,62.4,-24.7,R+24.7
+99,Governor,2018,40.3,59.7,-19.4,Schuette+19.4
+99,Representative in Congress,2018,38.9,61.1,-22.2,R+22.2
+99,Representative in State Legislature,2018,36.6,63.4,-26.7,R+26.7
+99,United States Senator,2018,39.5,60.5,-20.9,James+20.9
+99,President of the United States,2020,32.2,67.8,-35.7,Trump+35.7
+99,Representative in Congress,2020,32.7,67.3,-34.6,R+34.6
+99,Representative in State Legislature,2020,31.0,69.0,-38.0,R+38.0
+99,United States Senator,2020,35.9,64.1,-28.1,James+28.1
+100,President of the United States,2016,33.4,66.6,-33.2,Trump+33.2
+100,Representative in Congress,2016,33.8,66.2,-32.4,R+32.4
+100,Representative in State Legislature,2016,34.8,65.2,-30.3,R+30.3
+100,Governor,2018,39.4,60.6,-21.2,Schuette+21.2
+100,Representative in Congress,2018,36.0,64.0,-28.0,R+28.0
+100,Representative in State Legislature,2018,34.7,65.3,-30.7,R+30.7
+100,United States Senator,2018,39.1,60.9,-21.9,James+21.9
+100,President of the United States,2020,33.0,67.0,-33.9,Trump+33.9
+100,Representative in Congress,2020,30.8,69.2,-38.4,R+38.4
+100,Representative in State Legislature,2020,31.3,68.7,-37.3,R+37.3
+100,United States Senator,2020,33.5,66.5,-33.1,James+33.1
+101,President of the United States,2016,32.3,67.7,-35.4,Trump+35.4
+101,Representative in Congress,2016,30.2,69.8,-39.7,R+39.7
+101,Representative in State Legislature,2016,32.0,68.0,-35.9,R+35.9
+101,Governor,2018,38.5,61.5,-22.9,Schuette+22.9
+101,Representative in Congress,2018,35.7,64.3,-28.6,R+28.6
+101,Representative in State Legislature,2018,32.8,67.2,-34.4,R+34.4
+101,United States Senator,2018,37.5,62.5,-25.0,James+25.0
+101,President of the United States,2020,33.0,67.0,-34.0,Trump+34.0
+101,Representative in Congress,2020,29.3,70.7,-41.4,R+41.4
+101,Representative in State Legislature,2020,30.2,69.8,-39.6,R+39.6
+101,United States Senator,2020,32.8,67.2,-34.5,James+34.5
+102,President of the United States,2016,41.0,59.0,-18.0,Trump+18.0
+102,Representative in Congress,2016,37.3,62.7,-25.5,R+25.5
+102,Representative in State Legislature,2016,44.3,55.7,-11.4,R+11.4
+102,Governor,2018,46.8,53.2,-6.5,Schuette+6.5
+102,Representative in Congress,2018,44.9,55.1,-10.1,R+10.1
+102,Representative in State Legislature,2018,43.2,56.8,-13.6,R+13.6
+102,United States Senator,2018,45.5,54.5,-9.0,James+9.0
+102,President of the United States,2020,42.0,58.0,-16.0,Trump+16.0
+102,Representative in Congress,2020,36.7,63.3,-26.6,R+26.6
+102,Representative in State Legislature,2020,39.1,60.9,-21.8,R+21.8
+102,United States Senator,2020,41.2,58.8,-17.7,James+17.7
+103,President of the United States,2016,47.6,52.4,-4.9,Trump+4.9
+103,Representative in Congress,2016,45.1,54.9,-9.9,R+9.9
+103,Representative in State Legislature,2016,48.7,51.3,-2.7,R+2.7
+103,Governor,2018,52.6,47.4,5.2,Whitmer+5.2
+103,Representative in Congress,2018,52.1,47.9,4.2,D+4.2
+103,Representative in State Legislature,2018,51.5,48.5,2.9,D+2.9
+103,United States Senator,2018,51.2,48.8,2.4,Stabenow+2.4
+103,President of the United States,2020,53.0,47.0,5.9,Biden+5.9
+103,Representative in Congress,2020,47.8,52.2,-4.4,R+4.4
+103,Representative in State Legislature,2020,50.3,49.7,0.7,D+0.7
+103,United States Senator,2020,50.1,49.9,0.3,Peters+0.3
+104,President of the United States,2016,35.3,64.7,-29.4,Trump+29.4
+104,Representative in Congress,2016,35.3,64.7,-29.4,R+29.4
+104,Representative in State Legislature,2016,36.8,63.2,-26.3,R+26.3
+104,Governor,2018,41.4,58.6,-17.2,Schuette+17.2
+104,Representative in Congress,2018,38.8,61.2,-22.4,R+22.4
+104,Representative in State Legislature,2018,36.7,63.3,-26.6,R+26.6
+104,United States Senator,2018,40.4,59.6,-19.2,James+19.2
+104,President of the United States,2020,38.1,61.9,-23.8,Trump+23.8
+104,Representative in Congress,2020,33.0,67.0,-34.0,R+34.0
+104,Representative in State Legislature,2020,34.1,65.9,-31.7,R+31.7
+104,United States Senator,2020,37.3,62.7,-25.4,James+25.4
+105,President of the United States,2016,30.7,69.3,-38.5,Trump+38.5
+105,Representative in Congress,2016,33.3,66.7,-33.5,R+33.5
+105,Representative in State Legislature,2016,38.1,61.9,-23.8,R+23.8
+105,Governor,2018,37.1,62.9,-25.8,Schuette+25.8
+105,Representative in Congress,2018,34.5,65.5,-30.9,R+30.9
+105,Representative in State Legislature,2018,34.5,65.5,-31.1,R+31.1
+105,United States Senator,2018,36.6,63.4,-26.8,James+26.8
+105,President of the United States,2020,31.9,68.1,-36.2,Trump+36.2
+105,Representative in Congress,2020,29.0,71.0,-42.0,R+42.0
+105,Representative in State Legislature,2020,31.1,68.9,-37.8,R+37.8
+105,United States Senator,2020,32.4,67.6,-35.2,James+35.2
+106,President of the United States,2016,32.5,67.5,-35.0,Trump+35.0
+106,Representative in Congress,2016,38.5,61.5,-23.0,R+23.0
+106,Representative in State Legislature,2016,32.9,67.1,-34.2,R+34.2
+106,Governor,2018,40.3,59.7,-19.4,Schuette+19.4
+106,Representative in Congress,2018,37.3,62.7,-25.4,R+25.4
+106,Representative in State Legislature,2018,36.9,63.1,-26.3,R+26.3
+106,United States Senator,2018,39.4,60.6,-21.3,James+21.3
+106,President of the United States,2020,33.5,66.5,-32.9,Trump+32.9
+106,Representative in Congress,2020,30.2,69.8,-39.7,R+39.7
+106,Representative in State Legislature,2020,30.3,69.7,-39.5,R+39.5
+106,United States Senator,2020,35.2,64.8,-29.5,James+29.5
+107,President of the United States,2016,38.0,62.0,-24.0,Trump+24.0
+107,Representative in Congress,2016,39.7,60.3,-20.7,R+20.7
+107,Representative in State Legislature,2016,34.9,65.1,-30.3,R+30.3
+107,Governor,2018,44.2,55.8,-11.6,Schuette+11.6
+107,Representative in Congress,2018,41.5,58.5,-17.1,R+17.1
+107,Representative in State Legislature,2018,42.4,57.6,-15.3,R+15.3
+107,United States Senator,2018,42.7,57.3,-14.6,James+14.6
+107,President of the United States,2020,42.4,57.6,-15.2,Trump+15.2
+107,Representative in Congress,2020,37.4,62.6,-25.2,R+25.2
+107,Representative in State Legislature,2020,41.2,58.8,-17.6,R+17.6
+107,United States Senator,2020,41.3,58.7,-17.3,James+17.3
+108,President of the United States,2016,35.0,65.0,-30.0,Trump+30.0
+108,Representative in Congress,2016,42.4,57.6,-15.2,R+15.2
+108,Representative in State Legislature,2016,43.9,56.1,-12.2,R+12.2
+108,Governor,2018,42.4,57.6,-15.3,Schuette+15.3
+108,Representative in Congress,2018,41.4,58.6,-17.3,R+17.3
+108,Representative in State Legislature,2018,40.8,59.2,-18.3,R+18.3
+108,United States Senator,2018,42.0,58.0,-16.0,James+16.0
+108,President of the United States,2020,35.2,64.8,-29.6,Trump+29.6
+108,Representative in Congress,2020,33.7,66.3,-32.5,R+32.5
+108,Representative in State Legislature,2020,36.8,63.2,-26.4,R+26.4
+108,United States Senator,2020,36.4,63.6,-27.3,James+27.3
+109,President of the United States,2016,47.5,52.5,-4.9,Trump+4.9
+109,Representative in Congress,2016,50.6,49.4,1.2,D+1.2
+109,Representative in State Legislature,2016,63.5,36.5,27.0,D+27.0
+109,Governor,2018,54.6,45.4,9.2,Whitmer+9.2
+109,Representative in Congress,2018,52.5,47.5,4.9,D+4.9
+109,Representative in State Legislature,2018,56.6,43.4,13.2,D+13.2
+109,United States Senator,2018,53.7,46.3,7.4,Stabenow+7.4
+109,President of the United States,2020,50.3,49.7,0.6,Biden+0.6
+109,Representative in Congress,2020,47.0,53.0,-6.0,R+6.0
+109,Representative in State Legislature,2020,54.8,45.2,9.6,D+9.6
+109,United States Senator,2020,50.7,49.3,1.5,Peters+1.5
+110,President of the United States,2016,38.0,62.0,-24.0,Trump+24.0
+110,Representative in Congress,2016,42.6,57.4,-14.7,R+14.7
+110,Representative in State Legislature,2016,57.5,42.5,14.9,D+14.9
+110,Governor,2018,45.1,54.9,-9.9,Schuette+9.9
+110,Representative in Congress,2018,43.4,56.6,-13.2,R+13.2
+110,Representative in State Legislature,2018,45.2,54.8,-9.7,R+9.7
+110,United States Senator,2018,44.7,55.3,-10.6,James+10.6
+110,President of the United States,2020,39.8,60.2,-20.3,Trump+20.3
+110,Representative in Congress,2020,36.6,63.4,-26.8,R+26.8
+110,Representative in State Legislature,2020,39.9,60.1,-20.2,R+20.2
+110,United States Senator,2020,41.0,59.0,-18.0,James+18.0
