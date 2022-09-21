@@ -289,6 +289,18 @@ def create_county_level_election_results_summary(year: int, office_name: str) ->
     return df
 
 
+def create_selected_counties_election_results_summary(include_counties: iter, exclude_counties: iter, *args) -> None:
+    df = create_county_level_election_results_summary(*args)
+    if include_counties:
+        df = df[df.countyName.isin(include_counties)].copy()
+    if exclude_counties:
+        df = df[~df.countyName.isin(exclude_counties)].copy()
+    votes_2party = df.votesD.sum() + df.votesR.sum()
+    D = df.votesD.sum() / votes_2party
+    R = df.votesR.sum() / votes_2party
+    print(tuple(round(i * 100, 1) for i in (D, R)))
+
+
 def create_benchmarks() -> None:
     df = create_county_level_election_results_summary(2018, 'governor')[[
         'countyName', 'voteShareD_2party', 'voteShareR_2party', 'margin_2party', 'votesD', 'votesR']]
