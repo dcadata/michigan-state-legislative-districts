@@ -10,8 +10,11 @@ _OFFICE_NAMES = dict(
 )
 
 
-def read_primary_data(year: int) -> pd.DataFrame:
-    filepath = f'G:/election_data/MichiganElectionResults/Primary/{year}.xls'
+def read_county_level_results(year: int, use_general: bool = False) -> pd.DataFrame:
+    filepath = 'G:/election_data/MichiganElectionResults/' + {
+        True: f'GeneralByCounty/{year}GEN_MI_CENR_BY_COUNTY.xls',
+        False: f'Primary/{year}.xls',
+    }[use_general]
     dtype = {
         'ElectionDate': str,
         'OfficeCode(Text)': str,
@@ -169,10 +172,10 @@ def _merge_election_results(
 
     votes_merged = (
         votes
-            .merge(parties, on='candidate_id')
-            .merge(mcd, on=['mcd_code', 'county_code'])
-            .merge(counties, on='county_code')
-            .drop(columns=['county_code', 'mcd_code', 'candidate_id'])
+        .merge(parties, on='candidate_id')
+        .merge(mcd, on=['mcd_code', 'county_code'])
+        .merge(counties, on='county_code')
+        .drop(columns=['county_code', 'mcd_code', 'candidate_id'])
     )
     return votes_merged
 
@@ -329,8 +332,8 @@ def create_district_level_summaries() -> pd.DataFrame:
     def _create_one(args, d_cand: str, r_cand: str) -> pd.DataFrame:
         temp = (
             create_district_level_summary(*args)
-                .drop(columns=['geometry']).rename(columns=dict(DISTRICTNO='district'))
-                .assign(year=args[0]).assign(office=args[1])
+            .drop(columns=['geometry']).rename(columns=dict(DISTRICTNO='district'))
+            .assign(year=args[0]).assign(office=args[1])
         )
         temp.marginText_2party = temp.marginText_2party.apply(lambda x: (d_cand if x[0] == 'D' else r_cand) + x[1:])
         return temp
