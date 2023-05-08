@@ -10,38 +10,6 @@ _OFFICE_NAMES = dict(
 )
 
 
-def read_county_level_results(year: int, use_general: bool = False) -> pd.DataFrame:
-    filepath = 'G:/election_data/MichiganElectionResults/' + {
-        True: f'GeneralByCounty/{year}GEN_MI_CENR_BY_COUNTY.xls',
-        False: f'Primary/{year}.xls',
-    }[use_general]
-    dtype = {
-        'ElectionDate': str,
-        'OfficeCode(Text)': str,
-        'DistrictCode(Text)': str,
-        'CountyCode': str,
-        'CountyName': str,
-        'OfficeDescription': str,
-        'PartyName': str,
-        'CandidateID': str,
-        'CandidateLastName': str,
-        'CandidateFirstName': str,
-        # 'CandidateMiddleName': str,
-        # 'CandidateFormerName': str,
-        'CandidateVotes': float,
-    }
-    rename_mapper = {
-        'OfficeCode(Text)': 'OfficeCode',
-        'DistrictCode(Text)': 'DistrictCode',
-    }
-    data = pd.read_csv(filepath, sep='\t', dtype=dtype)[list(dtype.keys())]
-    data.CandidateVotes = data.CandidateVotes.fillna(0).apply(int)
-    data['CandidateName'] = data.CandidateLastName + ', ' + data.CandidateFirstName
-    data = data.iloc[:-1].dropna()
-    data = data.rename(columns=rename_mapper).drop(columns=['CandidateLastName', 'CandidateFirstName'])
-    return data
-
-
 def _read_file(filename: str, year: int, dtype: dict) -> pd.DataFrame:
     filepath = f'G:/election_data/MichiganElectionResults/General/{year}/{filename}'
     data = pd.read_csv(filepath, sep='\t', index_col=False, names=dtype.keys(), dtype=dtype)
