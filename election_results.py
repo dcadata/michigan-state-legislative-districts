@@ -8,7 +8,6 @@ _OFFICE_NAMES = dict(
     house='REPRESENTATIVE IN STATE LEG',
     congressional='REPRESENTATIVE IN CONGRESS',
 )
-_PRECINCT_UNIQUE_COLS = ['WARD', 'PRECINCT', 'mcd_name', 'county_name']
 
 
 def _read_file(filename: str, year: int, dtype: dict) -> pd.DataFrame:
@@ -157,35 +156,6 @@ def read_and_merge_election_results(year: int, office_name: str) -> pd.DataFrame
     counties = _read_counties(year)
     election_results = _merge_election_results(offices, office_name, parties, votes, mcd, counties)
     return election_results
-
-
-def build_election_results_with_vote_share(*args) -> pd.DataFrame:
-    results = read_and_merge_election_results(*args)
-    results.party = results.party.apply(dict(DEM='D', REP='R').get)
-    results = results.dropna(subset=['party'])  # drop non-DEM/REP
-
-    votes = results.groupby(_PRECINCT_UNIQUE_COLS, as_index=False).votes.sum()
-    results = results.groupby([*_PRECINCT_UNIQUE_COLS, 'party'], as_index=False).votes.sum()
-
-    results = results[results.party == 'D'].drop(columns='party')
-    results = results.merge(votes, on=_PRECINCT_UNIQUE_COLS, suffixes=('', 'Total'))
-    results['voteShare'] = results.votes / results.votesTotal
-    return results
-
-
-def combine_election_results_with_vote_share() -> pd.DataFrame:
-    results18 = build_election_results_with_vote_share(2018, 'governor')
-    results20 = build_election_results_with_vote_share(2020, 'president of the united states')
-    results22 = build_election_results_with_vote_share(2022, 'governor')
-    results = (
-        results18
-        .merge(results20, on=_PRECINCT_UNIQUE_COLS, suffixes=('', '20'))
-        .merge(results22, on=_PRECINCT_UNIQUE_COLS, suffixes=('18', '22'))
-    )
-
-    results['turnout18Of20'] = results.votesTotal18 / results.votesTotal20
-    results['turnout22Of20'] = results.votesTotal22 / results.votesTotal20
-    return results
 
 
 def _transpose_parties_into_columns(votes_rollup: pd.DataFrame) -> pd.DataFrame:
