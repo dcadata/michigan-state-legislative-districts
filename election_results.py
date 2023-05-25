@@ -18,7 +18,7 @@ def _read_file(filename: str, year: int, dtype: dict) -> pd.DataFrame:
     return data
 
 
-def _normalize_mcd_name(x: str) -> str:
+def _standardize_mcd_name(x: str) -> str:
     x = x.strip()
     abbreviations = {
         'ST.': 'ST',
@@ -59,7 +59,7 @@ def _read_parties(year: int) -> pd.DataFrame:
         'party': str,
     }
     parties = _read_file(f'{year}name.txt', year, dtype)
-    parties.party = parties.party.apply(lambda x: x if x in {'DEM', 'REP'} else 'OTH')  # normalize party names
+    parties.party = parties.party.apply(lambda x: x if x in {'DEM', 'REP'} else 'OTH')  # standardize party names
     parties['cand'] = parties.candidate_last_name + ', ' + parties.candidate_first_name
     parties = parties.drop(columns=['candidate_last_name', 'candidate_first_name'])
     return parties
@@ -178,7 +178,7 @@ def _transpose_parties_into_columns(votes_rollup: pd.DataFrame) -> pd.DataFrame:
 
 def _combine_election_results_with_mcd_fips(election_results: pd.DataFrame) -> pd.DataFrame:
     mcd_fips_mapper = _read_mcd_fips_mapper()
-    election_results.mcd_name = election_results.mcd_name.apply(_normalize_mcd_name)
+    election_results.mcd_name = election_results.mcd_name.apply(_standardize_mcd_name)
     election_results = pd.concat(election_results.merge(mcd_fips_mapper, left_on='mcd_name', right_on=col) for col in (
         'LABEL', 'NAME', 'NAME_TYPE'))
     election_results = election_results.drop(columns=['LABEL', 'NAME', 'TYPE', 'NAME_TYPE'])
