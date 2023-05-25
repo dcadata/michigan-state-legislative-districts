@@ -27,6 +27,8 @@ def _standardize_mcd_name(x: str) -> str:
         'SAINT': 'ST',
         'MT.': 'MT',
         'MOUNT': 'MT',
+        'GD': 'GRAND',
+        'GD.': 'GRAND',
     }
     for key, value in abbreviations.items():
         x = x.replace(key, value)
